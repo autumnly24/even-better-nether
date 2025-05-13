@@ -1,0 +1,30 @@
+{
+  "_fv": 69,
+  "_type": "structure",
+  "definition": {
+    "structure": "nether_dungeon",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 4,
+    "separation": 0,
+    "restrictionBiomes": [
+      {
+        "value": "#minecraft:is_nether"
+      }
+    ],
+    "terrainAdaptation": "none",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": true,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 4,
+    "startHeightMax": 38,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
+  }
+}

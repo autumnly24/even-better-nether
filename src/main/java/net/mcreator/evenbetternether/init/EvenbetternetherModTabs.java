@@ -84,7 +84,6 @@ public class EvenbetternetherModTabs {
 				tabData.accept(EvenbetternetherModItems.RAW_PYRITE.get());
 				tabData.accept(EvenbetternetherModItems.PYRITE_NUGGET.get());
 				tabData.accept(EvenbetternetherModItems.PYRITE_INGOT.get());
-				tabData.accept(EvenbetternetherModBlocks.PYRITE_BLOCK.get().asItem());
 				tabData.accept(EvenbetternetherModItems.PYRITE_PICKAXE.get());
 				tabData.accept(EvenbetternetherModItems.PYRITE_AXE.get());
 				tabData.accept(EvenbetternetherModItems.PYRITE_SWORD.get());
@@ -105,12 +104,13 @@ public class EvenbetternetherModTabs {
 				tabData.accept(EvenbetternetherModItems.DIAMOND_PYRITE_ARMOUR_CHESTPLATE.get());
 				tabData.accept(EvenbetternetherModItems.DIAMOND_PYRITE_ARMOUR_LEGGINGS.get());
 				tabData.accept(EvenbetternetherModItems.DIAMOND_PYRITE_ARMOUR_BOOTS.get());
-				tabData.accept(EvenbetternetherModBlocks.PYRITE_SLAB.get().asItem());
+				tabData.accept(EvenbetternetherModBlocks.PYRITE_BLOCK.get().asItem());
 				tabData.accept(EvenbetternetherModBlocks.PYRITE_STAIRS.get().asItem());
+				tabData.accept(EvenbetternetherModBlocks.PYRITE_SLAB.get().asItem());
+				tabData.accept(EvenbetternetherModBlocks.PYRITE_WALL.get().asItem());
 				tabData.accept(EvenbetternetherModBlocks.PYRITE_TILES.get().asItem());
 				tabData.accept(EvenbetternetherModBlocks.PYRITE_TILE_STAIRS.get().asItem());
 				tabData.accept(EvenbetternetherModBlocks.PYRITE_TILE_SLAB.get().asItem());
-				tabData.accept(EvenbetternetherModBlocks.PYRITE_WALL.get().asItem());
 				tabData.accept(EvenbetternetherModBlocks.PYRITE_ROOFING.get().asItem());
 				tabData.accept(EvenbetternetherModBlocks.PYRITE_ROOFING_STAIRS.get().asItem());
 				tabData.accept(EvenbetternetherModBlocks.PYRITE_ROOFING_SLAB.get().asItem());

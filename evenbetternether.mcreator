@@ -3372,6 +3372,32 @@
           "src/main/resources/data/evenbetternether/recipe/pyrite_brick_pillar_recipe.json"
         ]
       }
+    },
+    {
+      "name": "NetherDungeonLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_dungeon_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/loot_table/chests/nether_dungeon_loot.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherDungeon",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_dungeon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/worldgen/structure_set/nether_dungeon.json",
+          "src/main/resources/data/evenbetternether/worldgen/structure/nether_dungeon.json",
+          "src/main/resources/data/evenbetternether/worldgen/template_pool/nether_dungeon.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -3681,7 +3707,6 @@
       "RawPyrite",
       "PyriteNugget",
       "PyriteIngot",
-      "PyriteBlock",
       "PyritePickaxe",
       "PyriteAxe",
       "PyriteSword",
@@ -3696,12 +3721,13 @@
       "DiamondPyriteHoe",
       "DiamondPyriteExcavator",
       "DiamondPyriteArmour",
-      "PyriteSlab",
+      "PyriteBlock",
       "PyriteStairs",
+      "PyriteSlab",
+      "PyriteWall",
       "PyriteTiles",
       "PyriteTileStairs",
       "PyriteTileSlab",
-      "PyriteWall",
       "PyriteRoofing",
       "PyriteRoofingStairs",
       "PyriteRoofingSlab",

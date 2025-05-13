@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "evenbetternether:nether_dungeon",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 4,
+    "separation": 0,
+    "salt": 1801062289
+  }
+}
