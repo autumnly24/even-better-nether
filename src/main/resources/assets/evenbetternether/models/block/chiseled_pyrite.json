@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "evenbetternether:block/chiseled_pyrite_top",
+    "up": "evenbetternether:block/chiseled_pyrite_top",
+    "north": "evenbetternether:block/chiseled_pyrite",
+    "east": "evenbetternether:block/chiseled_pyrite",
+    "south": "evenbetternether:block/chiseled_pyrite",
+    "west": "evenbetternether:block/chiseled_pyrite",
+    "particle": "evenbetternether:block/chiseled_pyrite_top"
+  },
+  "render_type": "solid"
+}

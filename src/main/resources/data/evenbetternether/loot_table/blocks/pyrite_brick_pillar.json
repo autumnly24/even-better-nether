@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "evenbetternether:blocks/pyrite_brick_pillar",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "evenbetternether:pyrite_brick_pillar"
+        }
+      ]
+    }
+  ]
+}

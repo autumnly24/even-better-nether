@@ -2814,6 +2814,348 @@
           "src/main/resources/data/evenbetternether/recipe/diamond_pyrite_excavator_recipe.json"
         ]
       }
+    },
+    {
+      "name": "PyriteSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/block/PyriteSlabBlock.java",
+          "src/main/resources/data/evenbetternether/loot_table/blocks/pyrite_slab.json",
+          "src/main/resources/assets/evenbetternether/models/block/pyrite_slab_top.json",
+          "src/main/resources/assets/evenbetternether/blockstates/pyrite_slab.json",
+          "src/main/resources/assets/evenbetternether/models/item/pyrite_slab.json",
+          "src/main/resources/assets/evenbetternether/models/block/pyrite_slab_full.json",
+          "src/main/resources/assets/evenbetternether/models/block/pyrite_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "PyriteStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/block/pyrite_stairs_inner.json",
+          "src/main/resources/assets/evenbetternether/models/item/pyrite_stairs.json",
+          "src/main/resources/data/evenbetternether/loot_table/blocks/pyrite_stairs.json",
+          "src/main/resources/assets/evenbetternether/models/block/pyrite_stairs.json",
+          "src/main/resources/assets/evenbetternether/models/block/pyrite_stairs_outer.json",
+          "src/main/java/net/mcreator/evenbetternether/block/PyriteStairsBlock.java",
+          "src/main/resources/assets/evenbetternether/blockstates/pyrite_stairs.json"
+        ]
+      }
+    },
+    {
+      "name": "PyriteTiles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/loot_table/blocks/pyrite_tiles.json",
+          "src/main/resources/assets/evenbetternether/models/item/pyrite_tiles.json",
+          "src/main/resources/assets/evenbetternether/models/block/pyrite_tiles.json",
+          "src/main/java/net/mcreator/evenbetternether/block/PyriteTilesBlock.java",
+          "src/main/resources/assets/evenbetternether/blockstates/pyrite_tiles.json"
+        ]
+      }
+    },
+    {
+      "name": "PyriteTileStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_tile_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/blockstates/pyrite_tile_stairs.json",
+          "src/main/java/net/mcreator/evenbetternether/block/PyriteTileStairsBlock.java",
+          "src/main/resources/assets/evenbetternether/models/block/pyrite_tile_stairs_outer.json",
+          "src/main/resources/data/evenbetternether/loot_table/blocks/pyrite_tile_stairs.json",
+          "src/main/resources/assets/evenbetternether/models/item/pyrite_tile_stairs.json",
+          "src/main/resources/assets/evenbetternether/models/block/pyrite_tile_stairs_inner.json",
+          "src/main/resources/assets/evenbetternether/models/block/pyrite_tile_stairs.json"
+        ]
+      }
+    },
+    {
+      "name": "PyriteTileSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_tile_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/loot_table/blocks/pyrite_tile_slab.json",
+          "src/main/resources/assets/evenbetternether/models/block/pyrite_tile_slab_full.json",
+          "src/main/java/net/mcreator/evenbetternether/block/PyriteTileSlabBlock.java",
+          "src/main/resources/assets/evenbetternether/models/item/pyrite_tile_slab.json",
+          "src/main/resources/assets/evenbetternether/models/block/pyrite_tile_slab.json",
+          "src/main/resources/assets/evenbetternether/blockstates/pyrite_tile_slab.json",
+          "src/main/resources/assets/evenbetternether/models/block/pyrite_tile_slab_top.json"
+        ]
+      }
+    },
+    {
+      "name": "PyriteWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/item/pyrite_wall.json",
+          "src/main/resources/assets/evenbetternether/models/block/pyrite_wall_side_tall.json",
+          "src/main/resources/assets/evenbetternether/models/block/pyrite_wall.json",
+          "src/main/resources/data/evenbetternether/loot_table/blocks/pyrite_wall.json",
+          "src/main/java/net/mcreator/evenbetternether/block/PyriteWallBlock.java",
+          "src/main/resources/assets/evenbetternether/models/block/pyrite_wall_inventory.json",
+          "src/main/resources/assets/evenbetternether/blockstates/pyrite_wall.json",
+          "src/main/resources/assets/evenbetternether/models/block/pyrite_wall_post.json"
+        ]
+      }
+    },
+    {
+      "name": "PyriteRoofing",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_roofing",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/block/PyriteRoofingBlock.java",
+          "src/main/resources/assets/evenbetternether/blockstates/pyrite_roofing.json",
+          "src/main/resources/data/evenbetternether/loot_table/blocks/pyrite_roofing.json",
+          "src/main/resources/assets/evenbetternether/models/item/pyrite_roofing.json",
+          "src/main/resources/assets/evenbetternether/models/block/pyrite_roofing.json"
+        ]
+      }
+    },
+    {
+      "name": "PyriteRoofingStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_roofing_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/blockstates/pyrite_roofing_stairs.json",
+          "src/main/resources/assets/evenbetternether/models/item/pyrite_roofing_stairs.json",
+          "src/main/resources/assets/evenbetternether/models/block/pyrite_roofing_stairs.json",
+          "src/main/resources/assets/evenbetternether/models/block/pyrite_roofing_stairs_outer.json",
+          "src/main/java/net/mcreator/evenbetternether/block/PyriteRoofingStairsBlock.java",
+          "src/main/resources/data/evenbetternether/loot_table/blocks/pyrite_roofing_stairs.json",
+          "src/main/resources/assets/evenbetternether/models/block/pyrite_roofing_stairs_inner.json"
+        ]
+      }
+    },
+    {
+      "name": "PyriteRoofingSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_roofing_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/block/PyriteRoofingSlabBlock.java",
+          "src/main/resources/assets/evenbetternether/models/block/pyrite_roofing_slab.json",
+          "src/main/resources/data/evenbetternether/loot_table/blocks/pyrite_roofing_slab.json",
+          "src/main/resources/assets/evenbetternether/models/item/pyrite_roofing_slab.json",
+          "src/main/resources/assets/evenbetternether/models/block/pyrite_roofing_slab_full.json",
+          "src/main/resources/assets/evenbetternether/blockstates/pyrite_roofing_slab.json",
+          "src/main/resources/assets/evenbetternether/models/block/pyrite_roofing_slab_top.json"
+        ]
+      }
+    },
+    {
+      "name": "CarvedPyrite",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carved_pyrite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/blockstates/carved_pyrite.json",
+          "src/main/resources/assets/evenbetternether/models/block/carved_pyrite.json",
+          "src/main/resources/data/evenbetternether/loot_table/blocks/carved_pyrite.json",
+          "src/main/java/net/mcreator/evenbetternether/block/CarvedPyriteBlock.java",
+          "src/main/resources/assets/evenbetternether/models/item/carved_pyrite.json"
+        ]
+      }
+    },
+    {
+      "name": "CarvedPyriteStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carved_pyrite_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/block/carved_pyrite_stairs_outer.json",
+          "src/main/resources/data/evenbetternether/loot_table/blocks/carved_pyrite_stairs.json",
+          "src/main/resources/assets/evenbetternether/models/block/carved_pyrite_stairs_inner.json",
+          "src/main/java/net/mcreator/evenbetternether/block/CarvedPyriteStairsBlock.java",
+          "src/main/resources/assets/evenbetternether/models/item/carved_pyrite_stairs.json",
+          "src/main/resources/assets/evenbetternether/models/block/carved_pyrite_stairs.json",
+          "src/main/resources/assets/evenbetternether/blockstates/carved_pyrite_stairs.json"
+        ]
+      }
+    },
+    {
+      "name": "CarvedPyriteSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carved_pyrite_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/item/carved_pyrite_slab.json",
+          "src/main/resources/data/evenbetternether/loot_table/blocks/carved_pyrite_slab.json",
+          "src/main/resources/assets/evenbetternether/models/block/carved_pyrite_slab_full.json",
+          "src/main/resources/assets/evenbetternether/models/block/carved_pyrite_slab_top.json",
+          "src/main/resources/assets/evenbetternether/blockstates/carved_pyrite_slab.json",
+          "src/main/java/net/mcreator/evenbetternether/block/CarvedPyriteSlabBlock.java",
+          "src/main/resources/assets/evenbetternether/models/block/carved_pyrite_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "CarvedPyriteWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carved_pyrite_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/block/carved_pyrite_wall.json",
+          "src/main/resources/assets/evenbetternether/models/block/carved_pyrite_wall_inventory.json",
+          "src/main/java/net/mcreator/evenbetternether/block/CarvedPyriteWallBlock.java",
+          "src/main/resources/assets/evenbetternether/blockstates/carved_pyrite_wall.json",
+          "src/main/resources/assets/evenbetternether/models/block/carved_pyrite_wall_post.json",
+          "src/main/resources/assets/evenbetternether/models/block/carved_pyrite_wall_side_tall.json",
+          "src/main/resources/assets/evenbetternether/models/item/carved_pyrite_wall.json",
+          "src/main/resources/data/evenbetternether/loot_table/blocks/carved_pyrite_wall.json"
+        ]
+      }
+    },
+    {
+      "name": "ChiseledPyrite",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiseled_pyrite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/blockstates/chiseled_pyrite.json",
+          "src/main/java/net/mcreator/evenbetternether/block/ChiseledPyriteBlock.java",
+          "src/main/resources/assets/evenbetternether/models/item/chiseled_pyrite.json",
+          "src/main/resources/data/evenbetternether/loot_table/blocks/chiseled_pyrite.json",
+          "src/main/resources/assets/evenbetternether/models/block/chiseled_pyrite.json"
+        ]
+      }
+    },
+    {
+      "name": "PyriteLamp",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_lamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/item/pyrite_lamp.json",
+          "src/main/resources/data/evenbetternether/loot_table/blocks/pyrite_lamp.json",
+          "src/main/java/net/mcreator/evenbetternether/block/PyriteLampBlock.java",
+          "src/main/resources/assets/evenbetternether/blockstates/pyrite_lamp.json",
+          "src/main/resources/assets/evenbetternether/models/block/pyrite_lamp.json"
+        ]
+      }
+    },
+    {
+      "name": "PyriteBricks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_bricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/loot_table/blocks/pyrite_bricks.json",
+          "src/main/resources/assets/evenbetternether/blockstates/pyrite_bricks.json",
+          "src/main/resources/assets/evenbetternether/models/item/pyrite_bricks.json",
+          "src/main/resources/assets/evenbetternether/models/block/pyrite_bricks.json",
+          "src/main/java/net/mcreator/evenbetternether/block/PyriteBricksBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "PyriteBrickStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_brick_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/block/PyriteBrickStairsBlock.java",
+          "src/main/resources/assets/evenbetternether/models/block/pyrite_brick_stairs.json",
+          "src/main/resources/assets/evenbetternether/models/item/pyrite_brick_stairs.json",
+          "src/main/resources/assets/evenbetternether/blockstates/pyrite_brick_stairs.json",
+          "src/main/resources/assets/evenbetternether/models/block/pyrite_brick_stairs_inner.json",
+          "src/main/resources/assets/evenbetternether/models/block/pyrite_brick_stairs_outer.json",
+          "src/main/resources/data/evenbetternether/loot_table/blocks/pyrite_brick_stairs.json"
+        ]
+      }
+    },
+    {
+      "name": "PyriteBrickSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_brick_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/blockstates/pyrite_brick_slab.json",
+          "src/main/java/net/mcreator/evenbetternether/block/PyriteBrickSlabBlock.java",
+          "src/main/resources/assets/evenbetternether/models/block/pyrite_brick_slab_top.json",
+          "src/main/resources/assets/evenbetternether/models/block/pyrite_brick_slab_full.json",
+          "src/main/resources/data/evenbetternether/loot_table/blocks/pyrite_brick_slab.json",
+          "src/main/resources/assets/evenbetternether/models/item/pyrite_brick_slab.json",
+          "src/main/resources/assets/evenbetternether/models/block/pyrite_brick_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "PyriteBrickPillar",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_brick_pillar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/blockstates/pyrite_brick_pillar.json",
+          "src/main/resources/assets/evenbetternether/models/block/pyrite_brick_pillar.json",
+          "src/main/resources/assets/evenbetternether/models/item/pyrite_brick_pillar.json",
+          "src/main/java/net/mcreator/evenbetternether/block/PyriteBrickPillarBlock.java",
+          "src/main/resources/data/evenbetternether/loot_table/blocks/pyrite_brick_pillar.json"
+        ]
+      }
+    },
+    {
+      "name": "PyriteSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipe/pyrite_slab_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -2885,6 +3227,11 @@
       "~CUSTOM:BoneReef"
     ],
     "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:PyriteBrickSlab",
+      "~CUSTOM:CarvedPyriteSlab",
+      "~CUSTOM:PyriteRoofingSlab",
+      "~CUSTOM:PyriteTileSlab",
+      "~CUSTOM:PyriteSlab",
       "~CUSTOM:MushroomSlab",
       "~CUSTOM:SmoothBoneSlab"
     ],
@@ -2899,6 +3246,11 @@
       "~CUSTOM:PyriteAxe"
     ],
     "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:PyriteBrickStairs",
+      "~CUSTOM:CarvedPyriteStairs",
+      "~CUSTOM:PyriteRoofingStairs",
+      "~CUSTOM:PyriteTileStairs",
+      "~CUSTOM:PyriteStairs",
       "~CUSTOM:MushroomStairs",
       "~CUSTOM:SmoothBoneStairs"
     ],
@@ -2944,6 +3296,25 @@
       "CUSTOM:Nycelium"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:PyriteBrickPillar",
+      "~CUSTOM:PyriteBrickSlab",
+      "~CUSTOM:PyriteBrickStairs",
+      "~CUSTOM:PyriteBricks",
+      "~CUSTOM:PyriteLamp",
+      "~CUSTOM:ChiseledPyrite",
+      "~CUSTOM:CarvedPyriteWall",
+      "~CUSTOM:CarvedPyriteSlab",
+      "~CUSTOM:CarvedPyriteStairs",
+      "~CUSTOM:CarvedPyrite",
+      "~CUSTOM:PyriteRoofingSlab",
+      "~CUSTOM:PyriteRoofingStairs",
+      "~CUSTOM:PyriteRoofing",
+      "~CUSTOM:PyriteWall",
+      "~CUSTOM:PyriteTileSlab",
+      "~CUSTOM:PyriteTileStairs",
+      "~CUSTOM:PyriteTiles",
+      "~CUSTOM:PyriteStairs",
+      "~CUSTOM:PyriteSlab",
       "~CUSTOM:NetherRubyBlock",
       "~CUSTOM:NetherRubyOre",
       "~CUSTOM:LigniteOre",
@@ -3009,6 +3380,8 @@
       "~CUSTOM:MushroomFence"
     ],
     "BLOCKS:minecraft:walls": [
+      "~CUSTOM:CarvedPyriteWall",
+      "~CUSTOM:PyriteWall",
       "~CUSTOM:SmoothBoneWall"
     ],
     "ITEMS:minecraft:shovels": [
@@ -3106,66 +3479,120 @@
       "DiamondPyriteShovel",
       "DiamondPyriteHoe",
       "DiamondPyriteExcavator",
-      "DiamondPyriteArmour"
+      "DiamondPyriteArmour",
+      "PyriteSlab",
+      "PyriteStairs",
+      "PyriteTiles",
+      "PyriteTileStairs",
+      "PyriteTileSlab",
+      "PyriteWall",
+      "PyriteRoofing",
+      "PyriteRoofingStairs",
+      "PyriteRoofingSlab",
+      "CarvedPyrite",
+      "CarvedPyriteStairs",
+      "CarvedPyriteSlab",
+      "CarvedPyriteWall",
+      "ChiseledPyrite",
+      "PyriteLamp",
+      "PyriteBricks",
+      "PyriteBrickStairs",
+      "PyriteBrickSlab",
+      "PyriteBrickPillar"
     ]
   },
   "language_map": {
     "en_us": {
-      "biome.evenbetternether.gravel_desert": "Gravel Desert",
       "block.evenbetternether.nycelium": "Nycelium",
       "block.evenbetternether.nether_pyrite_ore": "Nether Pyrite Ore",
       "item.evenbetternether.ruby_sword": "Ruby Sword",
-      "item.evenbetternether.ruby_pickaxe": "Ruby Pickaxe",
       "item.evenbetternether.raw_pyrite": "Raw Pyrite",
-      "biome.evenbetternether.bone_reef": "Bone Reef",
-      "block.evenbetternether.mushroom_fence": "Nether Mushroom Fence",
-      "block.evenbetternether.smooth_bone_stairs": "Smooth Bone Stairs",
+      "block.evenbetternether.pyrite_brick_stairs": "Pyrite Brick Stairs",
+      "block.evenbetternether.pyrite_brick_slab": "Pyrite Brick Slab",
       "block.evenbetternether.nether_ruby_block": "Block of Nether Ruby",
-      "block.evenbetternether.verdant_roots": "Verdant Roots",
       "block.evenbetternether.burning_roots": "Burning Roots",
-      "block.evenbetternether.nether_agave": "Nether Agave",
-      "block.evenbetternether.barrel_cactus": "Barrel Cactus",
       "block.evenbetternether.wither_bone_growths": "Wither Bone Growths",
       "item.evenbetternether.diamond_pyrite_armour_chestplate": "Diamond Pyrite Chestplate",
       "block.evenbetternether.nether_saguaro": "Nether Saguaro",
-      "item.evenbetternether.ruby_armor_leggings": "Ruby Leggings",
-      "item.evenbetternether.diamond_pyrite_axe": "Diamond Pyrite Axe",
       "item.evenbetternether.ruby_armor_helmet": "Ruby Helmet",
-      "block.evenbetternether.smooth_bone_block": "Smooth Bone Block",
-      "block.evenbetternether.burning_sprouts": "Burning Sprouts",
       "biome.evenbetternether.mushroom_forest": "Mushroom Forest",
-      "item.evenbetternether.diamond_pyrite_shovel": "Diamond Pyrite Shovel",
-      "item.evenbetternether.pyrite_pickaxe": "Pyrite Pickaxe",
       "block.evenbetternether.mushroom_button": "Nether Mushroom Button",
+      "block.evenbetternether.pyrite_tiles": "Pyrite Tiles",
       "item.evenbetternether.pyrite_hoe": "Pyrite Hoe",
-      "item.evenbetternether.ruby_shovel": "Ruby Shovel",
+      "block.evenbetternether.pyrite_roofing_stairs": "Pyrite Roofing Stairs",
       "block.evenbetternether.bone_growths": "Bone Growths",
       "block.evenbetternether.charred_sprouts": "Charred Sprouts",
       "item.evenbetternether.pyrite_nugget": "Pyrite Nugget",
-      "biome.evenbetternether.withered_valley": "Withered Valley",
       "item.evenbetternether.ruby_armor_chestplate": "Ruby Chestplate",
       "block.evenbetternether.hanging_mycelium": "Hanging Mycelium",
+      "block.evenbetternether.carved_pyrite_wall": "Carved Pyrite Wall",
+      "block.evenbetternether.pyrite_lamp": "Pyrite Lamp",
+      "item.evenbetternether.pyrite_armor_leggings": "Pyrite Leggings",
+      "block.evenbetternether.nether_ruby_ore": "Nether Ruby Ore",
+      "block.evenbetternether.lignite_ore": "Lignite Ore",
+      "block.evenbetternether.verdant_sprouts": "Verdant Sprouts",
+      "block.evenbetternether.netherrack_speleothem": "Netherrack Speleothem",
+      "item.evenbetternether.diamond_pyrite_upgrade_smithing_template": "Diamond Pyrite Upgrade Smithing Template",
+      "block.evenbetternether.chiseled_pyrite": "Chiseled Pyrite",
+      "block.evenbetternether.basalt_speleothem": "Basalt Speleothem",
+      "item.evenbetternether.diamond_pyrite_armour_helmet": "Diamond Pyrite Helmet",
+      "block.evenbetternether.pyrite_wall": "Pyrite Wall",
+      "block.evenbetternether.pyrite_bricks": "Pyrite Bricks",
+      "block.evenbetternether.pyrite_slab": "Pyrite Slab",
+      "block.evenbetternether.mushroom_trapdoor": "Nether Mushroom Trapdoor",
+      "item.evenbetternether.diamond_pyrite_excavator": "Diamond Pyrite Excavator",
+      "block.evenbetternether.carved_pyrite": "Carved Pyrite",
+      "block.evenbetternether.withered_nylium": "Withered Nylium",
+      "block.evenbetternether.carved_pyrite_slab": "Carved Pyrite Slab",
+      "block.evenbetternether.mushroom_fence_gate": "Nether Mushroom Fence Gate",
+      "item.evenbetternether.pyrite_ingot": "Pyrite Ingot",
+      "block.evenbetternether.mushroom_stairs": "Nether Mushroom Stairs",
+      "block.evenbetternether.verdant_nylium": "Verdant Nylium",
+      "block.evenbetternether.stone_speleothem": "Stone Speleothem",
+      "block.evenbetternether.mushroom_wood": "Nether Mushroom Hyphae",
+      "item_group.evenbetternether.even_better_nether_tab": "Even Better Nether",
+      "block.evenbetternether.pyrite_block": "Block of Pyrite",
+      "block.evenbetternether.mushroom_door": "Nether Mushroom Door",
+      "item.evenbetternether.pyrite_armor_boots": "Pyrite Boots",
+      "block.evenbetternether.feather_fern": "Feather Fern",
+      "block.evenbetternether.smooth_bone_slab": "Smooth Bone Slab",
+      "block.evenbetternether.mushroom_log": "Nether Mushroom Stem",
+      "block.evenbetternether.pyrite_stairs": "Pyrite Stairs",
+      "block.evenbetternether.long_hanging_mycelium": "Long Hanging Mycelium",
+      "biome.evenbetternether.gravel_desert": "Gravel Desert",
+      "item.evenbetternether.ruby_pickaxe": "Ruby Pickaxe",
+      "biome.evenbetternether.bone_reef": "Bone Reef",
+      "block.evenbetternether.mushroom_fence": "Nether Mushroom Fence",
+      "block.evenbetternether.pyrite_tile_stairs": "Pyrite Tile Stairs",
+      "block.evenbetternether.smooth_bone_stairs": "Smooth Bone Stairs",
+      "block.evenbetternether.pyrite_tile_slab": "Pyrite Tile Slab",
+      "block.evenbetternether.verdant_roots": "Verdant Roots",
+      "block.evenbetternether.barrel_cactus": "Barrel Cactus",
+      "block.evenbetternether.nether_agave": "Nether Agave",
+      "item.evenbetternether.ruby_armor_leggings": "Ruby Leggings",
+      "item.evenbetternether.diamond_pyrite_axe": "Diamond Pyrite Axe",
+      "block.evenbetternether.smooth_bone_block": "Smooth Bone Block",
+      "block.evenbetternether.burning_sprouts": "Burning Sprouts",
+      "item.evenbetternether.diamond_pyrite_shovel": "Diamond Pyrite Shovel",
+      "item.evenbetternether.pyrite_pickaxe": "Pyrite Pickaxe",
+      "item.evenbetternether.ruby_shovel": "Ruby Shovel",
+      "biome.evenbetternether.withered_valley": "Withered Valley",
       "block.evenbetternether.soul_sprouts": "Soul Sprouts",
       "block.evenbetternether.tall_nethershroom": "Tall Nethershroom",
-      "block.evenbetternether.nether_ruby_ore": "Nether Ruby Ore",
-      "item.evenbetternether.pyrite_armor_leggings": "Pyrite Leggings",
+      "block.evenbetternether.pyrite_brick_pillar": "Pyrite Brick Pillar",
       "item.evenbetternether.diamond_pyrite_armour_boots": "Diamond Pyrite Boots",
       "item.evenbetternether.ruby_axe": "Ruby Axe",
       "block.evenbetternether.nethershroom": "Nethershroom",
-      "block.evenbetternether.verdant_sprouts": "Verdant Sprouts",
-      "block.evenbetternether.lignite_ore": "Lignite Ore",
       "block.evenbetternether.bulbous_hanging_mycelium": "Long Hanging Mycelium",
       "item.evenbetternether.ruby_armor_boots": "Ruby Boots",
-      "block.evenbetternether.netherrack_speleothem": "Netherrack Speleothem",
+      "block.evenbetternether.carved_pyrite_stairs": "Carved Pyrite Stairs",
       "item.evenbetternether.diamond_pyrite_armour_leggings": "Diamond Pyrite Leggings",
-      "item.evenbetternether.diamond_pyrite_upgrade_smithing_template": "Diamond Pyrite Upgrade Smithing Template",
-      "block.evenbetternether.basalt_speleothem": "Basalt Speleothem",
       "item.evenbetternether.nether_ruby": "Nether Ruby",
-      "item.evenbetternether.diamond_pyrite_armour_helmet": "Diamond Pyrite Helmet",
       "block.evenbetternether.nether_mushroom_cap": "Red Nether Mushroom Cap",
       "block.evenbetternether.mushroom_planks": "Nether Mushroom Planks",
       "item.evenbetternether.diamond_pyrite_sword": "Diamond Pyrite Sword",
       "item.evenbetternether.pyrite_armor_helmet": "Pyrite Helmet",
+      "block.evenbetternether.pyrite_roofing": "Pyrite Roofing",
       "block.evenbetternether.deepslate_speleothem": "Deepslate Speleothem",
       "item.evenbetternether.diamond_pyrite_hoe": "Diamond Pyrite Hoe",
       "block.evenbetternether.glowstone_speleothem": "Netherrack Speleothem",
@@ -3173,34 +3600,18 @@
       "block.evenbetternether.brown_nether_mushroom_cap": "Brown Nether Mushroom Cap",
       "item.evenbetternether.pyrite_axe": "Pyrite Axe",
       "block.evenbetternether.bone_speleothem": "Bone Speleothem",
-      "block.evenbetternether.mushroom_trapdoor": "Nether Mushroom Trapdoor",
-      "item.evenbetternether.diamond_pyrite_excavator": "Diamond Pyrite Excavator",
-      "block.evenbetternether.withered_nylium": "Withered Nylium",
       "block.evenbetternether.stripped_mushroom_wood": "Stripped Nether Mushroom Hyphae",
-      "block.evenbetternether.mushroom_fence_gate": "Nether Mushroom Fence Gate",
-      "item.evenbetternether.pyrite_ingot": "Pyrite Ingot",
-      "block.evenbetternether.mushroom_stairs": "Nether Mushroom Stairs",
-      "block.evenbetternether.verdant_nylium": "Verdant Nylium",
       "block.evenbetternether.smooth_bone_wall": "Smooth Bone Wall",
       "item.evenbetternether.ruby_hoe": "Ruby Hoe",
       "block.evenbetternether.fungal_sprouts": "Fungal Sprouts",
       "item.evenbetternether.pyrite_sword": "Pyrite Sword",
       "item.evenbetternether.pyrite_armor_chestplate": "Pyrite Chestplate",
-      "block.evenbetternether.stone_speleothem": "Stone Speleothem",
       "item.evenbetternether.pyrite_shovel": "Pyrite Shovel",
-      "block.evenbetternether.mushroom_wood": "Nether Mushroom Hyphae",
-      "item_group.evenbetternether.even_better_nether_tab": "Even Better Nether",
-      "block.evenbetternether.pyrite_block": "Block of Pyrite",
       "block.evenbetternether.stripped_mushroom_log": "Stripped Nether Mushroom Stem",
       "block.evenbetternether.mushroom_pressure_plate": "Nether Mushroom Pressure Plate",
-      "block.evenbetternether.mushroom_door": "Nether Mushroom Door",
-      "item.evenbetternether.pyrite_armor_boots": "Pyrite Boots",
-      "block.evenbetternether.feather_fern": "Feather Fern",
+      "block.evenbetternether.pyrite_roofing_slab": "Pyrite Roofing Slab",
       "item.evenbetternether.diamond_pyrite_pickaxe": "Diamond Pyrite Pickaxe",
-      "block.evenbetternether.smooth_bone_slab": "Smooth Bone Slab",
-      "block.evenbetternether.mushroom_log": "Nether Mushroom Stem",
       "block.evenbetternether.fungal_roots": "Fungal Roots",
-      "block.evenbetternether.long_hanging_mycelium": "Long Hanging Mycelium",
       "block.evenbetternether.mushroom_slab": "Nether Mushroom Slab",
       "block.evenbetternether.soul_roots": "Soul Roots"
     }

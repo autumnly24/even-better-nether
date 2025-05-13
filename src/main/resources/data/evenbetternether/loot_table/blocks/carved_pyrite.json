@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "evenbetternether:blocks/carved_pyrite",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "evenbetternether:carved_pyrite"
+        }
+      ]
+    }
+  ]
+}

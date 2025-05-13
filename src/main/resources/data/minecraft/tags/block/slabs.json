@@ -1,6 +1,11 @@
 {
   "replace": false,
   "values": [
+    "evenbetternether:pyrite_brick_slab",
+    "evenbetternether:carved_pyrite_slab",
+    "evenbetternether:pyrite_roofing_slab",
+    "evenbetternether:pyrite_tile_slab",
+    "evenbetternether:pyrite_slab",
     "evenbetternether:mushroom_slab",
     "evenbetternether:smooth_bone_slab"
   ]

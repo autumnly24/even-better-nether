@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "evenbetternether:block/pyrite_tiles",
+    "bottom": "evenbetternether:block/pyrite_tiles",
+    "top": "evenbetternether:block/pyrite_tiles",
+    "side": "evenbetternether:block/pyrite_tiles"
+  },
+  "render_type": "solid"
+}

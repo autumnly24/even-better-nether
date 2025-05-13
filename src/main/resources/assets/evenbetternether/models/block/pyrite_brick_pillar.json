@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "evenbetternether:block/pyrite_brick_pillar_top",
+    "up": "evenbetternether:block/pyrite_brick_pillar_top",
+    "north": "evenbetternether:block/pyrite_brick_pillar_side",
+    "east": "evenbetternether:block/pyrite_brick_pillar_side",
+    "south": "evenbetternether:block/pyrite_brick_pillar_side",
+    "west": "evenbetternether:block/pyrite_brick_pillar_side",
+    "particle": "evenbetternether:block/pyrite_brick_pillar_top"
+  },
+  "render_type": "solid"
+}

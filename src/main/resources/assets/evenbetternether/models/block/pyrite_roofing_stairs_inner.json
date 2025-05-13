@@ -1,0 +1,10 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "particle": "evenbetternether:block/pyrite_roofing",
+    "bottom": "evenbetternether:block/pyrite_roofing",
+    "top": "evenbetternether:block/pyrite_roofing",
+    "side": "evenbetternether:block/pyrite_roofing"
+  },
+  "render_type": "solid"
+}

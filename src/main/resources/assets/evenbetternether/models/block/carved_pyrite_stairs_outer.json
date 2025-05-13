@@ -1,0 +1,10 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "particle": "evenbetternether:block/carved_pyrite",
+    "bottom": "evenbetternether:block/carved_pyrite",
+    "top": "evenbetternether:block/carved_pyrite",
+    "side": "evenbetternether:block/carved_pyrite"
+  },
+  "render_type": "solid"
+}

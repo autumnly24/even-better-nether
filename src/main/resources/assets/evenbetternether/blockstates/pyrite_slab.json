@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "evenbetternether:block/pyrite_slab"
+    },
+    "type=top": {
+      "model": "evenbetternether:block/pyrite_slab_top"
+    },
+    "type=double": {
+      "model": "evenbetternether:block/pyrite_slab_full"
+    }
+  }
+}

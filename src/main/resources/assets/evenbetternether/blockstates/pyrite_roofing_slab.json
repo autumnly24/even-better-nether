@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "evenbetternether:block/pyrite_roofing_slab"
+    },
+    "type=top": {
+      "model": "evenbetternether:block/pyrite_roofing_slab_top"
+    },
+    "type=double": {
+      "model": "evenbetternether:block/pyrite_roofing_slab_full"
+    }
+  }
+}
