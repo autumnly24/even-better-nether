@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_slab",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "evenbetternether:mushroom_planks"
+    }
+  },
+  "result": {
+    "id": "evenbetternether:mushroom_slab",
+    "count": 6
+  }
+}

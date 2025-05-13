@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "evenbetternether:bone_reef",
-  "features": "evenbetternether:smooth_bone_patches",
-  "step": "surface_structures"
-}

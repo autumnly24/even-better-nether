@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "evenbetternether:mushroom_forest",
+    "evenbetternether:gravel_desert",
+    "evenbetternether:withered_valley",
+    "nether_wastes"
+  ],
+  "features": "evenbetternether:mushroom_forest_nether_wart",
+  "step": "surface_structures"
+}

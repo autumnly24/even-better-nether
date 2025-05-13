@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "soul_sand_valley",
-  "features": "evenbetternether:ssv_basalt_stalagtite",
-  "step": "top_layer_modification"
-}

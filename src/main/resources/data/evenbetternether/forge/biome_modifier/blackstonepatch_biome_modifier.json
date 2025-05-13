@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "evenbetternether:withered_valley",
-  "features": "evenbetternether:blackstonepatch",
-  "step": "surface_structures"
-}

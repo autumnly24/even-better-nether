@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "evenbetternether:stripped_mushroom_wood",
+    "evenbetternether:stripped_mushroom_log",
+    "evenbetternether:mushroom_trapdoor",
+    "evenbetternether:mushroom_door",
+    "evenbetternether:mushroom_button",
+    "evenbetternether:mushroom_pressure_plate",
+    "evenbetternether:mushroom_fence_gate",
+    "evenbetternether:mushroom_fence",
+    "evenbetternether:mushroom_slab",
+    "evenbetternether:mushroom_stairs",
+    "evenbetternether:mushroom_planks",
+    "evenbetternether:mushroom_log",
+    "evenbetternether:mushroom_wood"
+  ]
+}

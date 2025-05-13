@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "evenbetternether:nether_ruby_block",
+    "evenbetternether:nether_ruby_ore",
+    "evenbetternether:lignite_ore",
+    "evenbetternether:pyrite_block",
+    "evenbetternether:nether_pyrite_ore",
+    "evenbetternether:withered_nylium",
+    "evenbetternether:nycelium",
+    "evenbetternether:bone_speleothem",
+    "evenbetternether:deepslate_speleothem",
+    "evenbetternether:stone_speleothem",
+    "evenbetternether:glowstone_speleothem",
+    "evenbetternether:blackstone_speleothem",
+    "evenbetternether:netherrack_speleothem",
+    "evenbetternether:basalt_speleothem",
+    "evenbetternether:smooth_bone_wall",
+    "evenbetternether:smooth_bone_slab",
+    "evenbetternether:smooth_bone_stairs",
+    "evenbetternether:smooth_bone_block",
+    "evenbetternether:verdant_nylium"
+  ]
+}

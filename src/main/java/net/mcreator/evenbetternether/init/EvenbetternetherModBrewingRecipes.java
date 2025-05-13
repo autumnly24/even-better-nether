@@ -19,7 +19,7 @@ import java.util.ArrayList;
 public class EvenbetternetherModBrewingRecipes implements IModPlugin {
 	@Override
 	public ResourceLocation getPluginUid() {
-		return new ResourceLocation("evenbetternether:brewing_recipes");
+		return ResourceLocation.parse("evenbetternether:brewing_recipes");
 	}
 
 	@Override

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "evenbetternether:diamond_pyrite_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "evenbetternether:pyrite_armor_boots"
+  },
+  "addition": {
+    "item": "minecraft:diamond"
+  },
+  "result": {
+    "id": "evenbetternether:diamond_pyrite_armour_boots"
+  }
+}

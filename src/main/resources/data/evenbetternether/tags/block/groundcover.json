@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "evenbetternether:verdant_roots",
+    "evenbetternether:bone_growths",
+    "evenbetternether:feather_fern",
+    "evenbetternether:nether_agave",
+    "evenbetternether:verdant_sprouts",
+    "evenbetternether:nether_saguaro",
+    "evenbetternether:barrel_cactus",
+    "evenbetternether:soul_roots",
+    "evenbetternether:soul_sprouts",
+    "evenbetternether:burning_roots",
+    "evenbetternether:burning_sprouts",
+    "evenbetternether:charred_sprouts",
+    "evenbetternether:wither_bone_growths",
+    "evenbetternether:tall_nethershroom",
+    "evenbetternether:nethershroom",
+    "evenbetternether:fungal_roots",
+    "evenbetternether:fungal_sprouts",
+    "minecraft:brown_mushroom",
+    "minecraft:red_mushroom",
+    "minecraft:warped_roots",
+    "minecraft:crimson_roots",
+    "minecraft:nether_sprouts",
+    "minecraft:crimson_fungus",
+    "minecraft:warped_fungus"
+  ]
+}

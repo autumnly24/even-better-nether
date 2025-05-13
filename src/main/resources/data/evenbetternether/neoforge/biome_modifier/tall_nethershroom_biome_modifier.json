@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "evenbetternether:mushroom_forest",
+  "features": "evenbetternether:tall_nethershroom",
+  "step": "vegetal_decoration"
+}

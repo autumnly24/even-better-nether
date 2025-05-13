@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "evenbetternether:mushroom_forest",
+  "features": "evenbetternether:soul_sand_patch_mf",
+  "step": "surface_structures"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "soul_sand_valley",
+  "features": "evenbetternether:soul_roots",
+  "step": "vegetal_decoration"
+}
