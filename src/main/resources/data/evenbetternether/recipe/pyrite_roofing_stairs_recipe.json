@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    "aa ",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "evenbetternether:pyrite_roofing"
+    }
+  },
+  "result": {
+    "id": "evenbetternether:pyrite_roofing_stairs",
+    "count": 4
+  }
+}

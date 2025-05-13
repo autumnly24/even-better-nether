@@ -1,0 +1,48 @@
+{
+  "_fv": 69,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:PyriteBricks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PyriteBricks"
+      },
+      {
+        "value": "CUSTOM:PyriteBricks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PyriteBricks"
+      },
+      {
+        "value": "CUSTOM:PyriteBricks"
+      },
+      {
+        "value": "CUSTOM:PyriteBricks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PyriteBrickStairs"
+    },
+    "name": "pyrite_brick_stairs_recipe",
+    "namespace": "mod"
+  }
+}

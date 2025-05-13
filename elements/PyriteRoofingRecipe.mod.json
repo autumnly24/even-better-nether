@@ -1,0 +1,48 @@
+{
+  "_fv": 69,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:PyriteTiles"
+      },
+      {
+        "value": "CUSTOM:PyriteTiles"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PyriteTiles"
+      },
+      {
+        "value": "CUSTOM:PyriteTiles"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PyriteRoofing"
+    },
+    "name": "pyrite_roofing_recipe",
+    "namespace": "mod"
+  }
+}

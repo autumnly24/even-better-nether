@@ -3156,6 +3156,222 @@
           "src/main/resources/data/evenbetternether/recipe/pyrite_slab_recipe.json"
         ]
       }
+    },
+    {
+      "name": "PyriteStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipe/pyrite_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PyriteWallRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_wall_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipe/pyrite_wall_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PyriteTilesRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_tiles_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipe/pyrite_tiles_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PyriteTileStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_tile_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipe/pyrite_tile_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PyriteTileSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_tile_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipe/pyrite_tile_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PyriteRoofingRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_roofing_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipe/pyrite_roofing_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PyriteRoofingStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_roofing_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipe/pyrite_roofing_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PyriteRoofingSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_roofing_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipe/pyrite_roofing_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CarvedPyriteRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carved_pyrite_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipe/carved_pyrite_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CarvedPyriteStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carved_pyrite_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipe/carved_pyrite_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CarvedPyriteSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carved_pyrite_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipe/carved_pyrite_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CarvedPyriteWallRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carved_pyrite_wall_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipe/carved_pyrite_wall_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ChiseledPyriteRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiseled_pyrite_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipe/chiseled_pyrite_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PyriteLampRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_lamp_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipe/pyrite_lamp_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PyriteBricksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_bricks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipe/pyrite_bricks_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PyriteBrickStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_brick_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipe/pyrite_brick_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PyriteBrickSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_brick_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipe/pyrite_brick_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PyriteBrickPillarRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_brick_pillar_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipe/pyrite_brick_pillar_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],

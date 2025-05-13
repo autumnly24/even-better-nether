@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "evenbetternether:carved_pyrite"
+    }
+  },
+  "result": {
+    "id": "evenbetternether:carved_pyrite_wall",
+    "count": 3
+  }
+}
