@@ -903,18 +903,6 @@
       }
     },
     {
-      "name": "EvenBetterNetherConfigs",
-      "type": "config",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "even_better_nether_configs",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/evenbetternether/configuration/EvenBetterNetherConfigsConfiguration.java"
-        ]
-      }
-    },
-    {
       "name": "NetherrackStalagmiteAdditionalGenerationCondition",
       "type": "procedure",
       "compiles": true,
@@ -2707,30 +2695,6 @@
       }
     },
     {
-      "name": "DiamondPyriteTemplateLootInjection",
-      "type": "lootmodifier",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "diamond_pyrite_template_loot_injection",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/evenbetternether/loot_modifiers/diamond_pyrite_template_loot_injection.json"
-        ]
-      }
-    },
-    {
-      "name": "DiamondPyriteTemplateLootInjection2",
-      "type": "lootmodifier",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "diamond_pyrite_template_loot_injection_2",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/evenbetternether/loot_modifiers/diamond_pyrite_template_loot_injection_2.json"
-        ]
-      }
-    },
-    {
       "name": "DiamondPyritePickaxeRecipe",
       "type": "recipe",
       "compiles": true,
@@ -2917,19 +2881,19 @@
       "CUSTOM:NetherMushroomCap",
       "CUSTOM:BrownNetherMushroomCap"
     ],
-    "BLOCKS:mod:nylium": [
-      "CUSTOM:VerdantNylium",
-      "Blocks.WARPED_NYLIUM",
-      "Blocks.CRIMSON_NYLIUM",
-      "CUSTOM:Nycelium",
-      "CUSTOM:WitheredNylium"
-    ],
     "BLOCKS:minecraft:slabs": [
       "~CUSTOM:MushroomSlab",
       "~CUSTOM:SmoothBoneSlab"
     ],
     "BIOMES:minecraft:has_structure/nether_fossil": [
       "~CUSTOM:BoneReef"
+    ],
+    "BLOCKS:mod:nylium": [
+      "CUSTOM:VerdantNylium",
+      "Blocks.WARPED_NYLIUM",
+      "Blocks.CRIMSON_NYLIUM",
+      "CUSTOM:Nycelium",
+      "CUSTOM:WitheredNylium"
     ],
     "BIOMES:minecraft:has_structure/bastion_remnant": [
       "~CUSTOM:WitheredValley",
@@ -3006,19 +2970,16 @@
       "~CUSTOM:StrippedMushroomWood",
       "~CUSTOM:StrippedMushroomLog",
       "~CUSTOM:MushroomTrapdoor",
+      "~CUSTOM:MushroomDoor",
       "~CUSTOM:MushroomButton",
       "~CUSTOM:MushroomPressurePlate",
       "~CUSTOM:MushroomFenceGate",
       "~CUSTOM:MushroomFence",
       "~CUSTOM:MushroomSlab",
       "~CUSTOM:MushroomStairs",
-      "~CUSTOM:MushroomDoor",
       "~CUSTOM:MushroomPlanks",
       "~CUSTOM:MushroomLog",
       "~CUSTOM:MushroomWood"
-    ],
-    "BLOCKS:minecraft:fences": [
-      "~CUSTOM:MushroomFence"
     ],
     "BLOCKS:mod:groundcover": [
       "CUSTOM:VerdantRoots",
@@ -3045,6 +3006,9 @@
       "Blocks.NETHER_SPROUTS",
       "Blocks.CRIMSON_FUNGUS",
       "Blocks.WARPED_FUNGUS"
+    ],
+    "BLOCKS:minecraft:fences": [
+      "~CUSTOM:MushroomFence"
     ],
     "BLOCKS:minecraft:walls": [
       "~CUSTOM:SmoothBoneWall"
@@ -3256,5 +3220,5 @@
     "credits": "Created by Autumnly24, inspired by Better Nether",
     "modElementsPackage": "net.mcreator.evenbetternether"
   },
-  "mcreatorVersion": 202400232117
+  "mcreatorVersion": 202400342716
 }
