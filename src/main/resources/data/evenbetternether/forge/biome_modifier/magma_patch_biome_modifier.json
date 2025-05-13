@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "evenbetternether:gravel_desert",
+    "nether_wastes"
+  ],
+  "features": "evenbetternether:magma_patch",
+  "step": "surface_structures"
+}

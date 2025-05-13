@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "evenbetternether:block/verdant_roots",
+    "particle": "evenbetternether:block/verdant_roots"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "evenbetternether:bone_reef",
+  "features": "evenbetternether:ceiling_bones",
+  "step": "surface_structures"
+}

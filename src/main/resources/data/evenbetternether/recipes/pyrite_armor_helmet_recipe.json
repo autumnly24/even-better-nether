@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "evenbetternether:pyrite_ingot"
+    }
+  },
+  "result": {
+    "item": "evenbetternether:pyrite_armor_helmet",
+    "count": 1
+  }
+}

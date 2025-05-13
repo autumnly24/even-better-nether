@@ -1,0 +1,10 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "particle": "evenbetternether:block/mushroom_planks",
+    "bottom": "evenbetternether:block/mushroom_planks",
+    "top": "evenbetternether:block/mushroom_planks",
+    "side": "evenbetternether:block/mushroom_planks"
+  },
+  "render_type": "solid"
+}

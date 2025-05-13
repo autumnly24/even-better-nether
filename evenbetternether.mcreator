@@ -1,0 +1,3260 @@
+{
+  "mod_elements": [
+    {
+      "name": "VerdantNylium",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdant_nylium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/item/verdant_nylium.json",
+          "src/main/java/net/mcreator/evenbetternether/block/VerdantNyliumBlock.java",
+          "src/main/resources/assets/evenbetternether/blockstates/verdant_nylium.json",
+          "src/main/resources/assets/evenbetternether/models/block/verdant_nylium.json"
+        ]
+      }
+    },
+    {
+      "name": "EvenBetterNetherTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "even_better_nether_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "VerdantRoots",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdant_roots",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/item/verdant_roots.json",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/verdant_roots.json",
+          "src/main/resources/assets/evenbetternether/blockstates/verdant_roots.json",
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/verdant_roots.json",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/verdant_roots.json",
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/verdant_roots_biome_modifier.json",
+          "src/main/resources/assets/evenbetternether/models/block/verdant_roots.json",
+          "src/main/java/net/mcreator/evenbetternether/block/VerdantRootsBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "BoneReef",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bone_reef",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/worldgen/biome/bone_reef.json"
+        ]
+      }
+    },
+    {
+      "name": "BoneGrowths",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bone_growths",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/block/BoneGrowthsBlock.java",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/bone_growths.json",
+          "src/main/resources/assets/evenbetternether/models/item/bone_growths.json",
+          "src/main/resources/assets/evenbetternether/models/block/bone_growths.json",
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/bone_growths_biome_modifier.json",
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/bone_growths.json",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/bone_growths.json",
+          "src/main/resources/assets/evenbetternether/blockstates/bone_growths.json"
+        ]
+      }
+    },
+    {
+      "name": "FeatherFern",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feather_fern",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/feather_fern.json",
+          "src/main/resources/assets/evenbetternether/models/block/feather_fern.json",
+          "src/main/resources/assets/evenbetternether/models/item/feather_fern.json",
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/feather_fern_biome_modifier.json",
+          "src/main/java/net/mcreator/evenbetternether/block/FeatherFernBlock.java",
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/feather_fern.json",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/feather_fern.json",
+          "src/main/resources/assets/evenbetternether/blockstates/feather_fern.json"
+        ]
+      }
+    },
+    {
+      "name": "Bones",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bones",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/bones.json",
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/bones_biome_modifier.json",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/bones.json"
+        ]
+      }
+    },
+    {
+      "name": "CeilingBones",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ceiling_bones",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/ceiling_bones_biome_modifier.json",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/ceiling_bones.json",
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/ceiling_bones.json"
+        ]
+      }
+    },
+    {
+      "name": "SmoothBoneBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smooth_bone_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/item/smooth_bone_block.json",
+          "src/main/java/net/mcreator/evenbetternether/block/SmoothBoneBlockBlock.java",
+          "src/main/resources/assets/evenbetternether/models/block/smooth_bone_block.json",
+          "src/main/resources/assets/evenbetternether/blockstates/smooth_bone_block.json",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/smooth_bone_block.json"
+        ]
+      }
+    },
+    {
+      "name": "SmoothBoneStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smooth_bone_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/block/SmoothBoneStairsBlock.java",
+          "src/main/resources/assets/evenbetternether/models/item/smooth_bone_stairs.json",
+          "src/main/resources/assets/evenbetternether/models/block/smooth_bone_stairs_outer.json",
+          "src/main/resources/assets/evenbetternether/models/block/smooth_bone_stairs_inner.json",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/smooth_bone_stairs.json",
+          "src/main/resources/assets/evenbetternether/blockstates/smooth_bone_stairs.json",
+          "src/main/resources/assets/evenbetternether/models/block/smooth_bone_stairs.json"
+        ]
+      }
+    },
+    {
+      "name": "SmoothBoneSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smooth_bone_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/smooth_bone_slab.json",
+          "src/main/resources/assets/evenbetternether/blockstates/smooth_bone_slab.json",
+          "src/main/resources/assets/evenbetternether/models/block/smooth_bone_slab.json",
+          "src/main/resources/assets/evenbetternether/models/item/smooth_bone_slab.json",
+          "src/main/resources/assets/evenbetternether/models/block/smooth_bone_slab_top.json",
+          "src/main/java/net/mcreator/evenbetternether/block/SmoothBoneSlabBlock.java",
+          "src/main/resources/assets/evenbetternether/models/block/smooth_bone_slab_full.json"
+        ]
+      }
+    },
+    {
+      "name": "SmoothBoneWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smooth_bone_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/blockstates/smooth_bone_wall.json",
+          "src/main/resources/assets/evenbetternether/models/block/smooth_bone_wall_inventory.json",
+          "src/main/java/net/mcreator/evenbetternether/block/SmoothBoneWallBlock.java",
+          "src/main/resources/assets/evenbetternether/models/block/smooth_bone_wall_post.json",
+          "src/main/resources/assets/evenbetternether/models/block/smooth_bone_wall.json",
+          "src/main/resources/assets/evenbetternether/models/block/smooth_bone_wall_side_tall.json",
+          "src/main/resources/assets/evenbetternether/models/item/smooth_bone_wall.json",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/smooth_bone_wall.json"
+        ]
+      }
+    },
+    {
+      "name": "SmoothBonePatches",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smooth_bone_patches",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/smooth_bone_patches.json",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/smooth_bone_patches.json",
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/smooth_bone_patches_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherrackPatch",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherrack_patch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/netherrack_patch_biome_modifier.json",
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/netherrack_patch.json",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/netherrack_patch.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherAgave",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_agave",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/item/nether_agave.json",
+          "src/main/java/net/mcreator/evenbetternether/block/NetherAgaveBlock.java",
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/nether_agave_biome_modifier.json",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/nether_agave.json",
+          "src/main/resources/assets/evenbetternether/models/block/nether_agave.json",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/nether_agave.json",
+          "src/main/resources/assets/evenbetternether/blockstates/nether_agave.json",
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/nether_agave.json"
+        ]
+      }
+    },
+    {
+      "name": "VerdantSprouts",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdant_sprouts",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/verdant_sprouts.json",
+          "src/main/resources/assets/evenbetternether/models/item/verdant_sprouts.json",
+          "src/main/resources/assets/evenbetternether/models/block/verdant_sprouts.json",
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/verdant_sprouts.json",
+          "src/main/resources/assets/evenbetternether/blockstates/verdant_sprouts.json",
+          "src/main/java/net/mcreator/evenbetternether/block/VerdantSproutsBlock.java",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/verdant_sprouts.json",
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/verdant_sprouts_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "SmoothBoneBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smooth_bone_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/smooth_bone_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SmoothBoneStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smooth_bone_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/smooth_bone_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SmoothBoneSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smooth_bone_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/smooth_bone_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SmoothBoneWallRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smooth_bone_wall_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/smooth_bone_wall_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherSaguaro",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_saguaro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/block/NetherSaguaroBlock.java",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/nether_saguaro.json",
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/nether_saguaro.json",
+          "src/main/resources/assets/evenbetternether/blockstates/nether_saguaro.json",
+          "src/main/resources/assets/evenbetternether/models/item/nether_saguaro.json",
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/nether_saguaro_biome_modifier.json",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/nether_saguaro.json",
+          "src/main/resources/assets/evenbetternether/models/block/nether_saguaro.json",
+          "src/main/resources/assets/evenbetternether/models/block/nether_saguaro_bottom.json"
+        ]
+      }
+    },
+    {
+      "name": "BarrelCactus",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barrel_cactus",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/item/barrel_cactus.json",
+          "src/main/resources/assets/evenbetternether/models/block/barrel_cactus.json",
+          "src/main/resources/assets/evenbetternether/blockstates/barrel_cactus.json",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/barrel_cactus.json",
+          "src/main/java/net/mcreator/evenbetternether/block/BarrelCactusBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "BarrelCactusEntityCollidesInTheBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barrel_cactus_entity_collides_in_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/procedures/BarrelCactusEntityCollidesInTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GravelDesert",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gravel_desert",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/worldgen/biome/gravel_desert.json"
+        ]
+      }
+    },
+    {
+      "name": "SoulSandPatch",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_sand_patch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/soul_sand_patch.json",
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/soul_sand_patch_biome_modifier.json",
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/soul_sand_patch.json"
+        ]
+      }
+    },
+    {
+      "name": "BarrelCactusFeature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barrel_cactus_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/barrel_cactus_feature_biome_modifier.json",
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/barrel_cactus_feature.json",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/barrel_cactus_feature.json"
+        ]
+      }
+    },
+    {
+      "name": "BarrelCactusBlockValidPlacementCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barrel_cactus_block_valid_placement_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/procedures/BarrelCactusBlockValidPlacementConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NetherSaguaroFeatuure",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_saguaro_featuure",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/nether_saguaro_featuure.json",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/nether_saguaro_featuure.json",
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/nether_saguaro_featuure_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "MagmaPatch",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magma_patch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/magma_patch_biome_modifier.json",
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/magma_patch.json",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/magma_patch.json"
+        ]
+      }
+    },
+    {
+      "name": "BarrelCactusSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barrel_cactus_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/barrel_cactus_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "SaguaroSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saguaro_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/saguaro_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "AgaveSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agave_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/agave_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "FeatherFernSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feather_fern_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/feather_fern_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "SoulRoots",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_roots",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/blockstates/soul_roots.json",
+          "src/main/resources/assets/evenbetternether/models/block/soul_roots.json",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/soul_roots.json",
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/soul_roots_biome_modifier.json",
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/soul_roots.json",
+          "src/main/resources/assets/evenbetternether/models/item/soul_roots.json",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/soul_roots.json",
+          "src/main/java/net/mcreator/evenbetternether/block/SoulRootsBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "SoulSprouts",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_sprouts",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/soul_sprouts.json",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/soul_sprouts.json",
+          "src/main/resources/assets/evenbetternether/models/block/soul_sprouts.json",
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/soul_sprouts_biome_modifier.json",
+          "src/main/resources/assets/evenbetternether/blockstates/soul_sprouts.json",
+          "src/main/resources/assets/evenbetternether/models/item/soul_sprouts.json",
+          "src/main/java/net/mcreator/evenbetternether/block/SoulSproutsBlock.java",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/soul_sprouts.json"
+        ]
+      }
+    },
+    {
+      "name": "BasaltSpeleothem",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basalt_speleothem",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/basalt_speleothem.json",
+          "src/main/resources/assets/evenbetternether/models/block/basalt_speleothem.json",
+          "src/main/resources/assets/evenbetternether/models/item/basalt_speleothem.json",
+          "src/main/java/net/mcreator/evenbetternether/block/BasaltSpeleothemBlock.java",
+          "src/main/resources/assets/evenbetternether/blockstates/basalt_speleothem.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherrackSpeleothem",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherrack_speleothem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/item/netherrack_speleothem.json",
+          "src/main/resources/assets/evenbetternether/blockstates/netherrack_speleothem.json",
+          "src/main/java/net/mcreator/evenbetternether/block/NetherrackSpeleothemBlock.java",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/netherrack_speleothem.json",
+          "src/main/resources/assets/evenbetternether/models/block/netherrack_speleothem.json"
+        ]
+      }
+    },
+    {
+      "name": "BlackstoneSpeleothem",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blackstone_speleothem",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/blackstone_speleothem.json",
+          "src/main/resources/assets/evenbetternether/models/item/blackstone_speleothem.json",
+          "src/main/resources/assets/evenbetternether/blockstates/blackstone_speleothem.json",
+          "src/main/resources/assets/evenbetternether/models/block/blackstone_speleothem.json",
+          "src/main/java/net/mcreator/evenbetternether/block/BlackstoneSpeleothemBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "GlowstoneSpeleothem",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowstone_speleothem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/block/GlowstoneSpeleothemBlock.java",
+          "src/main/resources/assets/evenbetternether/models/block/glowstone_speleothem.json",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/glowstone_speleothem.json",
+          "src/main/resources/assets/evenbetternether/blockstates/glowstone_speleothem.json",
+          "src/main/resources/assets/evenbetternether/models/item/glowstone_speleothem.json"
+        ]
+      }
+    },
+    {
+      "name": "StoneSpeleothem",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_speleothem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/item/stone_speleothem.json",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/stone_speleothem.json",
+          "src/main/java/net/mcreator/evenbetternether/block/StoneSpeleothemBlock.java",
+          "src/main/resources/assets/evenbetternether/blockstates/stone_speleothem.json",
+          "src/main/resources/assets/evenbetternether/models/block/stone_speleothem.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateSpeleothem",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_speleothem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/item/deepslate_speleothem.json",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/deepslate_speleothem.json",
+          "src/main/resources/assets/evenbetternether/models/block/deepslate_speleothem.json",
+          "src/main/resources/assets/evenbetternether/blockstates/deepslate_speleothem.json",
+          "src/main/java/net/mcreator/evenbetternether/block/DeepslateSpeleothemBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "NetherrackStalagmite",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherrack_stalagmite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/netherrack_stalagmite_biome_modifier.json",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/netherrack_stalagmite.json",
+          "src/main/java/net/mcreator/evenbetternether/world/features/NetherrackStalagmiteFeature.java",
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/netherrack_stalagmite.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherrackStalagtite",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherrack_stalagtite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/netherrack_stalagtite.json",
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/netherrack_stalagtite_biome_modifier.json",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/netherrack_stalagtite.json",
+          "src/main/java/net/mcreator/evenbetternether/world/features/NetherrackStalagtiteFeature.java"
+        ]
+      }
+    },
+    {
+      "name": "BasaltStalagmite",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basalt_stalagmite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/basalt_stalagmite_biome_modifier.json",
+          "src/main/java/net/mcreator/evenbetternether/world/features/BasaltStalagmiteFeature.java",
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/basalt_stalagmite.json",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/basalt_stalagmite.json"
+        ]
+      }
+    },
+    {
+      "name": "BasaltStalagtite",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basalt_stalagtite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/basalt_stalagtite.json",
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/basalt_stalagtite_biome_modifier.json",
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/basalt_stalagtite.json",
+          "src/main/java/net/mcreator/evenbetternether/world/features/BasaltStalagtiteFeature.java"
+        ]
+      }
+    },
+    {
+      "name": "BlackstoneStalagmite",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blackstone_stalagmite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/world/features/BlackstoneStalagmiteFeature.java",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/blackstone_stalagmite.json",
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/blackstone_stalagmite.json",
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/blackstone_stalagmite_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "BlackstoneStalagtite",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blackstone_stalagtite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/blackstone_stalagtite_biome_modifier.json",
+          "src/main/java/net/mcreator/evenbetternether/world/features/BlackstoneStalagtiteFeature.java",
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/blackstone_stalagtite.json",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/blackstone_stalagtite.json"
+        ]
+      }
+    },
+    {
+      "name": "GlowstoneStalagmite",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowstone_stalagmite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/world/features/GlowstoneStalagmiteFeature.java",
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/glowstone_stalagmite.json",
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/glowstone_stalagmite_biome_modifier.json",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/glowstone_stalagmite.json"
+        ]
+      }
+    },
+    {
+      "name": "GlowstoneStalagtite",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowstone_stalagtite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/glowstone_stalagtite.json",
+          "src/main/java/net/mcreator/evenbetternether/world/features/GlowstoneStalagtiteFeature.java",
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/glowstone_stalagtite_biome_modifier.json",
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/glowstone_stalagtite.json"
+        ]
+      }
+    },
+    {
+      "name": "SSVBasaltStalagmite",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ssv_basalt_stalagmite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/ssv_basalt_stalagmite.json",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/ssv_basalt_stalagmite.json",
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/ssv_basalt_stalagmite_biome_modifier.json",
+          "src/main/java/net/mcreator/evenbetternether/world/features/SSVBasaltStalagmiteFeature.java"
+        ]
+      }
+    },
+    {
+      "name": "SSVBasaltStalagtite",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ssv_basalt_stalagtite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/world/features/SSVBasaltStalagtiteFeature.java",
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/ssv_basalt_stalagtite.json",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/ssv_basalt_stalagtite.json",
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/ssv_basalt_stalagtite_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "BoneSpeleothem",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bone_speleothem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/blockstates/bone_speleothem.json",
+          "src/main/resources/assets/evenbetternether/models/block/bone_speleothem.json",
+          "src/main/java/net/mcreator/evenbetternether/block/BoneSpeleothemBlock.java",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/bone_speleothem.json",
+          "src/main/resources/assets/evenbetternether/models/item/bone_speleothem.json"
+        ]
+      }
+    },
+    {
+      "name": "BoneStalagmite",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bone_stalagmite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/bone_stalagmite.json",
+          "src/main/java/net/mcreator/evenbetternether/world/features/BoneStalagmiteFeature.java",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/bone_stalagmite.json",
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/bone_stalagmite_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "BoneStalagtite",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bone_stalagtite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/bone_stalagtite.json",
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/bone_stalagtite.json",
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/bone_stalagtite_biome_modifier.json",
+          "src/main/java/net/mcreator/evenbetternether/world/features/BoneStalagtiteFeature.java"
+        ]
+      }
+    },
+    {
+      "name": "StoneStalagmite",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_stalagmite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/stone_stalagmite.json",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/stone_stalagmite.json",
+          "src/main/java/net/mcreator/evenbetternether/world/features/StoneStalagmiteFeature.java",
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/stone_stalagmite_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "StoneStalagtite",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_stalagtite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/world/features/StoneStalagtiteFeature.java",
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/stone_stalagtite_biome_modifier.json",
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/stone_stalagtite.json",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/stone_stalagtite.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateStalagmite",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_stalagmite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/deepslate_stalagmite.json",
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/deepslate_stalagmite_biome_modifier.json",
+          "src/main/java/net/mcreator/evenbetternether/world/features/DeepslateStalagmiteFeature.java",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/deepslate_stalagmite.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateStalagtite",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_stalagtite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/deepslate_stalagtite.json",
+          "src/main/java/net/mcreator/evenbetternether/world/features/DeepslateStalagtiteFeature.java",
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/deepslate_stalagtite.json",
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/deepslate_stalagtite_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "EvenBetterNetherConfigs",
+      "type": "config",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "even_better_nether_configs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/configuration/EvenBetterNetherConfigsConfiguration.java"
+        ]
+      }
+    },
+    {
+      "name": "NetherrackStalagmiteAdditionalGenerationCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherrack_stalagmite_additional_generation_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/procedures/NetherrackStalagmiteAdditionalGenerationConditionProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "StoneStalagmiteAdditionalGenerationCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_stalagmite_additional_generation_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/procedures/StoneStalagmiteAdditionalGenerationConditionProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Nycelium",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nycelium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/block/nycelium.json",
+          "src/main/resources/assets/evenbetternether/models/item/nycelium.json",
+          "src/main/resources/assets/evenbetternether/blockstates/nycelium.json",
+          "src/main/java/net/mcreator/evenbetternether/block/NyceliumBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "WitheredNylium",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "withered_nylium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/item/withered_nylium.json",
+          "src/main/resources/assets/evenbetternether/blockstates/withered_nylium.json",
+          "src/main/java/net/mcreator/evenbetternether/block/WitheredNyliumBlock.java",
+          "src/main/resources/assets/evenbetternether/models/block/withered_nylium.json"
+        ]
+      }
+    },
+    {
+      "name": "WitheredValley",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "withered_valley",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/worldgen/biome/withered_valley.json"
+        ]
+      }
+    },
+    {
+      "name": "BurningRoots",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burning_roots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/burning_roots.json",
+          "src/main/java/net/mcreator/evenbetternether/block/BurningRootsBlock.java",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/burning_roots.json",
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/burning_roots_biome_modifier.json",
+          "src/main/resources/assets/evenbetternether/blockstates/burning_roots.json",
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/burning_roots.json",
+          "src/main/resources/assets/evenbetternether/models/item/burning_roots.json",
+          "src/main/resources/assets/evenbetternether/models/block/burning_roots.json"
+        ]
+      }
+    },
+    {
+      "name": "BurningSprouts",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burning_sprouts",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/block/burning_sprouts.json",
+          "src/main/java/net/mcreator/evenbetternether/block/BurningSproutsBlock.java",
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/burning_sprouts_biome_modifier.json",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/burning_sprouts.json",
+          "src/main/resources/assets/evenbetternether/blockstates/burning_sprouts.json",
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/burning_sprouts.json",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/burning_sprouts.json",
+          "src/main/resources/assets/evenbetternether/models/item/burning_sprouts.json"
+        ]
+      }
+    },
+    {
+      "name": "CharredSprouts",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charred_sprouts",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/charred_sprouts.json",
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/charred_sprouts.json",
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/charred_sprouts_biome_modifier.json",
+          "src/main/resources/assets/evenbetternether/models/block/charred_sprouts.json",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/charred_sprouts.json",
+          "src/main/resources/assets/evenbetternether/models/item/charred_sprouts.json",
+          "src/main/resources/assets/evenbetternether/blockstates/charred_sprouts.json",
+          "src/main/java/net/mcreator/evenbetternether/block/CharredSproutsBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "WitherBoneGrowths",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_bone_growths",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/wither_bone_growths.json",
+          "src/main/resources/assets/evenbetternether/models/item/wither_bone_growths.json",
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/wither_bone_growths_biome_modifier.json",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/wither_bone_growths.json",
+          "src/main/java/net/mcreator/evenbetternether/block/WitherBoneGrowthsBlock.java",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/wither_bone_growths.json",
+          "src/main/resources/assets/evenbetternether/models/block/wither_bone_growths.json",
+          "src/main/resources/assets/evenbetternether/blockstates/wither_bone_growths.json"
+        ]
+      }
+    },
+    {
+      "name": "SoulRootsSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_roots_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/soul_roots_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "BurningRootsSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burning_roots_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/burning_roots_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "CharredSproutsSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charred_sprouts_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/charred_sprouts_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "Blackstonepatch",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blackstonepatch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/blackstonepatch.json",
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/blackstonepatch_biome_modifier.json",
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/blackstonepatch.json"
+        ]
+      }
+    },
+    {
+      "name": "VerdantNyliumOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdant_nylium_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/procedures/VerdantNyliumOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NetherPyriteOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_pyrite_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/blockstates/nether_pyrite_ore.json",
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/nether_pyrite_ore.json",
+          "src/main/resources/assets/evenbetternether/models/block/nether_pyrite_ore.json",
+          "src/main/resources/assets/evenbetternether/models/item/nether_pyrite_ore.json",
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/nether_pyrite_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/evenbetternether/block/NetherPyriteOreBlock.java",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/nether_pyrite_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "VerdantNyliumLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdant_nylium_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/verdant_nylium.json"
+        ]
+      }
+    },
+    {
+      "name": "NyceliumLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nycelium_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/nycelium.json"
+        ]
+      }
+    },
+    {
+      "name": "WitheredNyliumLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "withered_nylium_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/withered_nylium.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherPyriteOreLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_pyrite_ore_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/nether_pyrite_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "RawPyrite",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_pyrite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/item/raw_pyrite.json",
+          "src/main/java/net/mcreator/evenbetternether/item/RawPyriteItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PyriteIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/item/pyrite_ingot.json",
+          "src/main/java/net/mcreator/evenbetternether/item/PyriteIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PyriteNugget",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_nugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/item/pyrite_nugget.json",
+          "src/main/java/net/mcreator/evenbetternether/item/PyriteNuggetItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PyriteSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/pyrite_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "PyriteBlasting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_blasting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/pyrite_blasting.json"
+        ]
+      }
+    },
+    {
+      "name": "PyriteToNuggets",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_to_nuggets",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/pyrite_to_nuggets.json"
+        ]
+      }
+    },
+    {
+      "name": "PyriteNuggetsToIngot",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_nuggets_to_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/pyrite_nuggets_to_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "PyriteBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/blockstates/pyrite_block.json",
+          "src/main/java/net/mcreator/evenbetternether/block/PyriteBlockBlock.java",
+          "src/main/resources/assets/evenbetternether/models/item/pyrite_block.json",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/pyrite_block.json",
+          "src/main/resources/assets/evenbetternether/models/block/pyrite_block.json"
+        ]
+      }
+    },
+    {
+      "name": "PyriteBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/pyrite_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PyriteBlockToIngots",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_block_to_ingots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/pyrite_block_to_ingots.json"
+        ]
+      }
+    },
+    {
+      "name": "LigniteOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lignite_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/lignite_ore_biome_modifier.json",
+          "src/main/resources/assets/evenbetternether/models/block/lignite_ore.json",
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/lignite_ore.json",
+          "src/main/java/net/mcreator/evenbetternether/block/LigniteOreBlock.java",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/lignite_ore.json",
+          "src/main/resources/assets/evenbetternether/models/item/lignite_ore.json",
+          "src/main/resources/assets/evenbetternether/blockstates/lignite_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "LigniteOreLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lignite_ore_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/lignite_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "PyritePickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/item/pyrite_pickaxe.json",
+          "src/main/java/net/mcreator/evenbetternether/item/PyritePickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PyriteAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/item/pyrite_axe.json",
+          "src/main/java/net/mcreator/evenbetternether/item/PyriteAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PyriteSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/item/PyriteSwordItem.java",
+          "src/main/resources/assets/evenbetternether/models/item/pyrite_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "PyriteShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/item/PyriteShovelItem.java",
+          "src/main/resources/assets/evenbetternether/models/item/pyrite_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "PyriteHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/item/PyriteHoeItem.java",
+          "src/main/resources/assets/evenbetternether/models/item/pyrite_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "PyritePickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/pyrite_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PyriteAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/pyrite_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PyriteSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/pyrite_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PyriteShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/pyrite_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PyriteHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/pyrite_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherRubyOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_ruby_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/block/NetherRubyOreBlock.java",
+          "src/main/resources/assets/evenbetternether/models/item/nether_ruby_ore.json",
+          "src/main/resources/assets/evenbetternether/models/block/nether_ruby_ore.json",
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/nether_ruby_ore.json",
+          "src/main/resources/assets/evenbetternether/blockstates/nether_ruby_ore.json",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/nether_ruby_ore.json",
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/nether_ruby_ore_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherRuby",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_ruby",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/item/NetherRubyItem.java",
+          "src/main/resources/assets/evenbetternether/models/item/nether_ruby.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherRubyBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_ruby_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/block/NetherRubyBlockBlock.java",
+          "src/main/resources/assets/evenbetternether/models/block/nether_ruby_block.json",
+          "src/main/resources/assets/evenbetternether/models/item/nether_ruby_block.json",
+          "src/main/resources/assets/evenbetternether/blockstates/nether_ruby_block.json",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/nether_ruby_block.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/item/RubyPickaxeItem.java",
+          "src/main/resources/assets/evenbetternether/models/item/ruby_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/item/ruby_axe.json",
+          "src/main/java/net/mcreator/evenbetternether/item/RubyAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RubySword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/item/ruby_sword.json",
+          "src/main/java/net/mcreator/evenbetternether/item/RubySwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RubyShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/item/ruby_shovel.json",
+          "src/main/java/net/mcreator/evenbetternether/item/RubyShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RubyHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/item/ruby_hoe.json",
+          "src/main/java/net/mcreator/evenbetternether/item/RubyHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RubyPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/ruby_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/ruby_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubySwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/ruby_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/ruby_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/ruby_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherRubyOreLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_ruby_ore_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/nether_ruby_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherRubyBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_ruby_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/nether_ruby_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyBlockToRubies",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_block_to_rubies",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/ruby_block_to_rubies.json"
+        ]
+      }
+    },
+    {
+      "name": "PyriteArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/item/pyrite_armor_leggings.json",
+          "src/main/resources/assets/evenbetternether/models/item/pyrite_armor_helmet.json",
+          "src/main/resources/assets/evenbetternether/models/item/pyrite_armor_boots.json",
+          "src/main/java/net/mcreator/evenbetternether/item/PyriteArmorItem.java",
+          "src/main/resources/assets/evenbetternether/models/item/pyrite_armor_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "PyriteArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/pyrite_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PyriteArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/pyrite_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PyriteArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/pyrite_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PyriteArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrite_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/pyrite_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/item/RubyArmorItem.java",
+          "src/main/resources/assets/evenbetternether/models/item/ruby_armor_boots.json",
+          "src/main/resources/assets/evenbetternether/models/item/ruby_armor_leggings.json",
+          "src/main/resources/assets/evenbetternether/models/item/ruby_armor_chestplate.json",
+          "src/main/resources/assets/evenbetternether/models/item/ruby_armor_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/ruby_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/ruby_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/ruby_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/ruby_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyToRedstone",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_to_redstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/ruby_to_redstone.json"
+        ]
+      }
+    },
+    {
+      "name": "MushroomWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/blockstates/mushroom_wood.json",
+          "src/main/java/net/mcreator/evenbetternether/block/MushroomWoodBlock.java",
+          "src/main/resources/assets/evenbetternether/models/item/mushroom_wood.json",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/mushroom_wood.json",
+          "src/main/resources/assets/evenbetternether/models/block/mushroom_wood.json"
+        ]
+      }
+    },
+    {
+      "name": "MushroomLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/item/mushroom_log.json",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/mushroom_log.json",
+          "src/main/java/net/mcreator/evenbetternether/block/MushroomLogBlock.java",
+          "src/main/resources/assets/evenbetternether/models/block/mushroom_log.json",
+          "src/main/resources/assets/evenbetternether/blockstates/mushroom_log.json"
+        ]
+      }
+    },
+    {
+      "name": "MushroomPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/block/mushroom_planks.json",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/mushroom_planks.json",
+          "src/main/resources/assets/evenbetternether/blockstates/mushroom_planks.json",
+          "src/main/java/net/mcreator/evenbetternether/block/MushroomPlanksBlock.java",
+          "src/main/resources/assets/evenbetternether/models/item/mushroom_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "MushroomStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/mushroom_stairs.json",
+          "src/main/resources/assets/evenbetternether/models/block/mushroom_stairs_outer.json",
+          "src/main/resources/assets/evenbetternether/blockstates/mushroom_stairs.json",
+          "src/main/resources/assets/evenbetternether/models/item/mushroom_stairs.json",
+          "src/main/java/net/mcreator/evenbetternether/block/MushroomStairsBlock.java",
+          "src/main/resources/assets/evenbetternether/models/block/mushroom_stairs.json",
+          "src/main/resources/assets/evenbetternether/models/block/mushroom_stairs_inner.json"
+        ]
+      }
+    },
+    {
+      "name": "MushroomSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/block/mushroom_slab_top.json",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/mushroom_slab.json",
+          "src/main/resources/assets/evenbetternether/models/block/mushroom_slab_full.json",
+          "src/main/resources/assets/evenbetternether/models/block/mushroom_slab.json",
+          "src/main/resources/assets/evenbetternether/models/item/mushroom_slab.json",
+          "src/main/resources/assets/evenbetternether/blockstates/mushroom_slab.json",
+          "src/main/java/net/mcreator/evenbetternether/block/MushroomSlabBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "MushroomFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/item/mushroom_fence.json",
+          "src/main/resources/assets/evenbetternether/models/block/mushroom_fence_post.json",
+          "src/main/resources/assets/evenbetternether/blockstates/mushroom_fence.json",
+          "src/main/resources/assets/evenbetternether/models/block/mushroom_fence_inventory.json",
+          "src/main/resources/assets/evenbetternether/models/block/mushroom_fence.json",
+          "src/main/java/net/mcreator/evenbetternether/block/MushroomFenceBlock.java",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/mushroom_fence.json"
+        ]
+      }
+    },
+    {
+      "name": "MushroomFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/mushroom_fence_gate.json",
+          "src/main/resources/assets/evenbetternether/models/block/mushroom_fence_gate_wall.json",
+          "src/main/java/net/mcreator/evenbetternether/block/MushroomFenceGateBlock.java",
+          "src/main/resources/assets/evenbetternether/models/item/mushroom_fence_gate.json",
+          "src/main/resources/assets/evenbetternether/models/block/mushroom_fence_gate.json",
+          "src/main/resources/assets/evenbetternether/models/block/mushroom_fence_gate_open.json",
+          "src/main/resources/assets/evenbetternether/models/block/mushroom_fence_gate_wall_open.json",
+          "src/main/resources/assets/evenbetternether/blockstates/mushroom_fence_gate.json"
+        ]
+      }
+    },
+    {
+      "name": "MushroomPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/block/MushroomPressurePlateBlock.java",
+          "src/main/resources/assets/evenbetternether/models/item/mushroom_pressure_plate.json",
+          "src/main/resources/assets/evenbetternether/blockstates/mushroom_pressure_plate.json",
+          "src/main/resources/assets/evenbetternether/models/block/mushroom_pressure_plate_down.json",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/mushroom_pressure_plate.json",
+          "src/main/resources/assets/evenbetternether/models/block/mushroom_pressure_plate.json"
+        ]
+      }
+    },
+    {
+      "name": "MushroomButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/item/mushroom_button.json",
+          "src/main/resources/assets/evenbetternether/models/block/mushroom_button.json",
+          "src/main/java/net/mcreator/evenbetternether/block/MushroomButtonBlock.java",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/mushroom_button.json",
+          "src/main/resources/assets/evenbetternether/models/block/mushroom_button_inventory.json",
+          "src/main/resources/assets/evenbetternether/blockstates/mushroom_button.json",
+          "src/main/resources/assets/evenbetternether/models/block/mushroom_button_pressed.json"
+        ]
+      }
+    },
+    {
+      "name": "MushroomWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/mushroom_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MushroomPlanksLogRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_planks_log_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/mushroom_planks_log_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MushroomStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/mushroom_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MushroomSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/mushroom_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MushroomFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/mushroom_fence_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MushroomFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/mushroom_fence_gate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MushroomPressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/mushroom_pressure_plate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MushroomButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/mushroom_button_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MushroomStickRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/mushroom_stick_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MushroomDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/blockstates/mushroom_door.json",
+          "src/main/resources/assets/evenbetternether/models/item/mushroom_door.json",
+          "src/main/resources/assets/evenbetternether/models/block/mushroom_door_bottom_left_open.json",
+          "src/main/resources/assets/evenbetternether/models/block/mushroom_door_top_right.json",
+          "src/main/resources/assets/evenbetternether/models/block/mushroom_door_bottom_right_open.json",
+          "src/main/resources/assets/evenbetternether/models/block/mushroom_door_top_left.json",
+          "src/main/resources/assets/evenbetternether/models/block/mushroom_door_top_right_open.json",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/mushroom_door.json",
+          "src/main/resources/assets/evenbetternether/models/block/mushroom_door_bottom_left.json",
+          "src/main/resources/assets/evenbetternether/models/block/mushroom_door_bottom_right.json",
+          "src/main/java/net/mcreator/evenbetternether/block/MushroomDoorBlock.java",
+          "src/main/resources/assets/evenbetternether/models/block/mushroom_door_top_left_open.json"
+        ]
+      }
+    },
+    {
+      "name": "MushroomTrapdoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/item/mushroom_trapdoor.json",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/mushroom_trapdoor.json",
+          "src/main/java/net/mcreator/evenbetternether/block/MushroomTrapdoorBlock.java",
+          "src/main/resources/assets/evenbetternether/models/block/mushroom_trapdoor_open.json",
+          "src/main/resources/assets/evenbetternether/models/block/mushroom_trapdoor.json",
+          "src/main/resources/assets/evenbetternether/blockstates/mushroom_trapdoor.json",
+          "src/main/resources/assets/evenbetternether/models/block/mushroom_trapdoor_top.json"
+        ]
+      }
+    },
+    {
+      "name": "StrippedMushroomLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_mushroom_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/block/stripped_mushroom_log.json",
+          "src/main/java/net/mcreator/evenbetternether/block/StrippedMushroomLogBlock.java",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/stripped_mushroom_log.json",
+          "src/main/resources/assets/evenbetternether/blockstates/stripped_mushroom_log.json",
+          "src/main/resources/assets/evenbetternether/models/item/stripped_mushroom_log.json"
+        ]
+      }
+    },
+    {
+      "name": "StrippedMushroomWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_mushroom_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/blockstates/stripped_mushroom_wood.json",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/stripped_mushroom_wood.json",
+          "src/main/resources/assets/evenbetternether/models/item/stripped_mushroom_wood.json",
+          "src/main/java/net/mcreator/evenbetternether/block/StrippedMushroomWoodBlock.java",
+          "src/main/resources/assets/evenbetternether/models/block/stripped_mushroom_wood.json"
+        ]
+      }
+    },
+    {
+      "name": "LogStripping",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "log_stripping",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/procedures/LogStrippingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NetherMushroomCap",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_mushroom_cap",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/nether_mushroom_cap.json",
+          "src/main/resources/assets/evenbetternether/models/block/nether_mushroom_cap.json",
+          "src/main/java/net/mcreator/evenbetternether/block/NetherMushroomCapBlock.java",
+          "src/main/resources/assets/evenbetternether/models/item/nether_mushroom_cap.json",
+          "src/main/resources/assets/evenbetternether/blockstates/nether_mushroom_cap.json"
+        ]
+      }
+    },
+    {
+      "name": "MushroomForest",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_forest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/worldgen/biome/mushroom_forest.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherMushroomTree",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_mushroom_tree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/nether_mushroom_tree.json",
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/nether_mushroom_tree_biome_modifier.json",
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/nether_mushroom_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "BrownNetherMushroomCap",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_nether_mushroom_cap",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/block/brown_nether_mushroom_cap.json",
+          "src/main/java/net/mcreator/evenbetternether/block/BrownNetherMushroomCapBlock.java",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/brown_nether_mushroom_cap.json",
+          "src/main/resources/assets/evenbetternether/models/item/brown_nether_mushroom_cap.json",
+          "src/main/resources/assets/evenbetternether/blockstates/brown_nether_mushroom_cap.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherMushroomTreeBrown",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_mushroom_tree_brown",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/nether_mushroom_tree_brown.json",
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/nether_mushroom_tree_brown_biome_modifier.json",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/nether_mushroom_tree_brown.json"
+        ]
+      }
+    },
+    {
+      "name": "MushroomDoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_door_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/mushroom_door_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MushroomTrapdoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_trapdoor_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/mushroom_trapdoor_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TallNethershroom",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tall_nethershroom",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/block/tall_nethershroom.json",
+          "src/main/java/net/mcreator/evenbetternether/block/TallNethershroomBlock.java",
+          "src/main/resources/assets/evenbetternether/blockstates/tall_nethershroom.json",
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/tall_nethershroom.json",
+          "src/main/resources/assets/evenbetternether/models/item/tall_nethershroom.json",
+          "src/main/resources/assets/evenbetternether/models/block/tall_nethershroom_bottom.json",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/tall_nethershroom.json",
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/tall_nethershroom_biome_modifier.json",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/tall_nethershroom.json"
+        ]
+      }
+    },
+    {
+      "name": "Nethershroom",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nethershroom",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/nethershroom.json",
+          "src/main/resources/assets/evenbetternether/models/item/nethershroom.json",
+          "src/main/resources/assets/evenbetternether/models/block/nethershroom.json",
+          "src/main/java/net/mcreator/evenbetternether/block/NethershroomBlock.java",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/nethershroom.json",
+          "src/main/resources/assets/evenbetternether/blockstates/nethershroom.json",
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/nethershroom_biome_modifier.json",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/nethershroom.json"
+        ]
+      }
+    },
+    {
+      "name": "FungalRoots",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fungal_roots",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/block/FungalRootsBlock.java",
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/fungal_roots.json",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/fungal_roots.json",
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/fungal_roots_biome_modifier.json",
+          "src/main/resources/assets/evenbetternether/models/item/fungal_roots.json",
+          "src/main/resources/assets/evenbetternether/models/block/fungal_roots.json",
+          "src/main/resources/assets/evenbetternether/blockstates/fungal_roots.json",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/fungal_roots.json"
+        ]
+      }
+    },
+    {
+      "name": "FungalSprouts",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fungal_sprouts",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/fungal_sprouts.json",
+          "src/main/resources/assets/evenbetternether/models/block/fungal_sprouts.json",
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/fungal_sprouts_biome_modifier.json",
+          "src/main/java/net/mcreator/evenbetternether/block/FungalSproutsBlock.java",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/fungal_sprouts.json",
+          "src/main/resources/assets/evenbetternether/blockstates/fungal_sprouts.json",
+          "src/main/resources/assets/evenbetternether/models/item/fungal_sprouts.json",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/fungal_sprouts.json"
+        ]
+      }
+    },
+    {
+      "name": "TallNethershroomFeature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tall_nethershroom_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/tall_nethershroom_feature_biome_modifier.json",
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/tall_nethershroom_feature.json",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/tall_nethershroom_feature.json"
+        ]
+      }
+    },
+    {
+      "name": "NethershroomFeatuure",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nethershroom_featuure",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/nethershroom_featuure.json",
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/nethershroom_featuure.json",
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/nethershroom_featuure_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "MushroomForestRedMushrooms",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_forest_red_mushrooms",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/mushroom_forest_red_mushrooms_biome_modifier.json",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/mushroom_forest_red_mushrooms.json",
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/mushroom_forest_red_mushrooms.json"
+        ]
+      }
+    },
+    {
+      "name": "MushroomForestBrownMushroom",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_forest_brown_mushroom",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/mushroom_forest_brown_mushroom.json",
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/mushroom_forest_brown_mushroom.json",
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/mushroom_forest_brown_mushroom_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "SoulSandPatchMF",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_sand_patch_mf",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/soul_sand_patch_mf.json",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/soul_sand_patch_mf.json",
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/soul_sand_patch_mf_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "MushroomForestNetherWart",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_forest_nether_wart",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/mushroom_forest_nether_wart_biome_modifier.json",
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/mushroom_forest_nether_wart.json",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/mushroom_forest_nether_wart.json"
+        ]
+      }
+    },
+    {
+      "name": "HangingMycelium",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hanging_mycelium",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/hanging_mycelium.json",
+          "src/main/resources/assets/evenbetternether/blockstates/hanging_mycelium.json",
+          "src/main/java/net/mcreator/evenbetternether/block/HangingMyceliumBlock.java",
+          "src/main/resources/assets/evenbetternether/models/block/hanging_mycelium.json",
+          "src/main/resources/assets/evenbetternether/models/item/hanging_mycelium.json"
+        ]
+      }
+    },
+    {
+      "name": "HangingMyceliumBlockValidPlacementCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hanging_mycelium_block_valid_placement_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/procedures/HangingMyceliumBlockValidPlacementConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LongHangingMycelium",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "long_hanging_mycelium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/blockstates/long_hanging_mycelium.json",
+          "src/main/resources/assets/evenbetternether/models/item/long_hanging_mycelium.json",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/long_hanging_mycelium.json",
+          "src/main/java/net/mcreator/evenbetternether/block/LongHangingMyceliumBlock.java",
+          "src/main/resources/assets/evenbetternether/models/block/long_hanging_mycelium.json"
+        ]
+      }
+    },
+    {
+      "name": "BulbousHangingMycelium",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bulbous_hanging_mycelium",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/block/BulbousHangingMyceliumBlock.java",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/bulbous_hanging_mycelium.json",
+          "src/main/resources/assets/evenbetternether/models/item/bulbous_hanging_mycelium.json",
+          "src/main/resources/assets/evenbetternether/blockstates/bulbous_hanging_mycelium.json",
+          "src/main/resources/assets/evenbetternether/models/block/bulbous_hanging_mycelium.json"
+        ]
+      }
+    },
+    {
+      "name": "HangingMyceliumFeature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hanging_mycelium_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/hanging_mycelium_feature.json",
+          "src/main/java/net/mcreator/evenbetternether/world/features/HangingMyceliumFeatureFeature.java",
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/hanging_mycelium_feature_biome_modifier.json",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/hanging_mycelium_feature.json"
+        ]
+      }
+    },
+    {
+      "name": "LongHangingMyceliumFeature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "long_hanging_mycelium_feature",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/world/features/LongHangingMyceliumFeatureFeature.java",
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/long_hanging_mycelium_feature.json",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/long_hanging_mycelium_feature.json",
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/long_hanging_mycelium_feature_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "BulbousHangingMyceliumFeature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bulbous_hanging_mycelium_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/bulbous_hanging_mycelium_feature.json",
+          "src/main/java/net/mcreator/evenbetternether/world/features/BulbousHangingMyceliumFeatureFeature.java",
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/bulbous_hanging_mycelium_feature_biome_modifier.json",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/bulbous_hanging_mycelium_feature.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondPyritePickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_pyrite_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/item/diamond_pyrite_pickaxe.json",
+          "src/main/java/net/mcreator/evenbetternether/item/DiamondPyritePickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DiamondPyriteAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_pyrite_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/item/diamond_pyrite_axe.json",
+          "src/main/java/net/mcreator/evenbetternether/item/DiamondPyriteAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DiamondPyriteSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_pyrite_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/item/DiamondPyriteSwordItem.java",
+          "src/main/resources/assets/evenbetternether/models/item/diamond_pyrite_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondPyriteShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_pyrite_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/item/DiamondPyriteShovelItem.java",
+          "src/main/resources/assets/evenbetternether/models/item/diamond_pyrite_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondPyriteHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_pyrite_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/item/DiamondPyriteHoeItem.java",
+          "src/main/resources/assets/evenbetternether/models/item/diamond_pyrite_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondPyriteArmour",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_pyrite_armour",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/item/DiamondPyriteArmourItem.java",
+          "src/main/resources/assets/evenbetternether/models/item/diamond_pyrite_armour_leggings.json",
+          "src/main/resources/assets/evenbetternether/models/item/diamond_pyrite_armour_chestplate.json",
+          "src/main/resources/assets/evenbetternether/models/item/diamond_pyrite_armour_helmet.json",
+          "src/main/resources/assets/evenbetternether/models/item/diamond_pyrite_armour_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondPyriteUpgradeSmithingTemplate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_pyrite_upgrade_smithing_template",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/item/DiamondPyriteUpgradeSmithingTemplateItem.java",
+          "src/main/resources/assets/evenbetternether/models/item/diamond_pyrite_upgrade_smithing_template.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondPyriteTemplateLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_pyrite_template_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/loot_tables/chests/diamond_pyrite_template_loot.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondPyriteTemplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_pyrite_template_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/diamond_pyrite_template_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondPyriteTemplateLootInjection",
+      "type": "lootmodifier",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_pyrite_template_loot_injection",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/loot_modifiers/diamond_pyrite_template_loot_injection.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondPyriteTemplateLootInjection2",
+      "type": "lootmodifier",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_pyrite_template_loot_injection_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/loot_modifiers/diamond_pyrite_template_loot_injection_2.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondPyritePickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_pyrite_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/diamond_pyrite_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondPyriteAxeSmithing",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_pyrite_axe_smithing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/diamond_pyrite_axe_smithing.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondPyriteSwordSmithing",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_pyrite_sword_smithing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/diamond_pyrite_sword_smithing.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondPyriteShovelSmithing",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_pyrite_shovel_smithing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/diamond_pyrite_shovel_smithing.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondPyriteHoeSmithing",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_pyrite_hoe_smithing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/diamond_pyrite_hoe_smithing.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondPyriteHelmetSmithing",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_pyrite_helmet_smithing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/diamond_pyrite_helmet_smithing.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondPyriteChestplateSmithing",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_pyrite_chestplate_smithing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/diamond_pyrite_chestplate_smithing.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondPyriteLeggingsSmithing",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_pyrite_leggings_smithing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/diamond_pyrite_leggings_smithing.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondPyriteBootsSmithing",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_pyrite_boots_smithing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/diamond_pyrite_boots_smithing.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondPyriteExcavator",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_pyrite_excavator",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/item/DiamondPyriteExcavatorItem.java",
+          "src/main/resources/assets/evenbetternether/models/item/diamond_pyrite_excavator.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondPyriteExcavatorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_pyrite_excavator_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/diamond_pyrite_excavator_recipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:BulbousHangingMycelium",
+      "~CUSTOM:LongHangingMycelium",
+      "~CUSTOM:HangingMycelium",
+      "~CUSTOM:FungalSprouts",
+      "~CUSTOM:FungalRoots",
+      "~CUSTOM:CharredSprouts",
+      "~CUSTOM:BurningSprouts",
+      "~CUSTOM:BurningRoots",
+      "~CUSTOM:SoulSprouts",
+      "~CUSTOM:SoulRoots",
+      "~CUSTOM:VerdantSprouts",
+      "~CUSTOM:VerdantRoots"
+    ],
+    "BLOCKS:minecraft:mineable/hoe": [
+      "~CUSTOM:BulbousHangingMycelium",
+      "~CUSTOM:LongHangingMycelium",
+      "~CUSTOM:HangingMycelium",
+      "~CUSTOM:BrownNetherMushroomCap",
+      "~CUSTOM:NetherMushroomCap"
+    ],
+    "BLOCKS:minecraft:valid_spawn": [
+      "CUSTOM:VerdantNylium",
+      "CUSTOM:SmoothBoneBlock"
+    ],
+    "ITEMS:mod:nether_mushroom_logs": [
+      "CUSTOM:MushroomWood",
+      "CUSTOM:MushroomLog",
+      "CUSTOM:StrippedMushroomLog",
+      "CUSTOM:StrippedMushroomWood"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:DiamondPyriteHoe",
+      "~CUSTOM:RubyHoe",
+      "~CUSTOM:PyriteHoe"
+    ],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:MushroomWood",
+      "CUSTOM:MushroomLog",
+      "CUSTOM:StrippedMushroomLog",
+      "CUSTOM:StrippedMushroomWood"
+    ],
+    "ITEMS:mod:pyrite_ores": [
+      "CUSTOM:NetherPyriteOre",
+      "CUSTOM:RawPyrite"
+    ],
+    "BLOCKS:minecraft:leaves": [
+      "CUSTOM:NetherMushroomCap",
+      "CUSTOM:BrownNetherMushroomCap"
+    ],
+    "BLOCKS:mod:nylium": [
+      "CUSTOM:VerdantNylium",
+      "Blocks.WARPED_NYLIUM",
+      "Blocks.CRIMSON_NYLIUM",
+      "CUSTOM:Nycelium",
+      "CUSTOM:WitheredNylium"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:MushroomSlab",
+      "~CUSTOM:SmoothBoneSlab"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fossil": [
+      "~CUSTOM:BoneReef"
+    ],
+    "BIOMES:minecraft:has_structure/bastion_remnant": [
+      "~CUSTOM:WitheredValley",
+      "~CUSTOM:GravelDesert"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:DiamondPyriteExcavator",
+      "~CUSTOM:DiamondPyriteAxe",
+      "~CUSTOM:RubyAxe",
+      "~CUSTOM:PyriteAxe"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:MushroomStairs",
+      "~CUSTOM:SmoothBoneStairs"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:DiamondPyriteExcavator",
+      "~CUSTOM:DiamondPyriteSword",
+      "~CUSTOM:RubySword",
+      "~CUSTOM:PyriteSword"
+    ],
+    "BIOMES:minecraft:is_nether": [
+      "CUSTOM:BoneReef",
+      "CUSTOM:GravelDesert",
+      "CUSTOM:WitheredValley",
+      "CUSTOM:MushroomForest"
+    ],
+    "ITEMS:minecraft:planks": [
+      "CUSTOM:MushroomPlanks"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fortress": [
+      "~CUSTOM:MushroomForest",
+      "~CUSTOM:WitheredValley",
+      "~CUSTOM:GravelDesert",
+      "~CUSTOM:BoneReef"
+    ],
+    "BLOCKS:minecraft:wooden_fences": [
+      "CUSTOM:MushroomFence"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:DiamondPyriteExcavator",
+      "~CUSTOM:DiamondPyritePickaxe",
+      "~CUSTOM:RubyPickaxe",
+      "~CUSTOM:PyritePickaxe"
+    ],
+    "BLOCKS:minecraft:mushroom_grow_block": [
+      "CUSTOM:Nycelium"
+    ],
+    "BLOCKS:minecraft:dirt": [
+      "CUSTOM:Nycelium"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:NetherRubyBlock",
+      "~CUSTOM:NetherRubyOre",
+      "~CUSTOM:LigniteOre",
+      "~CUSTOM:PyriteBlock",
+      "~CUSTOM:NetherPyriteOre",
+      "~CUSTOM:WitheredNylium",
+      "~CUSTOM:Nycelium",
+      "~CUSTOM:BoneSpeleothem",
+      "~CUSTOM:DeepslateSpeleothem",
+      "~CUSTOM:StoneSpeleothem",
+      "~CUSTOM:GlowstoneSpeleothem",
+      "~CUSTOM:BlackstoneSpeleothem",
+      "~CUSTOM:NetherrackSpeleothem",
+      "~CUSTOM:BasaltSpeleothem",
+      "~CUSTOM:SmoothBoneWall",
+      "~CUSTOM:SmoothBoneSlab",
+      "~CUSTOM:SmoothBoneStairs",
+      "~CUSTOM:SmoothBoneBlock",
+      "~CUSTOM:VerdantNylium"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:StrippedMushroomWood",
+      "~CUSTOM:StrippedMushroomLog",
+      "~CUSTOM:MushroomTrapdoor",
+      "~CUSTOM:MushroomButton",
+      "~CUSTOM:MushroomPressurePlate",
+      "~CUSTOM:MushroomFenceGate",
+      "~CUSTOM:MushroomFence",
+      "~CUSTOM:MushroomSlab",
+      "~CUSTOM:MushroomStairs",
+      "~CUSTOM:MushroomDoor",
+      "~CUSTOM:MushroomPlanks",
+      "~CUSTOM:MushroomLog",
+      "~CUSTOM:MushroomWood"
+    ],
+    "BLOCKS:minecraft:fences": [
+      "~CUSTOM:MushroomFence"
+    ],
+    "BLOCKS:mod:groundcover": [
+      "CUSTOM:VerdantRoots",
+      "CUSTOM:BoneGrowths",
+      "CUSTOM:FeatherFern",
+      "CUSTOM:NetherAgave",
+      "CUSTOM:VerdantSprouts",
+      "CUSTOM:NetherSaguaro",
+      "CUSTOM:BarrelCactus",
+      "CUSTOM:SoulRoots",
+      "CUSTOM:SoulSprouts",
+      "CUSTOM:BurningRoots",
+      "CUSTOM:BurningSprouts",
+      "CUSTOM:CharredSprouts",
+      "CUSTOM:WitherBoneGrowths",
+      "CUSTOM:TallNethershroom",
+      "CUSTOM:Nethershroom",
+      "CUSTOM:FungalRoots",
+      "CUSTOM:FungalSprouts",
+      "Blocks.BROWN_MUSHROOM",
+      "Blocks.RED_MUSHROOM",
+      "Blocks.WARPED_ROOTS",
+      "Blocks.CRIMSON_ROOTS",
+      "Blocks.NETHER_SPROUTS",
+      "Blocks.CRIMSON_FUNGUS",
+      "Blocks.WARPED_FUNGUS"
+    ],
+    "BLOCKS:minecraft:walls": [
+      "~CUSTOM:SmoothBoneWall"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:DiamondPyriteShovel",
+      "~CUSTOM:RubyShovel",
+      "~CUSTOM:PyriteShovel"
+    ]
+  },
+  "tab_element_order": {
+    "CUSTOM:EvenBetterNetherTab": [
+      "VerdantNylium",
+      "VerdantRoots",
+      "VerdantSprouts",
+      "BoneGrowths",
+      "SmoothBoneBlock",
+      "SmoothBoneStairs",
+      "SmoothBoneSlab",
+      "SmoothBoneWall",
+      "BoneSpeleothem",
+      "WitheredNylium",
+      "BurningRoots",
+      "BurningSprouts",
+      "CharredSprouts",
+      "WitherBoneGrowths",
+      "Nycelium",
+      "MushroomWood",
+      "MushroomLog",
+      "StrippedMushroomLog",
+      "StrippedMushroomWood",
+      "MushroomPlanks",
+      "MushroomStairs",
+      "MushroomSlab",
+      "MushroomFence",
+      "MushroomFenceGate",
+      "MushroomPressurePlate",
+      "MushroomButton",
+      "MushroomDoor",
+      "MushroomTrapdoor",
+      "NetherMushroomCap",
+      "BrownNetherMushroomCap",
+      "Nethershroom",
+      "TallNethershroom",
+      "FungalRoots",
+      "FungalSprouts",
+      "HangingMycelium",
+      "LongHangingMycelium",
+      "BulbousHangingMycelium",
+      "BarrelCactus",
+      "NetherSaguaro",
+      "FeatherFern",
+      "NetherAgave",
+      "SoulRoots",
+      "SoulSprouts",
+      "NetherrackSpeleothem",
+      "BasaltSpeleothem",
+      "BlackstoneSpeleothem",
+      "GlowstoneSpeleothem",
+      "StoneSpeleothem",
+      "DeepslateSpeleothem",
+      "LigniteOre",
+      "NetherRubyOre",
+      "NetherRuby",
+      "NetherRubyBlock",
+      "RubyPickaxe",
+      "RubyAxe",
+      "RubySword",
+      "RubyShovel",
+      "RubyHoe",
+      "RubyArmor",
+      "NetherPyriteOre",
+      "RawPyrite",
+      "PyriteNugget",
+      "PyriteIngot",
+      "PyriteBlock",
+      "PyritePickaxe",
+      "PyriteAxe",
+      "PyriteSword",
+      "PyriteShovel",
+      "PyriteHoe",
+      "PyriteArmor",
+      "DiamondPyriteUpgradeSmithingTemplate",
+      "DiamondPyritePickaxe",
+      "DiamondPyriteAxe",
+      "DiamondPyriteSword",
+      "DiamondPyriteShovel",
+      "DiamondPyriteHoe",
+      "DiamondPyriteExcavator",
+      "DiamondPyriteArmour"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "biome.evenbetternether.gravel_desert": "Gravel Desert",
+      "block.evenbetternether.nycelium": "Nycelium",
+      "block.evenbetternether.nether_pyrite_ore": "Nether Pyrite Ore",
+      "item.evenbetternether.ruby_sword": "Ruby Sword",
+      "item.evenbetternether.ruby_pickaxe": "Ruby Pickaxe",
+      "item.evenbetternether.raw_pyrite": "Raw Pyrite",
+      "biome.evenbetternether.bone_reef": "Bone Reef",
+      "block.evenbetternether.mushroom_fence": "Nether Mushroom Fence",
+      "block.evenbetternether.smooth_bone_stairs": "Smooth Bone Stairs",
+      "block.evenbetternether.nether_ruby_block": "Block of Nether Ruby",
+      "block.evenbetternether.verdant_roots": "Verdant Roots",
+      "block.evenbetternether.burning_roots": "Burning Roots",
+      "block.evenbetternether.nether_agave": "Nether Agave",
+      "block.evenbetternether.barrel_cactus": "Barrel Cactus",
+      "block.evenbetternether.wither_bone_growths": "Wither Bone Growths",
+      "item.evenbetternether.diamond_pyrite_armour_chestplate": "Diamond Pyrite Chestplate",
+      "block.evenbetternether.nether_saguaro": "Nether Saguaro",
+      "item.evenbetternether.ruby_armor_leggings": "Ruby Leggings",
+      "item.evenbetternether.diamond_pyrite_axe": "Diamond Pyrite Axe",
+      "item.evenbetternether.ruby_armor_helmet": "Ruby Helmet",
+      "block.evenbetternether.smooth_bone_block": "Smooth Bone Block",
+      "block.evenbetternether.burning_sprouts": "Burning Sprouts",
+      "biome.evenbetternether.mushroom_forest": "Mushroom Forest",
+      "item.evenbetternether.diamond_pyrite_shovel": "Diamond Pyrite Shovel",
+      "item.evenbetternether.pyrite_pickaxe": "Pyrite Pickaxe",
+      "block.evenbetternether.mushroom_button": "Nether Mushroom Button",
+      "item.evenbetternether.pyrite_hoe": "Pyrite Hoe",
+      "item.evenbetternether.ruby_shovel": "Ruby Shovel",
+      "block.evenbetternether.bone_growths": "Bone Growths",
+      "block.evenbetternether.charred_sprouts": "Charred Sprouts",
+      "item.evenbetternether.pyrite_nugget": "Pyrite Nugget",
+      "biome.evenbetternether.withered_valley": "Withered Valley",
+      "item.evenbetternether.ruby_armor_chestplate": "Ruby Chestplate",
+      "block.evenbetternether.hanging_mycelium": "Hanging Mycelium",
+      "block.evenbetternether.soul_sprouts": "Soul Sprouts",
+      "block.evenbetternether.tall_nethershroom": "Tall Nethershroom",
+      "block.evenbetternether.nether_ruby_ore": "Nether Ruby Ore",
+      "item.evenbetternether.pyrite_armor_leggings": "Pyrite Leggings",
+      "item.evenbetternether.diamond_pyrite_armour_boots": "Diamond Pyrite Boots",
+      "item.evenbetternether.ruby_axe": "Ruby Axe",
+      "block.evenbetternether.nethershroom": "Nethershroom",
+      "block.evenbetternether.verdant_sprouts": "Verdant Sprouts",
+      "block.evenbetternether.lignite_ore": "Lignite Ore",
+      "block.evenbetternether.bulbous_hanging_mycelium": "Long Hanging Mycelium",
+      "item.evenbetternether.ruby_armor_boots": "Ruby Boots",
+      "block.evenbetternether.netherrack_speleothem": "Netherrack Speleothem",
+      "item.evenbetternether.diamond_pyrite_armour_leggings": "Diamond Pyrite Leggings",
+      "item.evenbetternether.diamond_pyrite_upgrade_smithing_template": "Diamond Pyrite Upgrade Smithing Template",
+      "block.evenbetternether.basalt_speleothem": "Basalt Speleothem",
+      "item.evenbetternether.nether_ruby": "Nether Ruby",
+      "item.evenbetternether.diamond_pyrite_armour_helmet": "Diamond Pyrite Helmet",
+      "block.evenbetternether.nether_mushroom_cap": "Red Nether Mushroom Cap",
+      "block.evenbetternether.mushroom_planks": "Nether Mushroom Planks",
+      "item.evenbetternether.diamond_pyrite_sword": "Diamond Pyrite Sword",
+      "item.evenbetternether.pyrite_armor_helmet": "Pyrite Helmet",
+      "block.evenbetternether.deepslate_speleothem": "Deepslate Speleothem",
+      "item.evenbetternether.diamond_pyrite_hoe": "Diamond Pyrite Hoe",
+      "block.evenbetternether.glowstone_speleothem": "Netherrack Speleothem",
+      "block.evenbetternether.blackstone_speleothem": "Blackstone Speleothem",
+      "block.evenbetternether.brown_nether_mushroom_cap": "Brown Nether Mushroom Cap",
+      "item.evenbetternether.pyrite_axe": "Pyrite Axe",
+      "block.evenbetternether.bone_speleothem": "Bone Speleothem",
+      "block.evenbetternether.mushroom_trapdoor": "Nether Mushroom Trapdoor",
+      "item.evenbetternether.diamond_pyrite_excavator": "Diamond Pyrite Excavator",
+      "block.evenbetternether.withered_nylium": "Withered Nylium",
+      "block.evenbetternether.stripped_mushroom_wood": "Stripped Nether Mushroom Hyphae",
+      "block.evenbetternether.mushroom_fence_gate": "Nether Mushroom Fence Gate",
+      "item.evenbetternether.pyrite_ingot": "Pyrite Ingot",
+      "block.evenbetternether.mushroom_stairs": "Nether Mushroom Stairs",
+      "block.evenbetternether.verdant_nylium": "Verdant Nylium",
+      "block.evenbetternether.smooth_bone_wall": "Smooth Bone Wall",
+      "item.evenbetternether.ruby_hoe": "Ruby Hoe",
+      "block.evenbetternether.fungal_sprouts": "Fungal Sprouts",
+      "item.evenbetternether.pyrite_sword": "Pyrite Sword",
+      "item.evenbetternether.pyrite_armor_chestplate": "Pyrite Chestplate",
+      "block.evenbetternether.stone_speleothem": "Stone Speleothem",
+      "item.evenbetternether.pyrite_shovel": "Pyrite Shovel",
+      "block.evenbetternether.mushroom_wood": "Nether Mushroom Hyphae",
+      "item_group.evenbetternether.even_better_nether_tab": "Even Better Nether",
+      "block.evenbetternether.pyrite_block": "Block of Pyrite",
+      "block.evenbetternether.stripped_mushroom_log": "Stripped Nether Mushroom Stem",
+      "block.evenbetternether.mushroom_pressure_plate": "Nether Mushroom Pressure Plate",
+      "block.evenbetternether.mushroom_door": "Nether Mushroom Door",
+      "item.evenbetternether.pyrite_armor_boots": "Pyrite Boots",
+      "block.evenbetternether.feather_fern": "Feather Fern",
+      "item.evenbetternether.diamond_pyrite_pickaxe": "Diamond Pyrite Pickaxe",
+      "block.evenbetternether.smooth_bone_slab": "Smooth Bone Slab",
+      "block.evenbetternether.mushroom_log": "Nether Mushroom Stem",
+      "block.evenbetternether.fungal_roots": "Fungal Roots",
+      "block.evenbetternether.long_hanging_mycelium": "Long Hanging Mycelium",
+      "block.evenbetternether.mushroom_slab": "Nether Mushroom Slab",
+      "block.evenbetternether.soul_roots": "Soul Roots"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "evenbetternether",
+    "modName": "Even Better Nether",
+    "version": "1.0.1",
+    "author": "Autumn",
+    "websiteURL": "https://ko-fi.com/autumnly",
+    "license": "All Rights Reserved",
+    "serverSideOnly": false,
+    "modPicture": "even_better_nether_logo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "jei"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created by Autumnly24, inspired by Better Nether",
+    "modElementsPackage": "net.mcreator.evenbetternether"
+  },
+  "mcreatorVersion": 202400232117
+}

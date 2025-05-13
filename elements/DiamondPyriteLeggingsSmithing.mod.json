@@ -1,0 +1,28 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:PyriteArmor.legs"
+    },
+    "smithingInputAdditionStack": {
+      "value": "Items.DIAMOND"
+    },
+    "smithingInputTemplateStack": {
+      "value": "CUSTOM:DiamondPyriteUpgradeSmithingTemplate"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:DiamondPyriteArmour.legs"
+    },
+    "name": "diamond_pyrite_leggings_smithing",
+    "namespace": "mod"
+  }
+}

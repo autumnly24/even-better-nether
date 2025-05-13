@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "evenbetternether:block/hanging_mycelium",
+    "particle": "evenbetternether:block/hanging_mycelium"
+  },
+  "render_type": "cutout"
+}

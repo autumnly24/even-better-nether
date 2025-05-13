@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "evenbetternether:block/fungal_roots",
+    "particle": "evenbetternether:block/fungal_roots"
+  },
+  "render_type": "cutout"
+}

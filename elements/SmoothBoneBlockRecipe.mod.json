@@ -1,0 +1,22 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "BLOCKS",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "Blocks.BONE_BLOCK"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:SmoothBoneBlock"
+    },
+    "name": "smooth_bone_block_recipe",
+    "namespace": "mod"
+  }
+}

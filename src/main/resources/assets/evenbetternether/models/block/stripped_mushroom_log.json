@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "evenbetternether:block/stripped_mushroom_stem_top",
+    "up": "evenbetternether:block/stripped_mushroom_stem_top",
+    "north": "evenbetternether:block/stripped_mushroom_stem_side",
+    "east": "evenbetternether:block/stripped_mushroom_stem_side",
+    "south": "evenbetternether:block/stripped_mushroom_stem_side",
+    "west": "evenbetternether:block/stripped_mushroom_stem_side",
+    "particle": "evenbetternether:block/stripped_mushroom_stem_top"
+  },
+  "render_type": "solid"
+}

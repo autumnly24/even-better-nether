@@ -1,0 +1,103 @@
+{
+  "_fv": 66,
+  "_type": "plant",
+  "definition": {
+    "renderType": 12,
+    "texture": "nether_saguaro_top",
+    "textureBottom": "nether_saguaro_bottom",
+    "customModelName": "Cross model",
+    "itemTexture": "nether_saguaro_top",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "plantType": "double",
+    "suspiciousStewEffect": "SPEED",
+    "suspiciousStewDuration": 0,
+    "growapableSpawnType": "Nether",
+    "growapableMaxHeight": 3,
+    "customBoundingBox": true,
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 4.0,
+        "my": 0.0,
+        "mz": 4.0,
+        "Mx": 12.0,
+        "My": 16.0,
+        "Mz": 12.0,
+        "subtract": false
+      }
+    ],
+    "name": "Nether Saguaro",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:EvenBetterNetherTab"
+      }
+    ],
+    "hardness": 0.1,
+    "resistance": 0.0,
+    "luminance": 0,
+    "unbreakable": false,
+    "isSolid": false,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "NETHER_WART"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "useLootTableForDrops": false,
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "forceTicking": false,
+    "emissiveRendering": false,
+    "hasTileEntity": false,
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "XZ",
+    "aiPathNodeType": "DAMAGE_OTHER",
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "jumpFactor": 1.0,
+    "speedFactor": 1.0,
+    "canBePlacedOn": [
+      {
+        "value": "Blocks.GRAVEL"
+      }
+    ],
+    "isBonemealable": false,
+    "frequencyOnChunks": 32,
+    "generateFeature": true,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:GravelDesert"
+      }
+    ],
+    "generationType": "Flower",
+    "patchSize": 64,
+    "generateAtAnyHeight": true,
+    "onEntityCollides": {
+      "name": "BarrelCactusEntityCollidesInTheBlock"
+    }
+  }
+}

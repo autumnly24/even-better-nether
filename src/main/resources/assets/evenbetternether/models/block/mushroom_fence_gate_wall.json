@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_fence_gate_wall",
+  "textures": {
+    "particle": "evenbetternether:block/mushroom_planks",
+    "texture": "evenbetternether:block/mushroom_planks"
+  },
+  "render_type": "solid"
+}

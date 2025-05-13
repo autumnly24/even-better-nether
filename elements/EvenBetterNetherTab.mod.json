@@ -1,0 +1,11 @@
+{
+  "_fv": 66,
+  "_type": "tab",
+  "definition": {
+    "name": "Even Better Nether",
+    "icon": {
+      "value": "CUSTOM:VerdantNylium"
+    },
+    "showSearch": false
+  }
+}

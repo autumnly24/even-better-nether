@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "evenbetternether:block/nether_saguaro"
+    },
+    "half=lower": {
+      "model": "evenbetternether:block/nether_saguaro_bottom"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "evenbetternether:custom/speleothem",
+  "textures": {
+    "all": "minecraft:block/bone_block_side",
+    "particle": "minecraft:block/bone_block_side",
+    "1": "minecraft:block/bone_block_side"
+  },
+  "render_type": "solid"
+}

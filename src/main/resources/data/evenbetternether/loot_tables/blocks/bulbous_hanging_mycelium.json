@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "evenbetternether:blocks/bulbous_hanging_mycelium",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "evenbetternether:bulbous_hanging_mycelium"
+        }
+      ]
+    }
+  ]
+}

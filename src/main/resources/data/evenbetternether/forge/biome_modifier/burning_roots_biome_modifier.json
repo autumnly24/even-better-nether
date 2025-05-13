@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "evenbetternether:withered_valley",
+  "features": "evenbetternether:burning_roots",
+  "step": "vegetal_decoration"
+}

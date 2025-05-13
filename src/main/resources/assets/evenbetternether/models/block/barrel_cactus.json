@@ -1,0 +1,9 @@
+{
+  "parent": "evenbetternether:custom/barrel_cactus",
+  "textures": {
+    "all": "evenbetternether:block/barrel_cactus",
+    "particle": "evenbetternether:block/barrel_cactus",
+    "1": "evenbetternether:block/barrel_cactus"
+  },
+  "render_type": "solid"
+}

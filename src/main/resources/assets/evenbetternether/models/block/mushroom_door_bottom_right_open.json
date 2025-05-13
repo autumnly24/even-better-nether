@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_bottom_right_open",
+  "textures": {
+    "particle": "evenbetternether:block/mushroom_door_bottom",
+    "bottom": "evenbetternether:block/mushroom_door_bottom",
+    "top": "evenbetternether:block/mushroom_door_top"
+  },
+  "render_type": "cutout"
+}

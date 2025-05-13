@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:PyriteNugget"
+      },
+      {
+        "value": "CUSTOM:PyriteNugget"
+      },
+      {
+        "value": "CUSTOM:PyriteNugget"
+      },
+      {
+        "value": "CUSTOM:PyriteNugget"
+      },
+      {
+        "value": "CUSTOM:PyriteNugget"
+      },
+      {
+        "value": "CUSTOM:PyriteNugget"
+      },
+      {
+        "value": "CUSTOM:PyriteNugget"
+      },
+      {
+        "value": "CUSTOM:PyriteNugget"
+      },
+      {
+        "value": "CUSTOM:PyriteNugget"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PyriteIngot"
+    },
+    "name": "pyrite_nuggets_to_ingot",
+    "namespace": "mod"
+  }
+}

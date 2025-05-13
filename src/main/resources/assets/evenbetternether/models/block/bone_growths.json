@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "evenbetternether:block/bone_growths",
+    "particle": "evenbetternether:block/bone_growths"
+  },
+  "render_type": "cutout"
+}

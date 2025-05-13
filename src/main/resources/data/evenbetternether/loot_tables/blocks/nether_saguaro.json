@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "evenbetternether:blocks/nether_saguaro",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "evenbetternether:nether_saguaro",
+          "conditions": [
+            {
+              "block": "evenbetternether:nether_saguaro",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

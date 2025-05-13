@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:huge_brown_mushroom",
+  "config": {
+    "cap_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "evenbetternether:nether_mushroom_cap"
+      }
+    },
+    "stem_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "evenbetternether:mushroom_log"
+      }
+    },
+    "foliage_radius": 3
+  }
+}

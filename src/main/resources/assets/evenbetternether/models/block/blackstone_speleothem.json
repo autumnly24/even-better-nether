@@ -1,0 +1,9 @@
+{
+  "parent": "evenbetternether:custom/speleothem",
+  "textures": {
+    "all": "minecraft:block/blackstone",
+    "particle": "minecraft:block/blackstone",
+    "1": "minecraft:block/blackstone"
+  },
+  "render_type": "solid"
+}

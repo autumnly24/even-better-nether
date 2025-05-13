@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "evenbetternether:block/tall_nethershroom"
+    },
+    "half=lower": {
+      "model": "evenbetternether:block/tall_nethershroom_bottom"
+    }
+  }
+}

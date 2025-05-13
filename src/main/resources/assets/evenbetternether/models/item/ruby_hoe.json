@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "evenbetternether:item/ruby_hoe"
+  }
+}

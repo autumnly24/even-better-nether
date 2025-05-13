@@ -1,0 +1,9 @@
+{
+  "parent": "evenbetternether:custom/speleothem",
+  "textures": {
+    "all": "minecraft:block/deepslate",
+    "particle": "minecraft:block/deepslate",
+    "1": "minecraft:block/deepslate"
+  },
+  "render_type": "solid"
+}

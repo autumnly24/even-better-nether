@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "evenbetternether:block/smooth_bone_block",
+    "bottom": "evenbetternether:block/smooth_bone_block",
+    "top": "evenbetternether:block/smooth_bone_block",
+    "side": "evenbetternether:block/smooth_bone_block"
+  },
+  "render_type": "solid"
+}

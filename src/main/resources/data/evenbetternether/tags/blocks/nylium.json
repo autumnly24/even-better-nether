@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "evenbetternether:verdant_nylium",
+    "minecraft:warped_nylium",
+    "minecraft:crimson_nylium",
+    "evenbetternether:nycelium",
+    "evenbetternether:withered_nylium"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "evenbetternether:block/verdant_sprouts",
+    "particle": "evenbetternether:block/verdant_sprouts"
+  },
+  "render_type": "cutout"
+}

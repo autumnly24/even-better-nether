@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "evenbetternether:mushroom_forest",
+  "features": "evenbetternether:nethershroom_featuure",
+  "step": "surface_structures"
+}

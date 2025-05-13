@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "evenbetternether:mushroom_planks"
+    }
+  ],
+  "result": {
+    "item": "evenbetternether:mushroom_button",
+    "count": 1
+  }
+}

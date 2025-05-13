@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "evenbetternether:block/mushroom_log_top",
+    "up": "evenbetternether:block/mushroom_log_top",
+    "north": "evenbetternether:block/mushroom_log_side",
+    "east": "evenbetternether:block/mushroom_log_side",
+    "south": "evenbetternether:block/mushroom_log_side",
+    "west": "evenbetternether:block/mushroom_log_side",
+    "particle": "evenbetternether:block/mushroom_log_top"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/netherrack",
+    "up": "evenbetternether:block/withered_nylium_top",
+    "north": "evenbetternether:block/withered_nylium",
+    "east": "evenbetternether:block/withered_nylium",
+    "south": "evenbetternether:block/withered_nylium",
+    "west": "evenbetternether:block/withered_nylium",
+    "particle": "minecraft:block/netherrack"
+  },
+  "render_type": "solid"
+}

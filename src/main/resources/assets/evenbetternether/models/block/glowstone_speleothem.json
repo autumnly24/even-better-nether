@@ -1,0 +1,9 @@
+{
+  "parent": "evenbetternether:custom/speleothem",
+  "textures": {
+    "all": "minecraft:block/glowstone",
+    "particle": "minecraft:block/glowstone",
+    "1": "minecraft:block/glowstone"
+  },
+  "render_type": "solid"
+}

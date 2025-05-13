@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_nether",
+  "features": "evenbetternether:netherrack_stalagtite",
+  "step": "top_layer_modification"
+}

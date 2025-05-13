@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "evenbetternether:blocks/fungal_sprouts",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "evenbetternether:fungal_sprouts"
+        }
+      ]
+    }
+  ]
+}

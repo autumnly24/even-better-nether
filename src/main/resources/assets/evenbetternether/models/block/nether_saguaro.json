@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "evenbetternether:block/nether_saguaro_top",
+    "particle": "evenbetternether:block/nether_saguaro_top"
+  },
+  "render_type": "cutout"
+}

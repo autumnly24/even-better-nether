@@ -1,0 +1,10 @@
+{
+  "type": "evenbetternether:evenbetternether_loot_modifier",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/nether_bridge"
+    }
+  ],
+  "lootTable": "evenbetternether:chests/diamond_pyrite_template_loot"
+}

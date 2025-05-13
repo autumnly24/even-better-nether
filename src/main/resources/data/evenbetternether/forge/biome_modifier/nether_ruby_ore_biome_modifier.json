@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_nether",
+  "features": "evenbetternether:nether_ruby_ore",
+  "step": "underground_ores"
+}

@@ -1,0 +1,22 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:BarrelCactus"
+    },
+    "smeltingReturnStack": {
+      "value": "Items.DYE#18"
+    },
+    "name": "barrel_cactus_smelting",
+    "namespace": "mod"
+  }
+}

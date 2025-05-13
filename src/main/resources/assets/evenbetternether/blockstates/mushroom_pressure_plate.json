@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "evenbetternether:block/mushroom_pressure_plate"
+    },
+    "powered=true": {
+      "model": "evenbetternether:block/mushroom_pressure_plate_down"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:NetherSaguaro"
+    },
+    "smeltingReturnStack": {
+      "value": "Items.DYE#5"
+    },
+    "name": "saguaro_smelting",
+    "namespace": "mod"
+  }
+}

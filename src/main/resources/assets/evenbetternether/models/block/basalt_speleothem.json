@@ -1,0 +1,9 @@
+{
+  "parent": "evenbetternether:custom/speleothem",
+  "textures": {
+    "all": "minecraft:block/basalt_side",
+    "particle": "minecraft:block/basalt_side",
+    "1": "minecraft:block/basalt_side"
+  },
+  "render_type": "solid"
+}
