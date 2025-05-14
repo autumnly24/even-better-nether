@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "evenbetternether:bone_reef",
+  "features": "evenbetternether:bone_growths",
+  "step": "vegetal_decoration"
+}

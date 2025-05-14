@@ -1,6 +1,0 @@
-{
-  "type": "neoforge:add_features",
-  "biomes": "evenbetternether:withered_valley",
-  "features": "evenbetternether:burning_sprouts",
-  "step": "vegetal_decoration"
-}

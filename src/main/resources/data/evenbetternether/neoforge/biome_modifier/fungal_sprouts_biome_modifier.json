@@ -1,6 +1,0 @@
-{
-  "type": "neoforge:add_features",
-  "biomes": "evenbetternether:mushroom_forest",
-  "features": "evenbetternether:fungal_sprouts",
-  "step": "vegetal_decoration"
-}

@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "evenbetternether:carved_pyrite_wall",
+    "evenbetternether:pyrite_wall",
     "evenbetternether:smooth_bone_wall"
   ]
 }

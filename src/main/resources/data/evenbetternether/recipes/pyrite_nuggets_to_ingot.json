@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "evenbetternether:pyrite_nugget"
+    }
+  },
+  "result": {
+    "item": "evenbetternether:pyrite_ingot",
+    "count": 1
+  }
+}

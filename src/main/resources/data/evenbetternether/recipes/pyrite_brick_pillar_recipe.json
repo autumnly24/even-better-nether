@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "evenbetternether:pyrite_bricks"
+    }
+  },
+  "result": {
+    "item": "evenbetternether:pyrite_brick_pillar",
+    "count": 2
+  }
+}

@@ -13,7 +13,7 @@ import net.minecraft.core.BlockPos;
 
 public class MushroomPressurePlateBlock extends PressurePlateBlock {
 	public MushroomPressurePlateBlock() {
-		super(BlockSetType.OAK, BlockBehaviour.Properties.of().ignitedByLava().instrument(NoteBlockInstrument.BASS).mapColor(MapColor.COLOR_YELLOW).sound(SoundType.NETHER_WOOD).strength(2f, 3f).dynamicShape().forceSolidOn());
+		super(Sensitivity.EVERYTHING, BlockBehaviour.Properties.of().ignitedByLava().instrument(NoteBlockInstrument.BASS).mapColor(MapColor.COLOR_YELLOW).sound(SoundType.NETHER_WOOD).strength(2f, 3f).dynamicShape().forceSolidOn(), BlockSetType.OAK);
 	}
 
 	@Override

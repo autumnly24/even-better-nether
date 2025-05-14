@@ -9,20 +9,22 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
+import java.util.Map;
+
 public class VerdantNyliumOnTickUpdateProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		if (Math.random() > 0.3) {
 			if (!(world.getBlockState(BlockPos.containing(x, y + 1, z))).canBeReplaced() || world.getBlockState(BlockPos.containing(x, y + 1, z)).isFaceSturdy(world, BlockPos.containing(x, y + 1, z), Direction.DOWN)) {
-				if (!(world.getBlockState(BlockPos.containing(x, y + 1, z))).is(BlockTags.create(ResourceLocation.parse("evenbetternether:groundcover")))) {
+				if (!(world.getBlockState(BlockPos.containing(x, y + 1, z))).is(BlockTags.create(new ResourceLocation("evenbetternether:groundcover")))) {
 					{
 						BlockPos _bp = BlockPos.containing(x, y, z);
 						BlockState _bs = Blocks.NETHERRACK.defaultBlockState();
 						BlockState _bso = world.getBlockState(_bp);
-						for (Property<?> _propertyOld : _bso.getProperties()) {
-							Property _propertyNew = _bs.getBlock().getStateDefinition().getProperty(_propertyOld.getName());
-							if (_propertyNew != null && _bs.getValue(_propertyNew) != null)
+						for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
+							Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
+							if (_property != null && _bs.getValue(_property) != null)
 								try {
-									_bs = _bs.setValue(_propertyNew, _bso.getValue(_propertyOld));
+									_bs = _bs.setValue(_property, (Comparable) entry.getValue());
 								} catch (Exception e) {
 								}
 						}

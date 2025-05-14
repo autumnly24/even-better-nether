@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "aca",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "evenbetternether:pyrite_ingot"
+    },
+    "b": {
+      "item": "evenbetternether:diamond_pyrite_upgrade_smithing_template"
+    },
+    "c": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "evenbetternether:diamond_pyrite_upgrade_smithing_template",
+    "count": 2
+  }
+}

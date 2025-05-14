@@ -1,6 +1,0 @@
-{
-  "type": "neoforge:add_features",
-  "biomes": "evenbetternether:mushroom_forest",
-  "features": "evenbetternether:mushroom_forest_red_mushrooms",
-  "step": "surface_structures"
-}

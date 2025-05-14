@@ -13,7 +13,7 @@ import net.minecraft.core.BlockPos;
 
 public class MushroomButtonBlock extends ButtonBlock {
 	public MushroomButtonBlock() {
-		super(BlockSetType.OAK, 30, BlockBehaviour.Properties.of().ignitedByLava().instrument(NoteBlockInstrument.BASS).mapColor(MapColor.COLOR_YELLOW).sound(SoundType.NETHER_WOOD).strength(2f, 3f).dynamicShape());
+		super(BlockBehaviour.Properties.of().ignitedByLava().instrument(NoteBlockInstrument.BASS).mapColor(MapColor.COLOR_YELLOW).sound(SoundType.NETHER_WOOD).strength(2f, 3f).dynamicShape(), BlockSetType.OAK, 30, true);
 	}
 
 	@Override

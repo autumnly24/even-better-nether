@@ -1,6 +1,0 @@
-{
-  "type": "neoforge:add_features",
-  "biomes": "evenbetternether:gravel_desert",
-  "features": "evenbetternether:nether_saguaro",
-  "step": "vegetal_decoration"
-}

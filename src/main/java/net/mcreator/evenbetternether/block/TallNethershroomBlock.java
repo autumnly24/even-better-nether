@@ -1,10 +1,12 @@
 
 package net.mcreator.evenbetternether.block;
 
+import net.minecraftforge.common.PlantType;
+
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.Vec3;
-import net.minecraft.world.level.pathfinder.PathType;
+import net.minecraft.world.level.pathfinder.BlockPathTypes;
 import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.block.state.properties.DoubleBlockHalf;
@@ -32,8 +34,8 @@ public class TallNethershroomBlock extends DoublePlantBlock {
 	}
 
 	@Override
-	public PathType getBlockPathType(BlockState state, BlockGetter world, BlockPos pos, Mob entity) {
-		return PathType.DAMAGE_OTHER;
+	public BlockPathTypes getBlockPathType(BlockState state, BlockGetter world, BlockPos pos, Mob entity) {
+		return BlockPathTypes.DAMAGE_OTHER;
 	}
 
 	@Override
@@ -49,5 +51,10 @@ public class TallNethershroomBlock extends DoublePlantBlock {
 			return groundState.is(this) && groundState.getValue(HALF) == DoubleBlockHalf.LOWER;
 		else
 			return this.mayPlaceOn(groundState, worldIn, blockpos);
+	}
+
+	@Override
+	public PlantType getPlantType(BlockGetter world, BlockPos pos) {
+		return PlantType.CAVE;
 	}
 }

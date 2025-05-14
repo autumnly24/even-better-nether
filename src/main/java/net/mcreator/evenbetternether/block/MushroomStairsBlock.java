@@ -13,12 +13,17 @@ import net.minecraft.core.BlockPos;
 
 public class MushroomStairsBlock extends StairBlock {
 	public MushroomStairsBlock() {
-		super(Blocks.AIR.defaultBlockState(), BlockBehaviour.Properties.of().ignitedByLava().instrument(NoteBlockInstrument.BASS).mapColor(MapColor.COLOR_YELLOW).sound(SoundType.NETHER_WOOD).strength(3f, 2f).dynamicShape());
+		super(() -> Blocks.AIR.defaultBlockState(), BlockBehaviour.Properties.of().ignitedByLava().instrument(NoteBlockInstrument.BASS).mapColor(MapColor.COLOR_YELLOW).sound(SoundType.NETHER_WOOD).strength(3f, 2f).dynamicShape());
 	}
 
 	@Override
 	public float getExplosionResistance() {
 		return 2f;
+	}
+
+	@Override
+	public boolean isRandomlyTicking(BlockState state) {
+		return false;
 	}
 
 	@Override

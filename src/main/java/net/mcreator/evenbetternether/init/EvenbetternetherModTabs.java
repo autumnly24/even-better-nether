@@ -4,8 +4,8 @@
  */
 package net.mcreator.evenbetternether.init;
 
-import net.neoforged.neoforge.registries.DeferredRegister;
-import net.neoforged.neoforge.registries.DeferredHolder;
+import net.minecraftforge.registries.RegistryObject;
+import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTab;
@@ -16,7 +16,7 @@ import net.mcreator.evenbetternether.EvenbetternetherMod;
 
 public class EvenbetternetherModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, EvenbetternetherMod.MODID);
-	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> EVEN_BETTER_NETHER_TAB = REGISTRY.register("even_better_nether_tab",
+	public static final RegistryObject<CreativeModeTab> EVEN_BETTER_NETHER_TAB = REGISTRY.register("even_better_nether_tab",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.evenbetternether.even_better_nether_tab")).icon(() -> new ItemStack(EvenbetternetherModBlocks.VERDANT_NYLIUM.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(EvenbetternetherModBlocks.VERDANT_NYLIUM.get().asItem());
 				tabData.accept(EvenbetternetherModBlocks.VERDANT_ROOTS.get().asItem());

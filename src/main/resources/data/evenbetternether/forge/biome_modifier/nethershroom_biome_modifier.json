@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "evenbetternether:mushroom_forest",
+  "features": "evenbetternether:nethershroom",
+  "step": "vegetal_decoration"
+}

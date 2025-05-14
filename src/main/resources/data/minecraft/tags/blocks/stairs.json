@@ -1,6 +1,11 @@
 {
   "replace": false,
   "values": [
+    "evenbetternether:pyrite_brick_stairs",
+    "evenbetternether:carved_pyrite_stairs",
+    "evenbetternether:pyrite_roofing_stairs",
+    "evenbetternether:pyrite_tile_stairs",
+    "evenbetternether:pyrite_stairs",
     "evenbetternether:mushroom_stairs",
     "evenbetternether:smooth_bone_stairs"
   ]
