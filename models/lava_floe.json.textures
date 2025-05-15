@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": ""
+      },
+      "name": "default"
+    },
+    "sparse": {
+      "map": {
+        "1": "lava_floe_large"
+      },
+      "name": "sparse"
+    },
+    "dense": {
+      "map": {
+        "1": "lava_floe_small"
+      },
+      "name": "dense"
+    }
+  }
+}

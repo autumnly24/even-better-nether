@@ -1,0 +1,48 @@
+{
+  "_fv": 69,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:NetherReedPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:NetherReedPlanks"
+      },
+      {
+        "value": "CUSTOM:NetherReedPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:NetherReedPlanks"
+      },
+      {
+        "value": "CUSTOM:NetherReedPlanks"
+      },
+      {
+        "value": "CUSTOM:NetherReedPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:NetherReedStairs"
+    },
+    "name": "nether_reed_stairs_recipe",
+    "namespace": "mod"
+  }
+}

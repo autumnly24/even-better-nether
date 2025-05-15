@@ -3398,6 +3398,1000 @@
           "src/main/resources/data/evenbetternether/worldgen/template_pool/nether_dungeon.json"
         ]
       }
+    },
+    {
+      "name": "SoulFarmland",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_farmland",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/soul_farmland.json",
+          "src/main/resources/assets/evenbetternether/models/item/soul_farmland.json",
+          "src/main/resources/assets/evenbetternether/blockstates/soul_farmland.json",
+          "src/main/java/net/mcreator/evenbetternether/block/SoulFarmlandBlock.java",
+          "src/main/resources/assets/evenbetternether/models/block/soul_farmland.json"
+        ]
+      }
+    },
+    {
+      "name": "TillSoulSand",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "till_soul_sand",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/procedures/TillSoulSandProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DenseLavaFloe",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dense_lava_floe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/item/dense_lava_floe.json",
+          "src/main/resources/assets/evenbetternether/models/block/dense_lava_floe.json",
+          "src/main/resources/assets/evenbetternether/blockstates/dense_lava_floe.json",
+          "src/main/java/net/mcreator/evenbetternether/block/DenseLavaFloeBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "MagmaPatchLava",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magma_patch_lava",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/magma_patch_lava_biome_modifier.json",
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/magma_patch_lava.json",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/magma_patch_lava.json"
+        ]
+      }
+    },
+    {
+      "name": "SparseLavaFloe",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sparse_lava_floe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/block/SparseLavaFloeBlock.java",
+          "src/main/resources/assets/evenbetternether/models/block/sparse_lava_floe.json",
+          "src/main/resources/assets/evenbetternether/models/item/sparse_lava_floe.json",
+          "src/main/resources/assets/evenbetternether/blockstates/sparse_lava_floe.json"
+        ]
+      }
+    },
+    {
+      "name": "DenseLavaFloePatch",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dense_lava_floe_patch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/dense_lava_floe_patch_biome_modifier.json",
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/dense_lava_floe_patch.json",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/dense_lava_floe_patch.json"
+        ]
+      }
+    },
+    {
+      "name": "SparseLavaFloePatch",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sparse_lava_floe_patch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/sparse_lava_floe_patch.json",
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/sparse_lava_floe_patch_biome_modifier.json",
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/sparse_lava_floe_patch.json"
+        ]
+      }
+    },
+    {
+      "name": "DenseLavaFloeEntityWalksOnTheBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dense_lava_floe_entity_walks_on_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/procedures/DenseLavaFloeEntityWalksOnTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SparseLavaFloeEntityWalksOnTheBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sparse_lava_floe_entity_walks_on_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/procedures/SparseLavaFloeEntityWalksOnTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NetherReed",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_reed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/block/NetherReedBlock.java",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/nether_reed.json",
+          "src/main/resources/assets/evenbetternether/models/block/nether_reed.json",
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/nether_reed.json",
+          "src/main/resources/assets/evenbetternether/models/item/nether_reed.json",
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/nether_reed_biome_modifier.json",
+          "src/main/resources/assets/evenbetternether/blockstates/nether_reed.json",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/nether_reed.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherReedBundle",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_reed_bundle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/block/NetherReedBundleBlock.java",
+          "src/main/resources/assets/evenbetternether/blockstates/nether_reed_bundle.json",
+          "src/main/resources/assets/evenbetternether/models/item/nether_reed_bundle.json",
+          "src/main/resources/assets/evenbetternether/models/block/nether_reed_bundle.json",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/nether_reed_bundle.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherReedPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_reed_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/blockstates/nether_reed_planks.json",
+          "src/main/resources/assets/evenbetternether/models/block/nether_reed_planks.json",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/nether_reed_planks.json",
+          "src/main/java/net/mcreator/evenbetternether/block/NetherReedPlanksBlock.java",
+          "src/main/resources/assets/evenbetternether/models/item/nether_reed_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherReedStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_reed_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/block/nether_reed_stairs.json",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/nether_reed_stairs.json",
+          "src/main/java/net/mcreator/evenbetternether/block/NetherReedStairsBlock.java",
+          "src/main/resources/assets/evenbetternether/models/block/nether_reed_stairs_outer.json",
+          "src/main/resources/assets/evenbetternether/models/item/nether_reed_stairs.json",
+          "src/main/resources/assets/evenbetternether/models/block/nether_reed_stairs_inner.json",
+          "src/main/resources/assets/evenbetternether/blockstates/nether_reed_stairs.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherReedSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_reed_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/block/nether_reed_slab_full.json",
+          "src/main/java/net/mcreator/evenbetternether/block/NetherReedSlabBlock.java",
+          "src/main/resources/assets/evenbetternether/models/block/nether_reed_slab_top.json",
+          "src/main/resources/assets/evenbetternether/models/block/nether_reed_slab.json",
+          "src/main/resources/assets/evenbetternether/models/item/nether_reed_slab.json",
+          "src/main/resources/assets/evenbetternether/blockstates/nether_reed_slab.json",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/nether_reed_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherReedFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_reed_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/item/nether_reed_fence.json",
+          "src/main/resources/assets/evenbetternether/models/block/nether_reed_fence_inventory.json",
+          "src/main/resources/assets/evenbetternether/models/block/nether_reed_fence.json",
+          "src/main/resources/assets/evenbetternether/models/block/nether_reed_fence_post.json",
+          "src/main/resources/assets/evenbetternether/blockstates/nether_reed_fence.json",
+          "src/main/java/net/mcreator/evenbetternether/block/NetherReedFenceBlock.java",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/nether_reed_fence.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherReedFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_reed_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/block/nether_reed_fence_gate_open.json",
+          "src/main/resources/assets/evenbetternether/models/item/nether_reed_fence_gate.json",
+          "src/main/resources/assets/evenbetternether/models/block/nether_reed_fence_gate_wall.json",
+          "src/main/java/net/mcreator/evenbetternether/block/NetherReedFenceGateBlock.java",
+          "src/main/resources/assets/evenbetternether/blockstates/nether_reed_fence_gate.json",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/nether_reed_fence_gate.json",
+          "src/main/resources/assets/evenbetternether/models/block/nether_reed_fence_gate_wall_open.json",
+          "src/main/resources/assets/evenbetternether/models/block/nether_reed_fence_gate.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherReedPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_reed_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/item/nether_reed_pressure_plate.json",
+          "src/main/resources/assets/evenbetternether/blockstates/nether_reed_pressure_plate.json",
+          "src/main/resources/assets/evenbetternether/models/block/nether_reed_pressure_plate_down.json",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/nether_reed_pressure_plate.json",
+          "src/main/java/net/mcreator/evenbetternether/block/NetherReedPressurePlateBlock.java",
+          "src/main/resources/assets/evenbetternether/models/block/nether_reed_pressure_plate.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherReedButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_reed_button",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/block/NetherReedButtonBlock.java",
+          "src/main/resources/assets/evenbetternether/models/item/nether_reed_button.json",
+          "src/main/resources/assets/evenbetternether/models/block/nether_reed_button_inventory.json",
+          "src/main/resources/assets/evenbetternether/blockstates/nether_reed_button.json",
+          "src/main/resources/assets/evenbetternether/models/block/nether_reed_button_pressed.json",
+          "src/main/resources/assets/evenbetternether/models/block/nether_reed_button.json",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/nether_reed_button.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherReedMosaic",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_reed_mosaic",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/item/nether_reed_mosaic.json",
+          "src/main/java/net/mcreator/evenbetternether/block/NetherReedMosaicBlock.java",
+          "src/main/resources/assets/evenbetternether/models/block/nether_reed_mosaic.json",
+          "src/main/resources/assets/evenbetternether/blockstates/nether_reed_mosaic.json",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/nether_reed_mosaic.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherReedDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_reed_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/blockstates/nether_reed_door.json",
+          "src/main/resources/assets/evenbetternether/models/block/nether_reed_door_bottom_left.json",
+          "src/main/java/net/mcreator/evenbetternether/block/NetherReedDoorBlock.java",
+          "src/main/resources/assets/evenbetternether/models/block/nether_reed_door_top_left.json",
+          "src/main/resources/assets/evenbetternether/models/block/nether_reed_door_top_left_open.json",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/nether_reed_door.json",
+          "src/main/resources/assets/evenbetternether/models/block/nether_reed_door_top_right_open.json",
+          "src/main/resources/assets/evenbetternether/models/block/nether_reed_door_bottom_right_open.json",
+          "src/main/resources/assets/evenbetternether/models/item/nether_reed_door.json",
+          "src/main/resources/assets/evenbetternether/models/block/nether_reed_door_top_right.json",
+          "src/main/resources/assets/evenbetternether/models/block/nether_reed_door_bottom_right.json",
+          "src/main/resources/assets/evenbetternether/models/block/nether_reed_door_bottom_left_open.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherReedTrapdoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_reed_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/item/nether_reed_trapdoor.json",
+          "src/main/resources/assets/evenbetternether/models/block/nether_reed_trapdoor_open.json",
+          "src/main/resources/assets/evenbetternether/blockstates/nether_reed_trapdoor.json",
+          "src/main/resources/assets/evenbetternether/models/block/nether_reed_trapdoor.json",
+          "src/main/java/net/mcreator/evenbetternether/block/NetherReedTrapdoorBlock.java",
+          "src/main/resources/assets/evenbetternether/models/block/nether_reed_trapdoor_top.json",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/nether_reed_trapdoor.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherReedAdditionalPlacinggrowthCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_reed_additional_placinggrowth_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/procedures/NetherReedAdditionalPlacinggrowthConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WaterFromBarrelCactus",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_from_barrel_cactus",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/recipes/brewing/WaterFromBarrelCactusBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "NetherrackPatchLavaMagma",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherrack_patch_lava_magma",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/worldgen/configured_feature/netherrack_patch_lava_magma.json",
+          "src/main/resources/data/evenbetternether/worldgen/placed_feature/netherrack_patch_lava_magma.json",
+          "src/main/resources/data/evenbetternether/forge/biome_modifier/netherrack_patch_lava_magma_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherReedBundleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_reed_bundle_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/nether_reed_bundle_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherReedPlanksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_reed_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/nether_reed_planks_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherReedToSticks",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_reed_to_sticks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/nether_reed_to_sticks.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherReedToPaper",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_reed_to_paper",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/nether_reed_to_paper.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherReedStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_reed_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/nether_reed_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherReedSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_reed_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/nether_reed_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherReedFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_reed_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/nether_reed_fence_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherReedFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_reed_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/nether_reed_fence_gate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherReedPressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_reed_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/nether_reed_pressure_plate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherReedButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_reed_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/nether_reed_button_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherReedDoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_reed_door_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/nether_reed_door_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherReedTrapdoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_reed_trapdoor_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/nether_reed_trapdoor_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherReedMosaicRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_reed_mosaic_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/recipes/nether_reed_mosaic_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SpeltBlockValidPlacementCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spelt_block_valid_placement_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/procedures/SpeltBlockValidPlacementConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpeltSeedsRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spelt_seeds_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/procedures/SpeltSeedsRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpeltSeeds",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spelt_seeds",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/item/SpeltSeedsItem.java",
+          "src/main/resources/assets/evenbetternether/models/item/spelt_seeds.json"
+        ]
+      }
+    },
+    {
+      "name": "SpeltStage0",
+      "type": "block",
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "spelt_stage_0",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/blockstates/spelt_stage_0.json",
+          "src/main/java/net/mcreator/evenbetternether/block/SpeltStage0Block.java",
+          "src/main/resources/assets/evenbetternether/models/item/spelt_stage_0.json",
+          "src/main/resources/assets/evenbetternether/models/block/spelt_stage_0.json",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/spelt_stage_0.json"
+        ]
+      }
+    },
+    {
+      "name": "SpeltStage1",
+      "type": "block",
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "spelt_stage_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/block/spelt_stage_1.json",
+          "src/main/java/net/mcreator/evenbetternether/block/SpeltStage1Block.java",
+          "src/main/resources/assets/evenbetternether/models/item/spelt_stage_1.json",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/spelt_stage_1.json",
+          "src/main/resources/assets/evenbetternether/blockstates/spelt_stage_1.json"
+        ]
+      }
+    },
+    {
+      "name": "SpeltStage0OnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spelt_stage_0_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/procedures/SpeltStage0OnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpeltStage2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spelt_stage_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/spelt_stage_2.json",
+          "src/main/java/net/mcreator/evenbetternether/block/SpeltStage2Block.java",
+          "src/main/resources/assets/evenbetternether/models/item/spelt_stage_2.json",
+          "src/main/resources/assets/evenbetternether/models/block/spelt_stage_2.json",
+          "src/main/resources/assets/evenbetternether/blockstates/spelt_stage_2.json"
+        ]
+      }
+    },
+    {
+      "name": "SpeltStage3",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spelt_stage_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/block/SpeltStage3Block.java",
+          "src/main/resources/assets/evenbetternether/blockstates/spelt_stage_3.json",
+          "src/main/resources/assets/evenbetternether/models/item/spelt_stage_3.json",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/spelt_stage_3.json",
+          "src/main/resources/assets/evenbetternether/models/block/spelt_stage_3.json"
+        ]
+      }
+    },
+    {
+      "name": "SpeltStage4",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spelt_stage_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/item/spelt_stage_4.json",
+          "src/main/resources/assets/evenbetternether/models/block/spelt_stage_4.json",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/spelt_stage_4.json",
+          "src/main/resources/assets/evenbetternether/blockstates/spelt_stage_4.json",
+          "src/main/java/net/mcreator/evenbetternether/block/SpeltStage4Block.java"
+        ]
+      }
+    },
+    {
+      "name": "SpeltStage5",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spelt_stage_5",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/block/SpeltStage5Block.java",
+          "src/main/resources/assets/evenbetternether/models/block/spelt_stage_5.json",
+          "src/main/resources/assets/evenbetternether/models/item/spelt_stage_5.json",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/spelt_stage_5.json",
+          "src/main/resources/assets/evenbetternether/blockstates/spelt_stage_5.json"
+        ]
+      }
+    },
+    {
+      "name": "SpeltStage6",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spelt_stage_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/evenbetternether/models/item/spelt_stage_6.json",
+          "src/main/resources/assets/evenbetternether/models/block/spelt_stage_6.json",
+          "src/main/resources/assets/evenbetternether/blockstates/spelt_stage_6.json",
+          "src/main/java/net/mcreator/evenbetternether/block/SpeltStage6Block.java",
+          "src/main/resources/data/evenbetternether/loot_tables/blocks/spelt_stage_6.json"
+        ]
+      }
+    },
+    {
+      "name": "SpeltStage1OnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spelt_stage_1_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/procedures/SpeltStage1OnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpeltStage2OnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spelt_stage_2_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/procedures/SpeltStage2OnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpeltStage3OnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spelt_stage_3_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/procedures/SpeltStage3OnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpeltStage4OnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spelt_stage_4_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/procedures/SpeltStage4OnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpeltStage5OnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spelt_stage_5_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/procedures/SpeltStage5OnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpeltItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spelt_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/evenbetternether/item/SpeltItemItem.java",
+          "src/main/resources/assets/evenbetternether/models/item/spelt_item.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -3418,6 +4412,13 @@
       "~CUSTOM:VerdantRoots"
     ],
     "BLOCKS:minecraft:mineable/hoe": [
+      "~CUSTOM:SpeltStage6",
+      "~CUSTOM:SpeltStage5",
+      "~CUSTOM:SpeltStage4",
+      "~CUSTOM:SpeltStage3",
+      "~CUSTOM:SpeltStage2",
+      "~CUSTOM:SpeltStage1",
+      "~CUSTOM:SpeltStage0",
       "~CUSTOM:BulbousHangingMycelium",
       "~CUSTOM:LongHangingMycelium",
       "~CUSTOM:HangingMycelium",
@@ -3464,6 +4465,7 @@
       "~CUSTOM:BoneReef"
     ],
     "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:NetherReedSlab",
       "~CUSTOM:PyriteBrickSlab",
       "~CUSTOM:CarvedPyriteSlab",
       "~CUSTOM:PyriteRoofingSlab",
@@ -3483,6 +4485,7 @@
       "~CUSTOM:PyriteAxe"
     ],
     "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:NetherReedStairs",
       "~CUSTOM:PyriteBrickStairs",
       "~CUSTOM:CarvedPyriteStairs",
       "~CUSTOM:PyriteRoofingStairs",
@@ -3504,7 +4507,8 @@
       "CUSTOM:MushroomForest"
     ],
     "ITEMS:minecraft:planks": [
-      "CUSTOM:MushroomPlanks"
+      "CUSTOM:MushroomPlanks",
+      "CUSTOM:NetherReedPlanks"
     ],
     "BIOMES:minecraft:has_structure/nether_fortress": [
       "~CUSTOM:MushroomForest",
@@ -3528,6 +4532,8 @@
       "CUSTOM:Nycelium"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:SparseLavaFloe",
+      "~CUSTOM:DenseLavaFloe",
       "~CUSTOM:PyriteBrickPillar",
       "~CUSTOM:PyriteBrickSlab",
       "~CUSTOM:PyriteBrickStairs",
@@ -3568,6 +4574,17 @@
       "~CUSTOM:VerdantNylium"
     ],
     "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:NetherReedTrapdoor",
+      "~CUSTOM:NetherReedDoor",
+      "~CUSTOM:NetherReedMosaic",
+      "~CUSTOM:NetherReedButton",
+      "~CUSTOM:NetherReedPressurePlate",
+      "~CUSTOM:NetherReedFenceGate",
+      "~CUSTOM:NetherReedFence",
+      "~CUSTOM:NetherReedSlab",
+      "~CUSTOM:NetherReedStairs",
+      "~CUSTOM:NetherReedPlanks",
+      "~CUSTOM:NetherReedBundle",
       "~CUSTOM:StrippedMushroomWood",
       "~CUSTOM:StrippedMushroomLog",
       "~CUSTOM:MushroomTrapdoor",
@@ -3609,12 +4626,16 @@
       "Blocks.WARPED_FUNGUS"
     ],
     "BLOCKS:minecraft:fences": [
+      "~CUSTOM:NetherReedFence",
       "~CUSTOM:MushroomFence"
     ],
     "BLOCKS:minecraft:walls": [
       "~CUSTOM:CarvedPyriteWall",
       "~CUSTOM:PyriteWall",
       "~CUSTOM:SmoothBoneWall"
+    ],
+    "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:SoulFarmland"
     ],
     "ITEMS:minecraft:shovels": [
       "~CUSTOM:DiamondPyriteShovel",
@@ -3720,7 +4741,22 @@
       "PyriteBricks",
       "PyriteBrickStairs",
       "PyriteBrickSlab",
-      "PyriteBrickPillar"
+      "PyriteBrickPillar",
+      "DenseLavaFloe",
+      "SparseLavaFloe",
+      "NetherReedBundle",
+      "NetherReedPlanks",
+      "NetherReedStairs",
+      "NetherReedSlab",
+      "NetherReedFence",
+      "NetherReedFenceGate",
+      "NetherReedPressurePlate",
+      "NetherReedButton",
+      "NetherReedMosaic",
+      "NetherReedDoor",
+      "NetherReedTrapdoor",
+      "SpeltSeeds",
+      "SpeltItem"
     ]
   },
   "language_map": {
@@ -3728,13 +4764,13 @@
       "block.evenbetternether.nycelium": "Nycelium",
       "block.evenbetternether.nether_pyrite_ore": "Nether Pyrite Ore",
       "item.evenbetternether.ruby_sword": "Ruby Sword",
-      "block.evenbetternether.pyrite_brick_slab": "Pyrite Brick Slab",
-      "block.evenbetternether.pyrite_brick_stairs": "Pyrite Brick Stairs",
       "item.evenbetternether.raw_pyrite": "Raw Pyrite",
+      "block.evenbetternether.pyrite_brick_stairs": "Pyrite Brick Stairs",
+      "block.evenbetternether.pyrite_brick_slab": "Pyrite Brick Slab",
       "block.evenbetternether.nether_ruby_block": "Block of Nether Ruby",
       "block.evenbetternether.burning_roots": "Burning Roots",
-      "item.evenbetternether.diamond_pyrite_armour_chestplate": "Diamond Pyrite Chestplate",
       "block.evenbetternether.wither_bone_growths": "Wither Bone Growths",
+      "item.evenbetternether.diamond_pyrite_armour_chestplate": "Diamond Pyrite Chestplate",
       "block.evenbetternether.nether_saguaro": "Nether Saguaro",
       "item.evenbetternether.ruby_armor_helmet": "Ruby Helmet",
       "biome.evenbetternether.mushroom_forest": "Mushroom Forest",
@@ -3748,18 +4784,22 @@
       "item.evenbetternether.ruby_armor_chestplate": "Ruby Chestplate",
       "block.evenbetternether.hanging_mycelium": "Hanging Mycelium",
       "block.evenbetternether.carved_pyrite_wall": "Carved Pyrite Wall",
+      "block.evenbetternether.nether_reed_door": "Nether Reed Door",
       "block.evenbetternether.pyrite_lamp": "Pyrite Lamp",
-      "block.evenbetternether.nether_ruby_ore": "Nether Ruby Ore",
       "item.evenbetternether.pyrite_armor_leggings": "Pyrite Leggings",
-      "block.evenbetternether.verdant_sprouts": "Verdant Sprouts",
+      "block.evenbetternether.nether_ruby_ore": "Nether Ruby Ore",
+      "block.evenbetternether.nether_reed_mosaic": "Nether Reed Mosaic",
       "block.evenbetternether.lignite_ore": "Lignite Ore",
+      "block.evenbetternether.verdant_sprouts": "Verdant Sprouts",
       "block.evenbetternether.netherrack_speleothem": "Netherrack Speleothem",
       "item.evenbetternether.diamond_pyrite_upgrade_smithing_template": "Diamond Pyrite Upgrade Smithing Template",
       "block.evenbetternether.chiseled_pyrite": "Chiseled Pyrite",
+      "block.evenbetternether.soul_farmland": "Soul Farmland",
       "block.evenbetternether.basalt_speleothem": "Basalt Speleothem",
-      "block.evenbetternether.pyrite_wall": "Pyrite Wall",
       "item.evenbetternether.diamond_pyrite_armour_helmet": "Diamond Pyrite Helmet",
+      "block.evenbetternether.pyrite_wall": "Pyrite Wall",
       "block.evenbetternether.pyrite_bricks": "Pyrite Bricks",
+      "block.evenbetternether.nether_reed_slab": "Nether Reed Slab",
       "block.evenbetternether.pyrite_slab": "Pyrite Slab",
       "block.evenbetternether.mushroom_trapdoor": "Nether Mushroom Trapdoor",
       "item.evenbetternether.diamond_pyrite_excavator": "Diamond Pyrite Excavator",
@@ -3772,15 +4812,19 @@
       "block.evenbetternether.verdant_nylium": "Verdant Nylium",
       "block.evenbetternether.stone_speleothem": "Stone Speleothem",
       "block.evenbetternether.mushroom_wood": "Nether Mushroom Hyphae",
+      "block.evenbetternether.nether_reed_trapdoor": "Nether Reed Trapdoor",
       "item_group.evenbetternether.even_better_nether_tab": "Even Better Nether",
       "block.evenbetternether.pyrite_block": "Block of Pyrite",
       "block.evenbetternether.mushroom_door": "Nether Mushroom Door",
       "item.evenbetternether.pyrite_armor_boots": "Pyrite Boots",
       "block.evenbetternether.feather_fern": "Feather Fern",
+      "block.evenbetternether.nether_reed_stairs": "Nether Reed Stairs",
       "block.evenbetternether.smooth_bone_slab": "Smooth Bone Slab",
       "block.evenbetternether.mushroom_log": "Nether Mushroom Stem",
       "block.evenbetternether.pyrite_stairs": "Pyrite Stairs",
       "block.evenbetternether.long_hanging_mycelium": "Long Hanging Mycelium",
+      "item.evenbetternether.spelt_seeds": "Spelt Seeds",
+      "block.evenbetternether.nether_reed_button": "Nether Reed Button",
       "biome.evenbetternether.gravel_desert": "Gravel Desert",
       "item.evenbetternether.ruby_pickaxe": "Ruby Pickaxe",
       "biome.evenbetternether.bone_reef": "Bone Reef",
@@ -3799,16 +4843,25 @@
       "item.evenbetternether.pyrite_pickaxe": "Pyrite Pickaxe",
       "item.evenbetternether.ruby_shovel": "Ruby Shovel",
       "biome.evenbetternether.withered_valley": "Withered Valley",
+      "block.evenbetternether.nether_reed_bundle": "Nether Reed Bundle",
       "block.evenbetternether.soul_sprouts": "Soul Sprouts",
       "block.evenbetternether.tall_nethershroom": "Tall Nethershroom",
+      "block.evenbetternether.nether_reed_pressure_plate": "Nether Reed Pressure Plate",
       "block.evenbetternether.pyrite_brick_pillar": "Pyrite Brick Pillar",
       "item.evenbetternether.diamond_pyrite_armour_boots": "Diamond Pyrite Boots",
       "item.evenbetternether.ruby_axe": "Ruby Axe",
+      "block.evenbetternether.spelt_stage_2": "Spelt",
+      "block.evenbetternether.spelt_stage_1": "Spelt",
       "block.evenbetternether.nethershroom": "Nethershroom",
-      "block.evenbetternether.bulbous_hanging_mycelium": "Long Hanging Mycelium",
+      "block.evenbetternether.spelt_stage_0": "Spelt",
+      "block.evenbetternether.bulbous_hanging_mycelium": "Bulbous Hanging Mycelium",
       "item.evenbetternether.ruby_armor_boots": "Ruby Boots",
       "block.evenbetternether.carved_pyrite_stairs": "Carved Pyrite Stairs",
+      "block.evenbetternether.spelt_stage_6": "Spelt",
       "item.evenbetternether.diamond_pyrite_armour_leggings": "Diamond Pyrite Leggings",
+      "block.evenbetternether.spelt_stage_5": "Spelt",
+      "block.evenbetternether.spelt_stage_4": "Spelt",
+      "block.evenbetternether.spelt_stage_3": "Spelt",
       "item.evenbetternether.nether_ruby": "Nether Ruby",
       "block.evenbetternether.nether_mushroom_cap": "Red Nether Mushroom Cap",
       "block.evenbetternether.mushroom_planks": "Nether Mushroom Planks",
@@ -3817,12 +4870,17 @@
       "block.evenbetternether.pyrite_roofing": "Pyrite Roofing",
       "block.evenbetternether.deepslate_speleothem": "Deepslate Speleothem",
       "item.evenbetternether.diamond_pyrite_hoe": "Diamond Pyrite Hoe",
-      "block.evenbetternether.glowstone_speleothem": "Netherrack Speleothem",
+      "block.evenbetternether.glowstone_speleothem": "Glowstone Speleothem",
       "block.evenbetternether.blackstone_speleothem": "Blackstone Speleothem",
       "block.evenbetternether.brown_nether_mushroom_cap": "Brown Nether Mushroom Cap",
+      "block.evenbetternether.sparse_lava_floe": "Sparse Lava Floe",
       "item.evenbetternether.pyrite_axe": "Pyrite Axe",
-      "block.evenbetternether.bone_speleothem": "Bone Speleothem",
+      "block.evenbetternether.nether_reed": "Nether Reed",
+      "block.evenbetternether.bone_speleothem": "Bone Spike",
+      "item.evenbetternether.spelt_item": "Spelt",
       "block.evenbetternether.stripped_mushroom_wood": "Stripped Nether Mushroom Hyphae",
+      "block.evenbetternether.nether_reed_fence": "Nether Reed Fence",
+      "block.evenbetternether.nether_reed_fence_gate": "Nether Reed Fence Gate",
       "block.evenbetternether.smooth_bone_wall": "Smooth Bone Wall",
       "item.evenbetternether.ruby_hoe": "Ruby Hoe",
       "block.evenbetternether.fungal_sprouts": "Fungal Sprouts",
@@ -3832,9 +4890,11 @@
       "block.evenbetternether.stripped_mushroom_log": "Stripped Nether Mushroom Stem",
       "block.evenbetternether.mushroom_pressure_plate": "Nether Mushroom Pressure Plate",
       "block.evenbetternether.pyrite_roofing_slab": "Pyrite Roofing Slab",
+      "block.evenbetternether.dense_lava_floe": "Dense Lava Floe",
       "item.evenbetternether.diamond_pyrite_pickaxe": "Diamond Pyrite Pickaxe",
       "block.evenbetternether.fungal_roots": "Fungal Roots",
       "block.evenbetternether.mushroom_slab": "Nether Mushroom Slab",
+      "block.evenbetternether.nether_reed_planks": "Nether Reed Planks",
       "block.evenbetternether.soul_roots": "Soul Roots"
     }
   },
@@ -3845,7 +4905,7 @@
   "workspaceSettings": {
     "modid": "evenbetternether",
     "modName": "Even Better Nether",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "author": "Autumn",
     "websiteURL": "https://ko-fi.com/autumnly",
     "license": "All Rights Reserved",

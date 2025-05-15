@@ -2,49 +2,49 @@
   "mappings": {
     "deepslate": {
       "map": {
-        "1": "minecraft:deepslate"
+        "1": "deepslate_speleothem"
       },
       "name": "deepslate"
     },
     "default": {
       "map": {
-        "1": "minecraft:bone_block_side"
+        "1": ""
       },
       "name": "default"
     },
     "basalt": {
       "map": {
-        "1": "minecraft:basalt_side"
+        "1": "basalt_speleothem"
       },
       "name": "basalt"
     },
     "bone": {
       "map": {
-        "1": "minecraft:bone_block_side"
+        "1": "bone_speleothem"
       },
       "name": "bone"
     },
     "netherrack": {
       "map": {
-        "1": "minecraft:netherrack"
+        "1": "netherrack_speleothem"
       },
       "name": "netherrack"
     },
     "blackstone": {
       "map": {
-        "1": "minecraft:blackstone"
+        "1": "blackstone_speleothem"
       },
       "name": "blackstone"
     },
     "glowstone": {
       "map": {
-        "1": "minecraft:glowstone"
+        "1": "glowstone_speleothem"
       },
       "name": "glowstone"
     },
     "stone": {
       "map": {
-        "1": "minecraft:stone"
+        "1": "stone_speleothem"
       },
       "name": "stone"
     }

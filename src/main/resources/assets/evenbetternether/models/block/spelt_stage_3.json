@@ -1,0 +1,8 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "evenbetternether:block/spelt_stage3",
+    "particle": "evenbetternether:block/spelt_stage3"
+  },
+  "render_type": "cutout"
+}

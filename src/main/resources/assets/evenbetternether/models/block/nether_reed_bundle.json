@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "evenbetternether:block/nether_reed_bundle_top",
+    "up": "evenbetternether:block/nether_reed_bundle_top",
+    "north": "evenbetternether:block/nether_reed_bundle",
+    "east": "evenbetternether:block/nether_reed_bundle",
+    "south": "evenbetternether:block/nether_reed_bundle",
+    "west": "evenbetternether:block/nether_reed_bundle",
+    "particle": "evenbetternether:block/nether_reed_bundle_top"
+  },
+  "render_type": "solid"
+}

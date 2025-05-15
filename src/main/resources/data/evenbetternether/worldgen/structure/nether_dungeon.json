@@ -12,7 +12,7 @@
       "absolute": 4
     },
     "max_inclusive": {
-      "absolute": 38
+      "absolute": 20
     }
   },
   "biomes": "#minecraft:is_nether",

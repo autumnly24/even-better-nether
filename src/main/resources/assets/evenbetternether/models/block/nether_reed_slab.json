@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "evenbetternether:block/nether_reed_planks",
+    "bottom": "evenbetternether:block/nether_reed_planks",
+    "top": "evenbetternether:block/nether_reed_planks",
+    "side": "evenbetternether:block/nether_reed_planks"
+  },
+  "render_type": "solid"
+}

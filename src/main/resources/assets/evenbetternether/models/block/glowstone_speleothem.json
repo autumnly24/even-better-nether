@@ -1,9 +1,9 @@
 {
-  "parent": "evenbetternether:custom/speleothem",
+  "parent": "evenbetternether:custom/speleothem_cross",
   "textures": {
     "all": "minecraft:block/glowstone",
     "particle": "minecraft:block/glowstone",
-    "1": "minecraft:block/glowstone"
+    "1": "evenbetternether:block/glowstone_speleothem"
   },
-  "render_type": "solid"
+  "render_type": "cutout"
 }

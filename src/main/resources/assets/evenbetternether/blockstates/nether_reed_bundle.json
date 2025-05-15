@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "evenbetternether:block/nether_reed_bundle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "evenbetternether:block/nether_reed_bundle"
+    },
+    "axis=z": {
+      "model": "evenbetternether:block/nether_reed_bundle",
+      "x": 90
+    }
+  }
+}

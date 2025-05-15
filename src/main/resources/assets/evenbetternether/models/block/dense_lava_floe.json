@@ -1,0 +1,9 @@
+{
+  "parent": "evenbetternether:custom/lava_floe",
+  "textures": {
+    "all": "evenbetternether:block/lava_floe_small",
+    "particle": "evenbetternether:block/lava_floe_small",
+    "1": "evenbetternether:block/lava_floe_small"
+  },
+  "render_type": "cutout"
+}

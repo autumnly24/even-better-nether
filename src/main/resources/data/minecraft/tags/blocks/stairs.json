@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "evenbetternether:nether_reed_stairs",
     "evenbetternether:pyrite_brick_stairs",
     "evenbetternether:carved_pyrite_stairs",
     "evenbetternether:pyrite_roofing_stairs",

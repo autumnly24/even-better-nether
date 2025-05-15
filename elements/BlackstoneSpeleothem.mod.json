@@ -9,18 +9,18 @@
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "speleothem:blackstone",
+    "customModelName": "speleothem_cross:blackstone",
     "rotationMode": 1,
     "enablePitch": true,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "",
+    "itemTexture": "blackstone_speleothem_item",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "SOLID",
+    "transparencyType": "CUTOUT",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -108,7 +108,7 @@
     "creativePickItem": {
       "value": ""
     },
-    "offsetType": "NONE",
+    "offsetType": "XZ",
     "aiPathNodeType": "DEFAULT",
     "flammability": 0,
     "fireSpreadSpeed": 0,

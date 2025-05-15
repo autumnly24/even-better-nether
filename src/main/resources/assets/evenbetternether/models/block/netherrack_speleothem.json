@@ -1,9 +1,9 @@
 {
-  "parent": "evenbetternether:custom/speleothem",
+  "parent": "evenbetternether:custom/speleothem_cross",
   "textures": {
     "all": "minecraft:block/netherrack",
     "particle": "minecraft:block/netherrack",
-    "1": "minecraft:block/netherrack"
+    "1": "evenbetternether:block/netherrack_speleothem"
   },
-  "render_type": "solid"
+  "render_type": "cutout"
 }

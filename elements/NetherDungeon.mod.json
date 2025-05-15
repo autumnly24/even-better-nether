@@ -22,7 +22,7 @@
     "useStartHeight": true,
     "startHeightProviderType": "UNIFORM",
     "startHeightMin": 4,
-    "startHeightMax": 38,
+    "startHeightMax": 20,
     "size": 1,
     "maxDistanceFromCenter": 64,
     "jigsawPools": []

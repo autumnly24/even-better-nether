@@ -13,6 +13,8 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.evenbetternether.item.SpeltSeedsItem;
+import net.mcreator.evenbetternether.item.SpeltItemItem;
 import net.mcreator.evenbetternether.item.RubySwordItem;
 import net.mcreator.evenbetternether.item.RubyShovelItem;
 import net.mcreator.evenbetternether.item.RubyPickaxeItem;
@@ -147,6 +149,30 @@ public class EvenbetternetherModItems {
 	public static final RegistryObject<Item> PYRITE_BRICK_STAIRS = block(EvenbetternetherModBlocks.PYRITE_BRICK_STAIRS);
 	public static final RegistryObject<Item> PYRITE_BRICK_SLAB = block(EvenbetternetherModBlocks.PYRITE_BRICK_SLAB);
 	public static final RegistryObject<Item> PYRITE_BRICK_PILLAR = block(EvenbetternetherModBlocks.PYRITE_BRICK_PILLAR);
+	public static final RegistryObject<Item> SOUL_FARMLAND = block(EvenbetternetherModBlocks.SOUL_FARMLAND);
+	public static final RegistryObject<Item> DENSE_LAVA_FLOE = block(EvenbetternetherModBlocks.DENSE_LAVA_FLOE);
+	public static final RegistryObject<Item> SPARSE_LAVA_FLOE = block(EvenbetternetherModBlocks.SPARSE_LAVA_FLOE);
+	public static final RegistryObject<Item> NETHER_REED = block(EvenbetternetherModBlocks.NETHER_REED);
+	public static final RegistryObject<Item> NETHER_REED_BUNDLE = block(EvenbetternetherModBlocks.NETHER_REED_BUNDLE);
+	public static final RegistryObject<Item> NETHER_REED_PLANKS = block(EvenbetternetherModBlocks.NETHER_REED_PLANKS);
+	public static final RegistryObject<Item> NETHER_REED_STAIRS = block(EvenbetternetherModBlocks.NETHER_REED_STAIRS);
+	public static final RegistryObject<Item> NETHER_REED_SLAB = block(EvenbetternetherModBlocks.NETHER_REED_SLAB);
+	public static final RegistryObject<Item> NETHER_REED_FENCE = block(EvenbetternetherModBlocks.NETHER_REED_FENCE);
+	public static final RegistryObject<Item> NETHER_REED_FENCE_GATE = block(EvenbetternetherModBlocks.NETHER_REED_FENCE_GATE);
+	public static final RegistryObject<Item> NETHER_REED_PRESSURE_PLATE = block(EvenbetternetherModBlocks.NETHER_REED_PRESSURE_PLATE);
+	public static final RegistryObject<Item> NETHER_REED_BUTTON = block(EvenbetternetherModBlocks.NETHER_REED_BUTTON);
+	public static final RegistryObject<Item> NETHER_REED_MOSAIC = block(EvenbetternetherModBlocks.NETHER_REED_MOSAIC);
+	public static final RegistryObject<Item> NETHER_REED_DOOR = doubleBlock(EvenbetternetherModBlocks.NETHER_REED_DOOR);
+	public static final RegistryObject<Item> NETHER_REED_TRAPDOOR = block(EvenbetternetherModBlocks.NETHER_REED_TRAPDOOR);
+	public static final RegistryObject<Item> SPELT_SEEDS = REGISTRY.register("spelt_seeds", () -> new SpeltSeedsItem());
+	public static final RegistryObject<Item> SPELT_STAGE_0 = block(EvenbetternetherModBlocks.SPELT_STAGE_0);
+	public static final RegistryObject<Item> SPELT_STAGE_1 = block(EvenbetternetherModBlocks.SPELT_STAGE_1);
+	public static final RegistryObject<Item> SPELT_STAGE_2 = block(EvenbetternetherModBlocks.SPELT_STAGE_2);
+	public static final RegistryObject<Item> SPELT_STAGE_3 = block(EvenbetternetherModBlocks.SPELT_STAGE_3);
+	public static final RegistryObject<Item> SPELT_STAGE_4 = block(EvenbetternetherModBlocks.SPELT_STAGE_4);
+	public static final RegistryObject<Item> SPELT_STAGE_5 = block(EvenbetternetherModBlocks.SPELT_STAGE_5);
+	public static final RegistryObject<Item> SPELT_STAGE_6 = block(EvenbetternetherModBlocks.SPELT_STAGE_6);
+	public static final RegistryObject<Item> SPELT_ITEM = REGISTRY.register("spelt_item", () -> new SpeltItemItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

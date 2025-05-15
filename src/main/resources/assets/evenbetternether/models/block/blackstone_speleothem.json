@@ -1,9 +1,9 @@
 {
-  "parent": "evenbetternether:custom/speleothem",
+  "parent": "evenbetternether:custom/speleothem_cross",
   "textures": {
     "all": "minecraft:block/blackstone",
     "particle": "minecraft:block/blackstone",
-    "1": "minecraft:block/blackstone"
+    "1": "evenbetternether:block/blackstone_speleothem"
   },
-  "render_type": "solid"
+  "render_type": "cutout"
 }

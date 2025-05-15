@@ -1,0 +1,115 @@
+{
+  "_fv": 69,
+  "_type": "plant",
+  "definition": {
+    "renderType": 12,
+    "texture": "nether_reed",
+    "textureBottom": "",
+    "customModelName": "Cross model",
+    "itemTexture": "nether_reed_item",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "plantType": "growapable",
+    "suspiciousStewEffect": "SPEED",
+    "suspiciousStewDuration": 100,
+    "growapableSpawnType": "Cave",
+    "growapableMaxHeight": 6,
+    "customBoundingBox": true,
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 4.0,
+        "my": 0.0,
+        "mz": 4.0,
+        "Mx": 12.0,
+        "My": 16.0,
+        "Mz": 12.0,
+        "subtract": false
+      }
+    ],
+    "name": "Nether Reed",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "DECORATIONS"
+      }
+    ],
+    "hardness": 0.0,
+    "resistance": 0.0,
+    "luminance": 0,
+    "unbreakable": false,
+    "isSolid": false,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "BAMBOO"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "useLootTableForDrops": false,
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "forceTicking": true,
+    "emissiveRendering": false,
+    "hasTileEntity": false,
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "XZ",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "jumpFactor": 1.0,
+    "speedFactor": 1.0,
+    "canBePlacedOn": [
+      {
+        "value": "Blocks.SOUL_SAND"
+      },
+      {
+        "value": "Blocks.SOUL_SOIL"
+      },
+      {
+        "value": "Blocks.GRAVEL"
+      },
+      {
+        "value": "Blocks.MAGMA"
+      },
+      {
+        "value": "Blocks.NETHERRACK"
+      }
+    ],
+    "placingCondition": {
+      "name": "NetherReedAdditionalPlacinggrowthCondition"
+    },
+    "isBonemealable": false,
+    "frequencyOnChunks": 32,
+    "generateFeature": true,
+    "restrictionBiomes": [
+      {
+        "value": "#minecraft:is_nether"
+      }
+    ],
+    "generationType": "Grass",
+    "patchSize": 64,
+    "generateAtAnyHeight": true
+  }
+}

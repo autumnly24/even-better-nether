@@ -1,0 +1,10 @@
+{
+  "parent": "evenbetternether:custom/soul_farmland",
+  "textures": {
+    "all": "evenbetternether:block/soul_farmland",
+    "particle": "evenbetternether:block/soul_farmland",
+    "1": "minecraft:block/soul_sand",
+    "3": "evenbetternether:block/soul_farmland"
+  },
+  "render_type": "solid"
+}

@@ -103,7 +103,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "vanillaToolTier": "STONE",
+    "vanillaToolTier": "NONE",
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
@@ -122,9 +122,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onTickUpdate": {
-      "name": "VerdantNyliumOnTickUpdate"
-    },
     "generateFeature": true,
     "restrictionBiomes": [
       {

@@ -6,6 +6,7 @@ import org.checkerframework.checker.units.qual.s;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.material.Fluids;
 import net.minecraft.world.level.material.FluidState;
@@ -38,7 +39,7 @@ public class GlowstoneSpeleothemBlock extends Block implements SimpleWaterlogged
 
 	public GlowstoneSpeleothemBlock() {
 		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).mapColor(MapColor.COLOR_YELLOW).sound(SoundType.GLASS).strength(0.4f, 10f).lightLevel(s -> 15).requiresCorrectToolForDrops().noOcclusion()
-				.hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true).isRedstoneConductor((bs, br, bp) -> false));
+				.hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true).isRedstoneConductor((bs, br, bp) -> false).dynamicShape().offsetType(Block.OffsetType.XZ));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(FACE, AttachFace.WALL).setValue(WATERLOGGED, false));
 	}
 
@@ -59,7 +60,8 @@ public class GlowstoneSpeleothemBlock extends Block implements SimpleWaterlogged
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-		return switch (state.getValue(FACING)) {
+		Vec3 offset = state.getOffset(world, pos);
+		return (switch (state.getValue(FACING)) {
 			default -> switch (state.getValue(FACE)) {
 				case FLOOR -> Shapes.or(box(3, 0, 3, 13, 7, 13), box(4, 7, 4, 12, 13, 12), box(5, 13, 5, 11, 19, 11), box(7, 25, 7, 9, 32, 9), box(6, 19, 6, 10, 25, 10));
 				case WALL -> Shapes.or(box(3, 3, 0, 13, 13, 7), box(4, 4, 7, 12, 12, 13), box(5, 5, 13, 11, 11, 19), box(7, 7, 25, 9, 9, 32), box(6, 6, 19, 10, 10, 25));
@@ -80,7 +82,7 @@ public class GlowstoneSpeleothemBlock extends Block implements SimpleWaterlogged
 				case WALL -> Shapes.or(box(9, 3, 3, 16, 13, 13), box(3, 4, 4, 9, 12, 12), box(-3, 5, 5, 3, 11, 11), box(-16, 7, 7, -9, 9, 9), box(-9, 6, 6, -3, 10, 10));
 				case CEILING -> Shapes.or(box(3, 9, 3, 13, 16, 13), box(4, 3, 4, 12, 9, 12), box(5, -3, 5, 11, 3, 11), box(7, -16, 7, 9, -9, 9), box(6, -9, 6, 10, -3, 10));
 			};
-		};
+		}).move(offset.x, offset.y, offset.z);
 	}
 
 	@Override

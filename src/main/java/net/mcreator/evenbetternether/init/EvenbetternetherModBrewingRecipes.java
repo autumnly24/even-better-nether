@@ -1,6 +1,8 @@
 
 package net.mcreator.evenbetternether.init;
 
+import net.minecraft.world.item.alchemy.Potions;
+import net.minecraft.world.item.alchemy.PotionUtils;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.resources.ResourceLocation;
@@ -30,6 +32,12 @@ public class EvenbetternetherModBrewingRecipes implements IModPlugin {
 		ItemStack potion2 = new ItemStack(Items.POTION);
 		List<ItemStack> ingredientStack = new ArrayList<>();
 		List<ItemStack> inputStack = new ArrayList<>();
+		ingredientStack.add(new ItemStack(EvenbetternetherModBlocks.BARREL_CACTUS.get()));
+		inputStack.add(new ItemStack(Items.GLASS_BOTTLE));
+		PotionUtils.setPotion(potion, Potions.WATER);
+		brewingRecipes.add(factory.createBrewingRecipe(List.copyOf(ingredientStack), List.copyOf(inputStack), potion.copy()));
+		ingredientStack.clear();
+		inputStack.clear();
 		registration.addRecipes(RecipeTypes.BREWING, brewingRecipes);
 	}
 }

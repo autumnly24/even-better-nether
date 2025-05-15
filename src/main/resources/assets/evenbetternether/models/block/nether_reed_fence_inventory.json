@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "evenbetternether:block/nether_reed_bundle",
+    "particle": "evenbetternether:block/nether_reed_bundle"
+  },
+  "render_type": "solid"
+}

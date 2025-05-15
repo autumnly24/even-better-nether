@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "evenbetternether:nether_reed_planks"
+    }
+  },
+  "result": {
+    "item": "evenbetternether:nether_reed_trapdoor",
+    "count": 2
+  }
+}
