@@ -24,6 +24,9 @@
     "minecraft:crimson_roots",
     "minecraft:nether_sprouts",
     "minecraft:crimson_fungus",
-    "minecraft:warped_fungus"
+    "minecraft:warped_fungus",
+    "evenbetternether:tall_brown_nethershroom",
+    "evenbetternether:brown_nethershroom",
+    "evenbetternether:nether_reed"
   ]
 }

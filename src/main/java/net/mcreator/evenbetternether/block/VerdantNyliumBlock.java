@@ -25,11 +25,8 @@ public class VerdantNyliumBlock extends Block {
 	}
 
 	@Override
-	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
-		super.tick(blockstate, world, pos, random);
-		int x = pos.getX();
-		int y = pos.getY();
-		int z = pos.getZ();
-		VerdantNyliumOnTickUpdateProcedure.execute(world, x, y, z);
+	public void randomTick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
+		super.randomTick(blockstate, world, pos, random);
+		VerdantNyliumOnTickUpdateProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 }

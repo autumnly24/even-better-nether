@@ -48,7 +48,7 @@
       "value": "CUSTOM:SpeltItem"
     },
     "dropAmount": 1,
-    "useLootTableForDrops": false,
+    "useLootTableForDrops": true,
     "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
@@ -66,7 +66,7 @@
     },
     "colorOnMap": "RED",
     "creativePickItem": {
-      "value": ""
+      "value": "CUSTOM:SpeltSeeds"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
@@ -103,7 +103,10 @@
     "placingCondition": {
       "name": "SpeltBlockValidPlacementCondition"
     },
-    "isBonemealable": false,
+    "isBonemealable": true,
+    "onBonemealSuccess": {
+      "name": "SpeltStage0OnBoneMealSuccess"
+    },
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
@@ -121,6 +124,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onRightClicked": {
+      "name": "SpeltStage6OnBlockRightClicked"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

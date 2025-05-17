@@ -19,9 +19,9 @@
     "blockBase": "Door",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": false,
+    "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "SOLID",
+    "transparencyType": "CUTOUT",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -60,7 +60,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "NONE"
+      "value": "ROCK"
     },
     "tickRate": 0,
     "tickRandomly": false,

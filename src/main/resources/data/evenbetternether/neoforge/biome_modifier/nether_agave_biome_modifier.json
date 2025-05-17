@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "evenbetternether:gravel_desert",
+    "nether_wastes",
+    "evenbetternether:withered_valley"
+  ],
+  "features": "evenbetternether:nether_agave",
+  "step": "vegetal_decoration"
+}

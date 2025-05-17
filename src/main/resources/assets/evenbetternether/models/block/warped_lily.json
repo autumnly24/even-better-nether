@@ -1,0 +1,9 @@
+{
+  "parent": "evenbetternether:custom/nether_lily",
+  "textures": {
+    "all": "evenbetternether:block/warped_lily",
+    "particle": "evenbetternether:block/warped_lily",
+    "1": "evenbetternether:block/warped_lily"
+  },
+  "render_type": "cutout"
+}

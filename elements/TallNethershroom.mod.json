@@ -28,7 +28,7 @@
         "subtract": false
       }
     ],
-    "name": "Tall Nethershroom",
+    "name": "Tall Red Nethershroom",
     "specialInformation": {
       "fixedValue": []
     },
@@ -88,7 +88,10 @@
         "value": "Blocks.MYCELIUM"
       }
     ],
-    "isBonemealable": false,
+    "isBonemealable": true,
+    "onBonemealSuccess": {
+      "name": "TallNethershroomOnBoneMealSuccess"
+    },
     "frequencyOnChunks": 32,
     "generateFeature": true,
     "restrictionBiomes": [

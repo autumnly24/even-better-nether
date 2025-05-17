@@ -5,5 +5,5 @@
     "bottom": "evenbetternether:block/nether_reed_door_bottom",
     "top": "evenbetternether:block/nether_reed_door_top"
   },
-  "render_type": "solid"
+  "render_type": "cutout"
 }

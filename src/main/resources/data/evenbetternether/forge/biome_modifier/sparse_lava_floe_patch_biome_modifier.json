@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "#minecraft:is_nether",
-  "features": "evenbetternether:sparse_lava_floe_patch",
-  "step": "surface_structures"
-}

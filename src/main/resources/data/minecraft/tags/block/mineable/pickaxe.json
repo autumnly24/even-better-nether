@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "evenbetternether:sparse_lava_floe",
+    "evenbetternether:dense_lava_floe",
     "evenbetternether:pyrite_brick_pillar",
     "evenbetternether:pyrite_brick_slab",
     "evenbetternether:pyrite_brick_stairs",

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "evenbetternether:pyrite_tiles"
+    }
+  },
+  "result": {
+    "id": "evenbetternether:pyrite_tile_slab",
+    "count": 6
+  }
+}

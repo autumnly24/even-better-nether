@@ -4,9 +4,9 @@
  */
 package net.mcreator.evenbetternether.init;
 
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.server.ServerAboutToStartEvent;
+import net.neoforged.neoforge.event.server.ServerAboutToStartEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.bus.api.SubscribeEvent;
 
 import net.minecraft.world.level.levelgen.placement.CaveSurface;
 import net.minecraft.world.level.levelgen.SurfaceRules;
@@ -36,7 +36,7 @@ import com.mojang.datafixers.util.Pair;
 
 import com.google.common.base.Suppliers;
 
-@Mod.EventBusSubscriber
+@EventBusSubscriber
 public class EvenbetternetherModBiomes {
 	@SubscribeEvent
 	public static void onServerAboutToStart(ServerAboutToStartEvent event) {
@@ -51,22 +51,22 @@ public class EvenbetternetherModBiomes {
 				// Inject biomes to biome source
 				if (chunkGenerator.getBiomeSource() instanceof MultiNoiseBiomeSource noiseSource) {
 					List<Pair<Climate.ParameterPoint, Holder<Biome>>> parameters = new ArrayList<>(noiseSource.parameters().values());
-					addParameterPoint(parameters, new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(-0.5f, 1f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(-0.8f, 0.3f),
-							Climate.Parameter.point(0.0f), Climate.Parameter.span(-1f, 2f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("evenbetternether", "bone_reef")))));
-					addParameterPoint(parameters, new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(-0.5f, 1f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(-0.8f, 0.3f),
-							Climate.Parameter.point(1.0f), Climate.Parameter.span(-1f, 2f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("evenbetternether", "bone_reef")))));
-					addParameterPoint(parameters, new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(0f, 1f), Climate.Parameter.span(-1f, 0.5f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(-0.5f, 0.5f),
-							Climate.Parameter.point(0.0f), Climate.Parameter.span(-1f, 2f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("evenbetternether", "gravel_desert")))));
-					addParameterPoint(parameters, new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(0f, 1f), Climate.Parameter.span(-1f, 0.5f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(-0.5f, 0.5f),
-							Climate.Parameter.point(1.0f), Climate.Parameter.span(-1f, 2f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("evenbetternether", "gravel_desert")))));
-					addParameterPoint(parameters, new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-1f, 0f), Climate.Parameter.span(-0.5f, 1f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(-0.8f, 0.3f),
-							Climate.Parameter.point(0.0f), Climate.Parameter.span(-1f, 2f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("evenbetternether", "withered_valley")))));
-					addParameterPoint(parameters, new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-1f, 0f), Climate.Parameter.span(-0.5f, 1f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(-0.8f, 0.3f),
-							Climate.Parameter.point(1.0f), Climate.Parameter.span(-1f, 2f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("evenbetternether", "withered_valley")))));
-					addParameterPoint(parameters, new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-1f, 1f), Climate.Parameter.span(0.2f, 2f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(-0.8f, 0.3f),
-							Climate.Parameter.point(0.0f), Climate.Parameter.span(-1f, 2f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("evenbetternether", "mushroom_forest")))));
-					addParameterPoint(parameters, new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-1f, 1f), Climate.Parameter.span(0.2f, 2f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(-0.8f, 0.3f),
-							Climate.Parameter.point(1.0f), Climate.Parameter.span(-1f, 2f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("evenbetternether", "mushroom_forest")))));
+					addParameterPoint(parameters, new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-1f, 0f), Climate.Parameter.span(-0.5f, 1f), Climate.Parameter.span(-2f, 2f), Climate.Parameter.span(-2f, 2f),
+							Climate.Parameter.point(0.0f), Climate.Parameter.span(0.38f, 2f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("evenbetternether", "bone_reef")))));
+					addParameterPoint(parameters, new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-1f, 0f), Climate.Parameter.span(-0.5f, 1f), Climate.Parameter.span(-2f, 2f), Climate.Parameter.span(-2f, 2f),
+							Climate.Parameter.point(1.0f), Climate.Parameter.span(0.38f, 2f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("evenbetternether", "bone_reef")))));
+					addParameterPoint(parameters, new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(0f, 2f), Climate.Parameter.span(-1f, 0.5f), Climate.Parameter.span(-2f, 2f), Climate.Parameter.span(-2f, 2f),
+							Climate.Parameter.point(0.0f), Climate.Parameter.span(0.38f, 2f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("evenbetternether", "gravel_desert")))));
+					addParameterPoint(parameters, new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(0f, 2f), Climate.Parameter.span(-1f, 0.5f), Climate.Parameter.span(-2f, 2f), Climate.Parameter.span(-2f, 2f),
+							Climate.Parameter.point(1.0f), Climate.Parameter.span(0.38f, 2f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("evenbetternether", "gravel_desert")))));
+					addParameterPoint(parameters, new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-1f, 0f), Climate.Parameter.span(-1f, 0.5f), Climate.Parameter.span(-2f, 2f), Climate.Parameter.span(-2f, 2f),
+							Climate.Parameter.point(0.0f), Climate.Parameter.span(0.38f, 2f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("evenbetternether", "withered_valley")))));
+					addParameterPoint(parameters, new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-1f, 0f), Climate.Parameter.span(-1f, 0.5f), Climate.Parameter.span(-2f, 2f), Climate.Parameter.span(-2f, 2f),
+							Climate.Parameter.point(1.0f), Climate.Parameter.span(0.38f, 2f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("evenbetternether", "withered_valley")))));
+					addParameterPoint(parameters, new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-1f, 1f), Climate.Parameter.span(0.2f, 2f), Climate.Parameter.span(-2f, 2f), Climate.Parameter.span(-2f, 2f),
+							Climate.Parameter.point(0.0f), Climate.Parameter.span(0.53f, 2f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("evenbetternether", "mushroom_forest")))));
+					addParameterPoint(parameters, new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-1f, 1f), Climate.Parameter.span(0.2f, 2f), Climate.Parameter.span(-2f, 2f), Climate.Parameter.span(-2f, 2f),
+							Climate.Parameter.point(1.0f), Climate.Parameter.span(0.53f, 2f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("evenbetternether", "mushroom_forest")))));
 					chunkGenerator.biomeSource = MultiNoiseBiomeSource.createFromList(new Climate.ParameterList<>(parameters));
 					chunkGenerator.featuresPerStep = Suppliers
 							.memoize(() -> FeatureSorter.buildFeaturesPerStep(List.copyOf(chunkGenerator.biomeSource.possibleBiomes()), biome -> chunkGenerator.generationSettingsGetter.apply(biome).features(), true));
@@ -77,13 +77,13 @@ public class EvenbetternetherModBiomes {
 					SurfaceRules.RuleSource currentRuleSource = noiseGeneratorSettings.surfaceRule();
 					if (currentRuleSource instanceof SurfaceRules.SequenceRuleSource sequenceRuleSource) {
 						List<SurfaceRules.RuleSource> surfaceRules = new ArrayList<>(sequenceRuleSource.sequence());
-						addSurfaceRule(surfaceRules, 2, anySurfaceRule(ResourceKey.create(Registries.BIOME, new ResourceLocation("evenbetternether", "bone_reef")), EvenbetternetherModBlocks.VERDANT_NYLIUM.get().defaultBlockState(),
+						addSurfaceRule(surfaceRules, 2, anySurfaceRule(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("evenbetternether", "bone_reef")), EvenbetternetherModBlocks.VERDANT_NYLIUM.get().defaultBlockState(),
 								Blocks.NETHERRACK.defaultBlockState(), Blocks.NETHERRACK.defaultBlockState()));
-						addSurfaceRule(surfaceRules, 2, anySurfaceRule(ResourceKey.create(Registries.BIOME, new ResourceLocation("evenbetternether", "gravel_desert")), Blocks.GRAVEL.defaultBlockState(), Blocks.GRAVEL.defaultBlockState(),
-								Blocks.NETHERRACK.defaultBlockState()));
-						addSurfaceRule(surfaceRules, 2, anySurfaceRule(ResourceKey.create(Registries.BIOME, new ResourceLocation("evenbetternether", "withered_valley")), EvenbetternetherModBlocks.WITHERED_NYLIUM.get().defaultBlockState(),
-								Blocks.NETHERRACK.defaultBlockState(), Blocks.NETHERRACK.defaultBlockState()));
-						addSurfaceRule(surfaceRules, 2, anySurfaceRule(ResourceKey.create(Registries.BIOME, new ResourceLocation("evenbetternether", "mushroom_forest")), EvenbetternetherModBlocks.NYCELIUM.get().defaultBlockState(),
+						addSurfaceRule(surfaceRules, 2, anySurfaceRule(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("evenbetternether", "gravel_desert")), Blocks.GRAVEL.defaultBlockState(),
+								Blocks.GRAVEL.defaultBlockState(), Blocks.NETHERRACK.defaultBlockState()));
+						addSurfaceRule(surfaceRules, 2, anySurfaceRule(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("evenbetternether", "withered_valley")),
+								EvenbetternetherModBlocks.WITHERED_NYLIUM.get().defaultBlockState(), Blocks.NETHERRACK.defaultBlockState(), Blocks.NETHERRACK.defaultBlockState()));
+						addSurfaceRule(surfaceRules, 2, anySurfaceRule(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("evenbetternether", "mushroom_forest")), EvenbetternetherModBlocks.NYCELIUM.get().defaultBlockState(),
 								Blocks.NETHERRACK.defaultBlockState(), Blocks.NETHERRACK.defaultBlockState()));
 						NoiseGeneratorSettings moddedNoiseGeneratorSettings = new NoiseGeneratorSettings(noiseGeneratorSettings.noiseSettings(), noiseGeneratorSettings.defaultBlock(), noiseGeneratorSettings.defaultFluid(),
 								noiseGeneratorSettings.noiseRouter(), SurfaceRules.sequence(surfaceRules.toArray(SurfaceRules.RuleSource[]::new)), noiseGeneratorSettings.spawnTarget(), noiseGeneratorSettings.seaLevel(),

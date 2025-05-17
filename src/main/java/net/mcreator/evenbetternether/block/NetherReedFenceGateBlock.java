@@ -9,6 +9,6 @@ import net.minecraft.world.level.block.FenceGateBlock;
 
 public class NetherReedFenceGateBlock extends FenceGateBlock {
 	public NetherReedFenceGateBlock() {
-		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLUE).sound(SoundType.BAMBOO_WOOD).strength(2f, 1f).dynamicShape().forceSolidOn(), WoodType.OAK);
+		super(WoodType.OAK, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLUE).sound(SoundType.BAMBOO_WOOD).strength(2f, 1f).dynamicShape().forceSolidOn());
 	}
 }

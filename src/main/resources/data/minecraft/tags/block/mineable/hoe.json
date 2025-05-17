@@ -1,6 +1,15 @@
 {
   "replace": false,
   "values": [
+    "evenbetternether:warped_lily",
+    "evenbetternether:crimson_lily",
+    "evenbetternether:spelt_stage_6",
+    "evenbetternether:spelt_stage_5",
+    "evenbetternether:spelt_stage_4",
+    "evenbetternether:spelt_stage_3",
+    "evenbetternether:spelt_stage_2",
+    "evenbetternether:spelt_stage_1",
+    "evenbetternether:spelt_stage_0",
     "evenbetternether:bulbous_hanging_mycelium",
     "evenbetternether:long_hanging_mycelium",
     "evenbetternether:hanging_mycelium",

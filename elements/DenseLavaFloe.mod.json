@@ -63,7 +63,7 @@
     },
     "tickRate": 0,
     "tickRandomly": false,
-    "isReplaceable": false,
+    "isReplaceable": true,
     "canProvidePower": false,
     "emittedRedstonePower": {
       "fixedValue": 15.0
@@ -104,6 +104,9 @@
     "luminance": 0,
     "unbreakable": false,
     "vanillaToolTier": "NONE",
+    "placingCondition": {
+      "name": "CrimsonLilyBlockValidPlacementCondition"
+    },
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",

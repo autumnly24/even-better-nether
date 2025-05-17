@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "#minecraft:is_nether",
-  "features": "evenbetternether:nether_reed",
-  "step": "vegetal_decoration"
-}

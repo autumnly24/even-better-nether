@@ -1,6 +1,17 @@
 {
   "replace": false,
   "values": [
+    "evenbetternether:nether_reed_trapdoor",
+    "evenbetternether:nether_reed_door",
+    "evenbetternether:nether_reed_mosaic",
+    "evenbetternether:nether_reed_button",
+    "evenbetternether:nether_reed_pressure_plate",
+    "evenbetternether:nether_reed_fence_gate",
+    "evenbetternether:nether_reed_fence",
+    "evenbetternether:nether_reed_slab",
+    "evenbetternether:nether_reed_stairs",
+    "evenbetternether:nether_reed_planks",
+    "evenbetternether:nether_reed_bundle",
     "evenbetternether:stripped_mushroom_wood",
     "evenbetternether:stripped_mushroom_log",
     "evenbetternether:mushroom_trapdoor",

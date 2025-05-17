@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "evenbetternether:nether_reed_fence",
     "evenbetternether:mushroom_fence"
   ]
 }

@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "evenbetternether:sparse_lava_floe",
+    "evenbetternether:dense_lava_floe",
     "evenbetternether:bulbous_hanging_mycelium",
     "evenbetternether:long_hanging_mycelium",
     "evenbetternether:hanging_mycelium",

@@ -7,8 +7,8 @@
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Diamond Pyrite Upgrade Smithing Template",
-    "rarity": "UNCOMMON",
+    "name": "Smithing Template",
+    "rarity": "COMMON",
     "creativeTabs": [
       {
         "value": "CUSTOM:EvenBetterNetherTab"
@@ -29,7 +29,14 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§7Diamond Pyrite Upgrade",
+        "",
+        "§7Applies to:",
+        " §9Pyrite Equipment",
+        "§7Ingredients:",
+        " §9Diamond"
+      ]
     },
     "glowCondition": {
       "fixedValue": false

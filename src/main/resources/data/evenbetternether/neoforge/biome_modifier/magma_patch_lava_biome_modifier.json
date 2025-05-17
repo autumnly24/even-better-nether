@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_nether",
+  "features": "evenbetternether:magma_patch_lava",
+  "step": "surface_structures"
+}

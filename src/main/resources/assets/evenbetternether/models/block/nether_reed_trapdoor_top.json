@@ -4,5 +4,5 @@
     "texture": "evenbetternether:block/nether_reed_trapdoor",
     "particle": "evenbetternether:block/nether_reed_trapdoor"
   },
-  "render_type": "solid"
+  "render_type": "cutout"
 }

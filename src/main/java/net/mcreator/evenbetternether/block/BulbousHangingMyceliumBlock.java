@@ -6,6 +6,7 @@ import org.checkerframework.checker.units.qual.s;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -24,7 +25,7 @@ import net.mcreator.evenbetternether.procedures.HangingMyceliumBlockValidPlaceme
 public class BulbousHangingMyceliumBlock extends Block {
 	public BulbousHangingMyceliumBlock() {
 		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.HARD_CROP).strength(0f, 1f).lightLevel(s -> 13).noCollission().noOcclusion().hasPostProcess((bs, br, bp) -> true)
-				.emissiveRendering((bs, br, bp) -> true).isRedstoneConductor((bs, br, bp) -> false));
+				.emissiveRendering((bs, br, bp) -> true).isRedstoneConductor((bs, br, bp) -> false).dynamicShape().offsetType(Block.OffsetType.XZ));
 	}
 
 	@Override
@@ -44,7 +45,8 @@ public class BulbousHangingMyceliumBlock extends Block {
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-		return box(4, 4, 4, 12, 16, 12);
+		Vec3 offset = state.getOffset(world, pos);
+		return box(4, 4, 4, 12, 16, 12).move(offset.x, offset.y, offset.z);
 	}
 
 	@Override

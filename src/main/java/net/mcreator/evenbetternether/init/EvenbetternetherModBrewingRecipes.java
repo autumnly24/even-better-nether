@@ -2,10 +2,11 @@
 package net.mcreator.evenbetternether.init;
 
 import net.minecraft.world.item.alchemy.Potions;
-import net.minecraft.world.item.alchemy.PotionUtils;
+import net.minecraft.world.item.alchemy.PotionContents;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.core.component.DataComponents;
 
 import mezz.jei.api.registration.IRecipeRegistration;
 import mezz.jei.api.recipe.vanilla.IVanillaRecipeFactory;
@@ -21,7 +22,7 @@ import java.util.ArrayList;
 public class EvenbetternetherModBrewingRecipes implements IModPlugin {
 	@Override
 	public ResourceLocation getPluginUid() {
-		return new ResourceLocation("evenbetternether:brewing_recipes");
+		return ResourceLocation.parse("evenbetternether:brewing_recipes");
 	}
 
 	@Override
@@ -34,7 +35,7 @@ public class EvenbetternetherModBrewingRecipes implements IModPlugin {
 		List<ItemStack> inputStack = new ArrayList<>();
 		ingredientStack.add(new ItemStack(EvenbetternetherModBlocks.BARREL_CACTUS.get()));
 		inputStack.add(new ItemStack(Items.GLASS_BOTTLE));
-		PotionUtils.setPotion(potion, Potions.WATER);
+		potion.set(DataComponents.POTION_CONTENTS, new PotionContents(Potions.WATER));
 		brewingRecipes.add(factory.createBrewingRecipe(List.copyOf(ingredientStack), List.copyOf(inputStack), potion.copy()));
 		ingredientStack.clear();
 		inputStack.clear();

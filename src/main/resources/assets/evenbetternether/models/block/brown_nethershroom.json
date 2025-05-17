@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "evenbetternether:block/brown_nethershroom",
+    "particle": "evenbetternether:block/brown_nethershroom"
+  },
+  "render_type": "cutout"
+}

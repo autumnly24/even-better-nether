@@ -143,7 +143,10 @@
     "placingCondition": {
       "name": "BarrelCactusBlockValidPlacementCondition"
     },
-    "isBonemealable": false,
+    "isBonemealable": true,
+    "onBonemealSuccess": {
+      "name": "BarrelCactusOnBoneMealSuccess"
+    },
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,

@@ -4,24 +4,19 @@
  */
 package net.mcreator.evenbetternether.init;
 
-import net.minecraftforge.registries.RegistryObject;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
+import net.neoforged.neoforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.DeferredHolder;
 
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.evenbetternether.EvenbetternetherMod;
 
-@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class EvenbetternetherModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, EvenbetternetherMod.MODID);
-	public static final RegistryObject<CreativeModeTab> EVEN_BETTER_NETHER_TAB = REGISTRY.register("even_better_nether_tab",
+	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> EVEN_BETTER_NETHER_TAB = REGISTRY.register("even_better_nether_tab",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.evenbetternether.even_better_nether_tab")).icon(() -> new ItemStack(EvenbetternetherModBlocks.VERDANT_NYLIUM.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(EvenbetternetherModBlocks.VERDANT_NYLIUM.get().asItem());
 				tabData.accept(EvenbetternetherModBlocks.VERDANT_ROOTS.get().asItem());
@@ -52,9 +47,11 @@ public class EvenbetternetherModTabs {
 				tabData.accept(EvenbetternetherModBlocks.MUSHROOM_DOOR.get().asItem());
 				tabData.accept(EvenbetternetherModBlocks.MUSHROOM_TRAPDOOR.get().asItem());
 				tabData.accept(EvenbetternetherModBlocks.NETHER_MUSHROOM_CAP.get().asItem());
-				tabData.accept(EvenbetternetherModBlocks.BROWN_NETHER_MUSHROOM_CAP.get().asItem());
 				tabData.accept(EvenbetternetherModBlocks.NETHERSHROOM.get().asItem());
 				tabData.accept(EvenbetternetherModBlocks.TALL_NETHERSHROOM.get().asItem());
+				tabData.accept(EvenbetternetherModBlocks.BROWN_NETHER_MUSHROOM_CAP.get().asItem());
+				tabData.accept(EvenbetternetherModBlocks.BROWN_NETHERSHROOM.get().asItem());
+				tabData.accept(EvenbetternetherModBlocks.TALL_BROWN_NETHERSHROOM.get().asItem());
 				tabData.accept(EvenbetternetherModBlocks.FUNGAL_ROOTS.get().asItem());
 				tabData.accept(EvenbetternetherModBlocks.FUNGAL_SPROUTS.get().asItem());
 				tabData.accept(EvenbetternetherModBlocks.HANGING_MYCELIUM.get().asItem());
@@ -66,12 +63,28 @@ public class EvenbetternetherModTabs {
 				tabData.accept(EvenbetternetherModBlocks.NETHER_AGAVE.get().asItem());
 				tabData.accept(EvenbetternetherModBlocks.SOUL_ROOTS.get().asItem());
 				tabData.accept(EvenbetternetherModBlocks.SOUL_SPROUTS.get().asItem());
+				tabData.accept(EvenbetternetherModBlocks.NETHER_REED.get().asItem());
+				tabData.accept(EvenbetternetherModBlocks.NETHER_REED_BUNDLE.get().asItem());
+				tabData.accept(EvenbetternetherModBlocks.NETHER_REED_MOSAIC.get().asItem());
+				tabData.accept(EvenbetternetherModBlocks.NETHER_REED_PLANKS.get().asItem());
+				tabData.accept(EvenbetternetherModBlocks.NETHER_REED_STAIRS.get().asItem());
+				tabData.accept(EvenbetternetherModBlocks.NETHER_REED_SLAB.get().asItem());
+				tabData.accept(EvenbetternetherModBlocks.NETHER_REED_FENCE.get().asItem());
+				tabData.accept(EvenbetternetherModBlocks.NETHER_REED_FENCE_GATE.get().asItem());
+				tabData.accept(EvenbetternetherModBlocks.NETHER_REED_PRESSURE_PLATE.get().asItem());
+				tabData.accept(EvenbetternetherModBlocks.NETHER_REED_BUTTON.get().asItem());
+				tabData.accept(EvenbetternetherModBlocks.NETHER_REED_DOOR.get().asItem());
+				tabData.accept(EvenbetternetherModBlocks.NETHER_REED_TRAPDOOR.get().asItem());
+				tabData.accept(EvenbetternetherModItems.SPELT_SEEDS.get());
+				tabData.accept(EvenbetternetherModItems.SPELT_ITEM.get());
 				tabData.accept(EvenbetternetherModBlocks.NETHERRACK_SPELEOTHEM.get().asItem());
 				tabData.accept(EvenbetternetherModBlocks.BASALT_SPELEOTHEM.get().asItem());
 				tabData.accept(EvenbetternetherModBlocks.BLACKSTONE_SPELEOTHEM.get().asItem());
 				tabData.accept(EvenbetternetherModBlocks.GLOWSTONE_SPELEOTHEM.get().asItem());
 				tabData.accept(EvenbetternetherModBlocks.STONE_SPELEOTHEM.get().asItem());
 				tabData.accept(EvenbetternetherModBlocks.DEEPSLATE_SPELEOTHEM.get().asItem());
+				tabData.accept(EvenbetternetherModBlocks.DENSE_LAVA_FLOE.get().asItem());
+				tabData.accept(EvenbetternetherModBlocks.SPARSE_LAVA_FLOE.get().asItem());
 				tabData.accept(EvenbetternetherModBlocks.LIGNITE_ORE.get().asItem());
 				tabData.accept(EvenbetternetherModBlocks.NETHER_RUBY_ORE.get().asItem());
 				tabData.accept(EvenbetternetherModItems.NETHER_RUBY.get());
@@ -129,31 +142,9 @@ public class EvenbetternetherModTabs {
 				tabData.accept(EvenbetternetherModBlocks.PYRITE_BRICK_STAIRS.get().asItem());
 				tabData.accept(EvenbetternetherModBlocks.PYRITE_BRICK_SLAB.get().asItem());
 				tabData.accept(EvenbetternetherModBlocks.PYRITE_BRICK_PILLAR.get().asItem());
-				tabData.accept(EvenbetternetherModBlocks.DENSE_LAVA_FLOE.get().asItem());
-				tabData.accept(EvenbetternetherModBlocks.SPARSE_LAVA_FLOE.get().asItem());
-				tabData.accept(EvenbetternetherModBlocks.NETHER_REED_BUNDLE.get().asItem());
-				tabData.accept(EvenbetternetherModBlocks.NETHER_REED_PLANKS.get().asItem());
-				tabData.accept(EvenbetternetherModBlocks.NETHER_REED_STAIRS.get().asItem());
-				tabData.accept(EvenbetternetherModBlocks.NETHER_REED_SLAB.get().asItem());
-				tabData.accept(EvenbetternetherModBlocks.NETHER_REED_FENCE.get().asItem());
-				tabData.accept(EvenbetternetherModBlocks.NETHER_REED_FENCE_GATE.get().asItem());
-				tabData.accept(EvenbetternetherModBlocks.NETHER_REED_PRESSURE_PLATE.get().asItem());
-				tabData.accept(EvenbetternetherModBlocks.NETHER_REED_BUTTON.get().asItem());
-				tabData.accept(EvenbetternetherModBlocks.NETHER_REED_MOSAIC.get().asItem());
-				tabData.accept(EvenbetternetherModBlocks.NETHER_REED_DOOR.get().asItem());
-				tabData.accept(EvenbetternetherModBlocks.NETHER_REED_TRAPDOOR.get().asItem());
-				tabData.accept(EvenbetternetherModItems.SPELT_SEEDS.get());
-				tabData.accept(EvenbetternetherModItems.SPELT_ITEM.get());
+				tabData.accept(EvenbetternetherModBlocks.CRIMSON_LILY.get().asItem());
+				tabData.accept(EvenbetternetherModBlocks.WARPED_LILY.get().asItem());
 			})
 
 					.build());
-
-	@SubscribeEvent
-	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
-		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
-
-			tabData.accept(EvenbetternetherModBlocks.NETHER_REED.get().asItem());
-
-		}
-	}
 }

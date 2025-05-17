@@ -9,6 +9,6 @@ import net.minecraft.world.level.block.ButtonBlock;
 
 public class NetherReedButtonBlock extends ButtonBlock {
 	public NetherReedButtonBlock() {
-		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLUE).sound(SoundType.BAMBOO_WOOD).strength(2f, 1f).dynamicShape(), BlockSetType.STONE, 20, false);
+		super(BlockSetType.STONE, 20, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLUE).sound(SoundType.BAMBOO_WOOD).strength(2f, 1f).dynamicShape());
 	}
 }

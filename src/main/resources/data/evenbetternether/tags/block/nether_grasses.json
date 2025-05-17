@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "evenbetternether:verdant_roots",
+    "evenbetternether:nether_agave",
+    "evenbetternether:burning_sprouts",
+    "evenbetternether:burning_roots",
+    "evenbetternether:fungal_roots",
+    "evenbetternether:soul_roots",
+    "minecraft:crimson_roots",
+    "minecraft:warped_roots"
+  ]
+}

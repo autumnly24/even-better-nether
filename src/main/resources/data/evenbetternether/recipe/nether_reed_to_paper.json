@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "evenbetternether:nether_reed"
+    }
+  },
+  "result": {
+    "id": "minecraft:paper",
+    "count": 3
+  }
+}

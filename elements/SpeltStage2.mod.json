@@ -28,7 +28,7 @@
         "my": 0.0,
         "mz": 0.0,
         "Mx": 16.0,
-        "My": 16.0,
+        "My": 8.0,
         "Mz": 16.0,
         "subtract": false
       }
@@ -66,7 +66,7 @@
     },
     "colorOnMap": "RED",
     "creativePickItem": {
-      "value": ""
+      "value": "CUSTOM:SpeltSeeds"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
@@ -103,7 +103,10 @@
     "placingCondition": {
       "name": "SpeltBlockValidPlacementCondition"
     },
-    "isBonemealable": false,
+    "isBonemealable": true,
+    "onBonemealSuccess": {
+      "name": "SpeltStage0OnBoneMealSuccess"
+    },
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,

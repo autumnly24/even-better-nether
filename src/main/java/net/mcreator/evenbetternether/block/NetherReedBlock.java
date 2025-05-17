@@ -1,8 +1,7 @@
 
 package net.mcreator.evenbetternether.block;
 
-import net.minecraftforge.common.PlantType;
-import net.minecraftforge.common.ForgeHooks;
+import net.neoforged.neoforge.common.CommonHooks;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.CollisionContext;
@@ -49,20 +48,16 @@ public class NetherReedBlock extends SugarCaneBlock {
 	}
 
 	@Override
-	public PlantType getPlantType(BlockGetter world, BlockPos pos) {
-		return PlantType.CAVE;
-	}
-
-	@Override
 	public void randomTick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
 		if (world.isEmptyBlock(pos.above())) {
 			int i = 1;
 			for (; world.getBlockState(pos.below(i)).is(this); ++i);
 			if (i < 6) {
 				int j = blockstate.getValue(AGE);
-				if (ForgeHooks.onCropsGrowPre(world, pos, blockstate, true)) {
+				if (CommonHooks.canCropGrow(world, pos, blockstate, true)) {
 					if (j == 15) {
 						world.setBlockAndUpdate(pos.above(), defaultBlockState());
+						CommonHooks.fireCropGrowPost(world, pos.above(), defaultBlockState());
 						world.setBlock(pos, blockstate.setValue(AGE, 0), 4);
 					} else {
 						world.setBlock(pos, blockstate.setValue(AGE, j + 1), 4);

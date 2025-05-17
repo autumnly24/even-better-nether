@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": ""
+      },
+      "name": "default"
+    },
+    "crimson": {
+      "map": {
+        "1": "crimson_lily"
+      },
+      "name": "crimson"
+    },
+    "warped": {
+      "map": {
+        "1": "warped_lily"
+      },
+      "name": "warped"
+    }
+  }
+}

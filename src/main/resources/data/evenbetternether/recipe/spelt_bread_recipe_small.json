@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "a "
+  ],
+  "key": {
+    "a": {
+      "item": "evenbetternether:spelt_item"
+    }
+  },
+  "result": {
+    "id": "minecraft:bread",
+    "count": 1
+  }
+}

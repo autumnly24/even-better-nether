@@ -9,6 +9,6 @@ import net.minecraft.world.level.block.PressurePlateBlock;
 
 public class NetherReedPressurePlateBlock extends PressurePlateBlock {
 	public NetherReedPressurePlateBlock() {
-		super(Sensitivity.MOBS, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLUE).sound(SoundType.BAMBOO_WOOD).strength(2f, 1f).dynamicShape().forceSolidOn(), BlockSetType.IRON);
+		super(BlockSetType.IRON, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLUE).sound(SoundType.BAMBOO_WOOD).strength(2f, 1f).dynamicShape().forceSolidOn());
 	}
 }

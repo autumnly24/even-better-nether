@@ -1,0 +1,70 @@
+{
+  "values": {
+    "evenbetternether:verdant_roots": {
+      "chance": 0.3
+    },
+    "evenbetternether:feather_fern": {
+      "chance": 0.3
+    },
+    "evenbetternether:nether_agave": {
+      "chance": 0.3
+    },
+    "evenbetternether:verdant_sprouts": {
+      "chance": 0.3
+    },
+    "evenbetternether:nether_saguaro": {
+      "chance": 0.5
+    },
+    "evenbetternether:barrel_cactus": {
+      "chance": 0.5
+    },
+    "evenbetternether:soul_roots": {
+      "chance": 0.3
+    },
+    "evenbetternether:soul_sprouts": {
+      "chance": 0.3
+    },
+    "evenbetternether:burning_roots": {
+      "chance": 0.3
+    },
+    "evenbetternether:burning_sprouts": {
+      "chance": 0.3
+    },
+    "evenbetternether:charred_sprouts": {
+      "chance": 0.3
+    },
+    "evenbetternether:tall_nethershroom": {
+      "chance": 0.3
+    },
+    "evenbetternether:nethershroom": {
+      "chance": 0.3
+    },
+    "evenbetternether:fungal_roots": {
+      "chance": 0.3
+    },
+    "evenbetternether:fungal_sprouts": {
+      "chance": 0.3
+    },
+    "evenbetternether:hanging_mycelium": {
+      "chance": 0.3
+    },
+    "evenbetternether:long_hanging_mycelium": {
+      "chance": 0.3
+    },
+    "evenbetternether:bulbous_hanging_mycelium": {
+      "chance": 0.5
+    },
+    "evenbetternether:spelt_seeds": {
+      "chance": 0.25
+    },
+    "evenbetternether:spelt_item": {
+      "chance": 0.65
+    },
+    "evenbetternether:tall_brown_nethershroom": {
+      "chance": 0.3
+    },
+    "evenbetternether:brown_nethershroom": {
+      "chance": 0.3
+    }
+  }
+}

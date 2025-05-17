@@ -3,8 +3,6 @@ package net.mcreator.evenbetternether.block;
 
 import org.checkerframework.checker.units.qual.s;
 
-import net.minecraftforge.common.PlantType;
-
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.Vec3;
@@ -24,7 +22,7 @@ import net.mcreator.evenbetternether.init.EvenbetternetherModBlocks;
 
 public class FeatherFernBlock extends FlowerBlock {
 	public FeatherFernBlock() {
-		super(() -> MobEffects.MOVEMENT_SPEED, 0, BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).sound(SoundType.NETHER_SPROUTS).instabreak().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true).lightLevel(s -> 8)
+		super(MobEffects.MOVEMENT_SPEED, 0, BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).sound(SoundType.NETHER_SPROUTS).instabreak().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true).lightLevel(s -> 8)
 				.noCollission().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
 	}
 
@@ -45,10 +43,5 @@ public class FeatherFernBlock extends FlowerBlock {
 		BlockPos blockpos = pos.below();
 		BlockState groundState = worldIn.getBlockState(blockpos);
 		return this.mayPlaceOn(groundState, worldIn, blockpos);
-	}
-
-	@Override
-	public PlantType getPlantType(BlockGetter world, BlockPos pos) {
-		return PlantType.NETHER;
 	}
 }
